@@ -1,0 +1,289 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "dependency",
+    "variables": [
+        "com",
+        "com/alibaba",
+        "com/alibaba/fastjson",
+        "com/alibaba/fastjson/this",
+        "com/alibaba/fastjson/annotation",
+        "com/alibaba/fastjson/asm",
+        "com/alibaba/fastjson/parser",
+        "com/alibaba/fastjson/parser/this",
+        "com/alibaba/fastjson/parser/deserializer",
+        "com/alibaba/fastjson/serializer",
+        "com/alibaba/fastjson/serializer/this",
+        "com/alibaba/fastjson/spi",
+        "com/alibaba/fastjson/support",
+        "com/alibaba/fastjson/support/config",
+        "com/alibaba/fastjson/support/geo",
+        "com/alibaba/fastjson/support/hsf",
+        "com/alibaba/fastjson/support/jaxrs",
+        "com/alibaba/fastjson/support/moneta",
+        "com/alibaba/fastjson/support/retrofit",
+        "com/alibaba/fastjson/support/spring",
+        "com/alibaba/fastjson/support/spring/this",
+        "com/alibaba/fastjson/support/spring/annotation",
+        "com/alibaba/fastjson/support/spring/messaging",
+        "com/alibaba/fastjson/support/springfox",
+        "com/alibaba/fastjson/util"
+    ],
+    "cells": [
+        {
+            "src": 3,
+            "dest": 4
+        },
+        {
+            "src": 3,
+            "dest": 7
+        },
+        {
+            "src": 3,
+            "dest": 8
+        },
+        {
+            "src": 3,
+            "dest": 10
+        },
+        {
+            "src": 3,
+            "dest": 24
+        },
+        {
+            "src": 4,
+            "dest": 3
+        },
+        {
+            "src": 4,
+            "dest": 7
+        },
+        {
+            "src": 4,
+            "dest": 10
+        },
+        {
+            "src": 5,
+            "dest": 24
+        },
+        {
+            "src": 7,
+            "dest": 3
+        },
+        {
+            "src": 7,
+            "dest": 4
+        },
+        {
+            "src": 7,
+            "dest": 5
+        },
+        {
+            "src": 7,
+            "dest": 8
+        },
+        {
+            "src": 7,
+            "dest": 11
+        },
+        {
+            "src": 7,
+            "dest": 17
+        },
+        {
+            "src": 7,
+            "dest": 24
+        },
+        {
+            "src": 8,
+            "dest": 3
+        },
+        {
+            "src": 8,
+            "dest": 4
+        },
+        {
+            "src": 8,
+            "dest": 5
+        },
+        {
+            "src": 8,
+            "dest": 7
+        },
+        {
+            "src": 8,
+            "dest": 24
+        },
+        {
+            "src": 10,
+            "dest": 3
+        },
+        {
+            "src": 10,
+            "dest": 4
+        },
+        {
+            "src": 10,
+            "dest": 5
+        },
+        {
+            "src": 10,
+            "dest": 11
+        },
+        {
+            "src": 10,
+            "dest": 17
+        },
+        {
+            "src": 10,
+            "dest": 23
+        },
+        {
+            "src": 10,
+            "dest": 24
+        },
+        {
+            "src": 11,
+            "dest": 7
+        },
+        {
+            "src": 11,
+            "dest": 8
+        },
+        {
+            "src": 11,
+            "dest": 10
+        },
+        {
+            "src": 13,
+            "dest": 7
+        },
+        {
+            "src": 13,
+            "dest": 8
+        },
+        {
+            "src": 13,
+            "dest": 10
+        },
+        {
+            "src": 13,
+            "dest": 24
+        },
+        {
+            "src": 14,
+            "dest": 4
+        },
+        {
+            "src": 15,
+            "dest": 3
+        },
+        {
+            "src": 15,
+            "dest": 7
+        },
+        {
+            "src": 16,
+            "dest": 3
+        },
+        {
+            "src": 16,
+            "dest": 10
+        },
+        {
+            "src": 16,
+            "dest": 13
+        },
+        {
+            "src": 17,
+            "dest": 3
+        },
+        {
+            "src": 17,
+            "dest": 7
+        },
+        {
+            "src": 17,
+            "dest": 8
+        },
+        {
+            "src": 17,
+            "dest": 10
+        },
+        {
+            "src": 18,
+            "dest": 3
+        },
+        {
+            "src": 18,
+            "dest": 7
+        },
+        {
+            "src": 18,
+            "dest": 10
+        },
+        {
+            "src": 18,
+            "dest": 13
+        },
+        {
+            "src": 20,
+            "dest": 3
+        },
+        {
+            "src": 20,
+            "dest": 7
+        },
+        {
+            "src": 20,
+            "dest": 10
+        },
+        {
+            "src": 20,
+            "dest": 13
+        },
+        {
+            "src": 20,
+            "dest": 21
+        },
+        {
+            "src": 20,
+            "dest": 24
+        },
+        {
+            "src": 22,
+            "dest": 3
+        },
+        {
+            "src": 22,
+            "dest": 13
+        },
+        {
+            "src": 23,
+            "dest": 10
+        },
+        {
+            "src": 24,
+            "dest": 3
+        },
+        {
+            "src": 24,
+            "dest": 4
+        },
+        {
+            "src": 24,
+            "dest": 5
+        },
+        {
+            "src": 24,
+            "dest": 7
+        },
+        {
+            "src": 24,
+            "dest": 8
+        },
+        {
+            "src": 24,
+            "dest": 10
+        }
+    ]
+}

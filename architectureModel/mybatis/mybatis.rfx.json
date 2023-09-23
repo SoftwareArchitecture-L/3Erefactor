@@ -1,0 +1,2356 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "org",
+            "nested": [
+                {
+                    "@type": "group",
+                    "name": "org/apache",
+                    "nested": [
+                        {
+                            "@type": "group",
+                            "name": "org/apache/ibatis",
+                            "nested": [
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/annotations",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Arg.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Arg.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/AutomapConstructor.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/AutomapConstructor.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/CacheNamespace.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/CacheNamespace.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/CacheNamespaceRef.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/CacheNamespaceRef.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Case.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Case.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/ConstructorArgs.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/ConstructorArgs.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Delete.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Delete.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/DeleteProvider.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/DeleteProvider.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Flush.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Flush.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Insert.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Insert.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/InsertProvider.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/InsertProvider.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Lang.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Lang.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Many.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Many.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/MapKey.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/MapKey.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Mapper.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Mapper.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/One.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/One.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Options.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Options.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Param.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Param.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Property.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Property.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Result.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Result.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/ResultMap.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/ResultMap.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/ResultType.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/ResultType.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Results.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Results.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Select.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Select.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/SelectKey.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/SelectKey.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/SelectProvider.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/SelectProvider.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/TypeDiscriminator.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/TypeDiscriminator.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/Update.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/Update.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/UpdateProvider.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/UpdateProvider.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/annotations/package-info.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/annotations/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/binding",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/binding/BindingException.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/binding/BindingException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/binding/MapperMethod.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/binding/MapperMethod.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/binding/MapperProxy.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/binding/MapperProxy.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/binding/MapperProxyFactory.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/binding/MapperProxyFactory.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/binding/MapperRegistry.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/binding/MapperRegistry.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/binding/package-info.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/binding/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/builder",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/builder/this",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/this/BaseBuilder.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/BaseBuilder.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/this/BuilderException.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/BuilderException.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/this/CacheRefResolver.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/CacheRefResolver.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/this/IncompleteElementException.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/IncompleteElementException.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/this/InitializingObject.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/InitializingObject.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/this/MapperBuilderAssistant.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/MapperBuilderAssistant.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/this/ParameterExpression.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/ParameterExpression.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/this/ResultMapResolver.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/ResultMapResolver.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/this/SqlSourceBuilder.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/SqlSourceBuilder.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/this/StaticSqlSource.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/StaticSqlSource.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/this/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/builder/annotation",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/annotation/MapperAnnotationBuilder.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/annotation/MapperAnnotationBuilder.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/annotation/MethodResolver.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/annotation/MethodResolver.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/annotation/ProviderContext.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/annotation/ProviderContext.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/annotation/ProviderMethodResolver.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/annotation/ProviderMethodResolver.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/annotation/ProviderSqlSource.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/annotation/ProviderSqlSource.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/builder/annotation/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/builder/annotation/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/builder/xml",
+                                            "nested": [
+                                                {
+                                                    "@type": "group",
+                                                    "name": "org/apache/ibatis/builder/xml/this",
+                                                    "nested": [
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/builder/xml/this/XMLConfigBuilder.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/builder/xml/this/XMLIncludeTransformer.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/builder/xml/XMLIncludeTransformer.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/builder/xml/this/XMLMapperBuilder.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/builder/xml/XMLMapperBuilder.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/builder/xml/this/XMLMapperEntityResolver.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/builder/xml/XMLMapperEntityResolver.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/builder/xml/this/XMLStatementBuilder.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/builder/xml/XMLStatementBuilder.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/builder/xml/this/package-info.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/builder/xml/package-info.java"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/cache",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/cache/this",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/this/Cache.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/Cache.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/this/CacheException.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/CacheException.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/this/CacheKey.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/CacheKey.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/this/NullCacheKey.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/NullCacheKey.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/this/TransactionalCacheManager.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/TransactionalCacheManager.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/this/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/cache/decorators",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/decorators/BlockingCache.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/decorators/BlockingCache.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/decorators/FifoCache.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/decorators/FifoCache.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/decorators/LoggingCache.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/decorators/LoggingCache.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/decorators/LruCache.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/decorators/LruCache.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/decorators/ScheduledCache.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/decorators/ScheduledCache.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/decorators/SerializedCache.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/decorators/SerializedCache.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/decorators/SoftCache.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/decorators/SoftCache.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/decorators/SynchronizedCache.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/decorators/SynchronizedCache.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/decorators/TransactionalCache.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/decorators/TransactionalCache.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/decorators/WeakCache.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/decorators/WeakCache.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/decorators/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/decorators/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/cache/impl",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/impl/PerpetualCache.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/impl/PerpetualCache.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cache/impl/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cache/impl/package-info.java"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/cursor",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/cursor/this",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cursor/this/Cursor.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cursor/Cursor.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cursor/this/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cursor/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/cursor/defaults",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cursor/defaults/DefaultCursor.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cursor/defaults/DefaultCursor.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/cursor/defaults/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/cursor/defaults/package-info.java"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/datasource",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/datasource/this",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/datasource/this/DataSourceException.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/datasource/DataSourceException.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/datasource/this/DataSourceFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/datasource/DataSourceFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/datasource/this/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/datasource/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/datasource/jndi",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/datasource/jndi/JndiDataSourceFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/datasource/jndi/JndiDataSourceFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/datasource/jndi/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/datasource/jndi/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/datasource/pooled",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/datasource/pooled/PoolState.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/datasource/pooled/PoolState.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/datasource/pooled/PooledConnection.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/datasource/pooled/PooledConnection.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/datasource/pooled/PooledDataSource.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/datasource/pooled/PooledDataSource.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/datasource/pooled/PooledDataSourceFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/datasource/pooled/PooledDataSourceFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/datasource/pooled/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/datasource/pooled/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/datasource/unpooled",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/datasource/unpooled/UnpooledDataSource.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/datasource/unpooled/UnpooledDataSource.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/datasource/unpooled/UnpooledDataSourceFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/datasource/unpooled/UnpooledDataSourceFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/datasource/unpooled/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/datasource/unpooled/package-info.java"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/exceptions",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/exceptions/ExceptionFactory.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/exceptions/IbatisException.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/exceptions/IbatisException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/exceptions/PersistenceException.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/exceptions/PersistenceException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/exceptions/TooManyResultsException.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/exceptions/TooManyResultsException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/exceptions/package-info.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/exceptions/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/executor",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/executor/this",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/this/BaseExecutor.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/BaseExecutor.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/this/BatchExecutor.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/BatchExecutor.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/this/BatchExecutorException.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/BatchExecutorException.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/this/BatchResult.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/BatchResult.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/this/CachingExecutor.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/CachingExecutor.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/this/ErrorContext.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/ErrorContext.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/this/ExecutionPlaceholder.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/ExecutionPlaceholder.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/this/Executor.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/Executor.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/this/ExecutorException.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/ExecutorException.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/this/ResultExtractor.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/ResultExtractor.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/this/ReuseExecutor.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/ReuseExecutor.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/this/SimpleExecutor.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/SimpleExecutor.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/this/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/executor/keygen",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/keygen/Jdbc3KeyGenerator.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/keygen/Jdbc3KeyGenerator.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/keygen/KeyGenerator.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/keygen/KeyGenerator.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/keygen/NoKeyGenerator.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/keygen/NoKeyGenerator.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/keygen/SelectKeyGenerator.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/keygen/SelectKeyGenerator.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/keygen/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/keygen/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/executor/loader",
+                                            "nested": [
+                                                {
+                                                    "@type": "group",
+                                                    "name": "org/apache/ibatis/executor/loader/this",
+                                                    "nested": [
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/this/AbstractEnhancedDeserializationProxy.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/AbstractEnhancedDeserializationProxy.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/this/AbstractSerialStateHolder.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/AbstractSerialStateHolder.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/this/CglibProxyFactory.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/CglibProxyFactory.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/this/JavassistProxyFactory.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/JavassistProxyFactory.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/this/ProxyFactory.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/ProxyFactory.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/this/ResultLoader.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/ResultLoader.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/this/ResultLoaderMap.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/ResultLoaderMap.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/this/WriteReplaceInterface.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/WriteReplaceInterface.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/this/package-info.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/package-info.java"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "group",
+                                                    "name": "org/apache/ibatis/executor/loader/cglib",
+                                                    "nested": [
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/cglib/CglibProxyFactory.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/cglib/CglibProxyFactory.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/cglib/CglibSerialStateHolder.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/cglib/CglibSerialStateHolder.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/cglib/package-info.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/cglib/package-info.java"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "group",
+                                                    "name": "org/apache/ibatis/executor/loader/javassist",
+                                                    "nested": [
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/javassist/JavassistProxyFactory.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/javassist/JavassistProxyFactory.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/javassist/JavassistSerialStateHolder.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/javassist/JavassistSerialStateHolder.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "org/apache/ibatis/executor/loader/javassist/package-info.java",
+                                                            "rawName": "src/main/java/org/apache/ibatis/executor/loader/javassist/package-info.java"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/executor/parameter",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/parameter/ParameterHandler.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/parameter/ParameterHandler.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/parameter/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/parameter/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/executor/result",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/result/DefaultMapResultHandler.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/result/DefaultMapResultHandler.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/result/DefaultResultContext.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/result/DefaultResultContext.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/result/DefaultResultHandler.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/result/DefaultResultHandler.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/result/ResultMapException.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/result/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/result/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/executor/resultset",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/resultset/ResultSetHandler.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/resultset/ResultSetHandler.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/resultset/ResultSetWrapper.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/resultset/ResultSetWrapper.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/resultset/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/resultset/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/executor/statement",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/statement/BaseStatementHandler.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/statement/BaseStatementHandler.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/statement/CallableStatementHandler.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/statement/CallableStatementHandler.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/statement/PreparedStatementHandler.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/statement/PreparedStatementHandler.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/statement/RoutingStatementHandler.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/statement/RoutingStatementHandler.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/statement/SimpleStatementHandler.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/statement/SimpleStatementHandler.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/statement/StatementHandler.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/statement/StatementHandler.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/statement/StatementUtil.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/statement/StatementUtil.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/executor/statement/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/executor/statement/package-info.java"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/io",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/io/ClassLoaderWrapper.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/io/ClassLoaderWrapper.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/io/DefaultVFS.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/io/DefaultVFS.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/io/ExternalResources.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/io/ExternalResources.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/io/JBoss6VFS.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/io/JBoss6VFS.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/io/ResolverUtil.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/io/ResolverUtil.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/io/Resources.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/io/Resources.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/io/SerialFilterChecker.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/io/SerialFilterChecker.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/io/VFS.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/io/VFS.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/io/package-info.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/io/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/jdbc",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/jdbc/AbstractSQL.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/jdbc/AbstractSQL.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/jdbc/Null.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/jdbc/Null.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/jdbc/RuntimeSqlException.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/jdbc/RuntimeSqlException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/jdbc/SQL.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/jdbc/SQL.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/jdbc/ScriptRunner.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/jdbc/ScriptRunner.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/jdbc/SelectBuilder.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/jdbc/SelectBuilder.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/jdbc/SqlBuilder.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/jdbc/SqlBuilder.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/jdbc/SqlRunner.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/jdbc/SqlRunner.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/jdbc/package-info.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/jdbc/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/lang",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/lang/UsesJava7.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/lang/UsesJava7.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/lang/UsesJava8.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/lang/UsesJava8.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/lang/package-info.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/lang/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/logging",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/logging/this",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/this/Log.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/Log.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/this/LogException.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/LogException.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/this/LogFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/LogFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/this/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/logging/commons",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/commons/JakartaCommonsLoggingImpl.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/commons/JakartaCommonsLoggingImpl.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/commons/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/commons/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/logging/jdbc",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/jdbc/BaseJdbcLogger.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/jdbc/BaseJdbcLogger.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/jdbc/ConnectionLogger.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/jdbc/ConnectionLogger.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/jdbc/PreparedStatementLogger.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/jdbc/PreparedStatementLogger.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/jdbc/ResultSetLogger.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/jdbc/ResultSetLogger.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/jdbc/StatementLogger.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/jdbc/StatementLogger.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/jdbc/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/jdbc/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/logging/jdk14",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/jdk14/Jdk14LoggingImpl.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/jdk14/Jdk14LoggingImpl.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/jdk14/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/jdk14/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/logging/log4j",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/log4j/Log4jImpl.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/log4j/Log4jImpl.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/log4j/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/log4j/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/logging/log4j2",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/log4j2/Log4j2AbstractLoggerImpl.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/log4j2/Log4j2AbstractLoggerImpl.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/log4j2/Log4j2Impl.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/log4j2/Log4j2Impl.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/log4j2/Log4j2LoggerImpl.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/log4j2/Log4j2LoggerImpl.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/log4j2/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/log4j2/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/logging/nologging",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/nologging/NoLoggingImpl.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/nologging/NoLoggingImpl.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/nologging/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/nologging/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/logging/slf4j",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/slf4j/Slf4jImpl.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/slf4j/Slf4jImpl.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/slf4j/Slf4jLocationAwareLoggerImpl.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/slf4j/Slf4jLocationAwareLoggerImpl.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/slf4j/Slf4jLoggerImpl.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/slf4j/Slf4jLoggerImpl.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/slf4j/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/slf4j/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/logging/stdout",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/stdout/StdOutImpl.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/stdout/StdOutImpl.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/logging/stdout/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/logging/stdout/package-info.java"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/mapping",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/BoundSql.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/BoundSql.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/CacheBuilder.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/CacheBuilder.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/DatabaseIdProvider.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/DatabaseIdProvider.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/DefaultDatabaseIdProvider.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/DefaultDatabaseIdProvider.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/Discriminator.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/Discriminator.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/Environment.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/Environment.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/FetchType.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/FetchType.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/MappedStatement.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/MappedStatement.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/ParameterMap.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/ParameterMap.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/ParameterMapping.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/ParameterMapping.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/ParameterMode.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/ParameterMode.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/ResultFlag.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/ResultFlag.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/ResultMap.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/ResultMap.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/ResultMapping.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/ResultMapping.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/ResultSetType.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/ResultSetType.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/SqlCommandType.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/SqlCommandType.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/SqlSource.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/SqlSource.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/StatementType.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/StatementType.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/VendorDatabaseIdProvider.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/VendorDatabaseIdProvider.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/mapping/package-info.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/mapping/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/this",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/this/package-info.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/parsing",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/parsing/GenericTokenParser.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/parsing/GenericTokenParser.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/parsing/ParsingException.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/parsing/ParsingException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/parsing/PropertyParser.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/parsing/PropertyParser.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/parsing/TokenHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/parsing/TokenHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/parsing/XNode.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/parsing/XNode.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/parsing/XPathParser.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/parsing/XPathParser.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/parsing/package-info.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/parsing/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/plugin",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/plugin/Interceptor.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/plugin/Interceptor.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/plugin/InterceptorChain.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/plugin/InterceptorChain.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/plugin/Intercepts.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/plugin/Intercepts.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/plugin/Invocation.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/plugin/Invocation.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/plugin/Plugin.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/plugin/Plugin.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/plugin/PluginException.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/plugin/PluginException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/plugin/Signature.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/plugin/Signature.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/plugin/package-info.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/plugin/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/reflection",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/reflection/this",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/ArrayUtil.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/ArrayUtil.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/DefaultReflectorFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/DefaultReflectorFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/ExceptionUtil.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/ExceptionUtil.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/Jdk.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/Jdk.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/MetaClass.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/MetaClass.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/MetaObject.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/MetaObject.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/OptionalUtil.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/OptionalUtil.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/ParamNameResolver.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/ParamNameResolver.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/ParamNameUtil.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/ParamNameUtil.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/ReflectionException.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/ReflectionException.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/Reflector.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/Reflector.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/ReflectorFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/ReflectorFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/SystemMetaObject.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/SystemMetaObject.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/TypeParameterResolver.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/TypeParameterResolver.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/this/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/reflection/factory",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/factory/DefaultObjectFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/factory/DefaultObjectFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/factory/ObjectFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/factory/ObjectFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/factory/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/factory/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/reflection/invoker",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/invoker/AmbiguousMethodInvoker.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/invoker/AmbiguousMethodInvoker.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/invoker/GetFieldInvoker.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/invoker/GetFieldInvoker.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/invoker/Invoker.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/invoker/Invoker.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/invoker/MethodInvoker.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/invoker/MethodInvoker.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/invoker/SetFieldInvoker.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/invoker/SetFieldInvoker.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/invoker/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/invoker/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/reflection/property",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/property/PropertyCopier.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/property/PropertyCopier.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/property/PropertyNamer.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/property/PropertyNamer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/property/PropertyTokenizer.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/property/PropertyTokenizer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/property/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/property/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/reflection/wrapper",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/wrapper/BaseWrapper.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/wrapper/BaseWrapper.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/wrapper/BeanWrapper.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/wrapper/BeanWrapper.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/wrapper/CollectionWrapper.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/wrapper/CollectionWrapper.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/wrapper/DefaultObjectWrapperFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/wrapper/DefaultObjectWrapperFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/wrapper/MapWrapper.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/wrapper/MapWrapper.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/wrapper/ObjectWrapper.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/wrapper/ObjectWrapper.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/wrapper/ObjectWrapperFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/wrapper/ObjectWrapperFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/reflection/wrapper/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/reflection/wrapper/package-info.java"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/scripting",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/scripting/this",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/this/LanguageDriver.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/LanguageDriver.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/this/LanguageDriverRegistry.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/LanguageDriverRegistry.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/this/ScriptingException.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/ScriptingException.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/this/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/scripting/defaults",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/defaults/DefaultParameterHandler.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/defaults/DefaultParameterHandler.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/defaults/RawLanguageDriver.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/defaults/RawLanguageDriver.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/defaults/RawSqlSource.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/defaults/RawSqlSource.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/defaults/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/defaults/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/scripting/xmltags",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/ChooseSqlNode.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/ChooseSqlNode.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/DynamicContext.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/DynamicContext.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/DynamicSqlSource.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/DynamicSqlSource.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/ExpressionEvaluator.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/ExpressionEvaluator.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/ForEachSqlNode.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/ForEachSqlNode.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/IfSqlNode.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/IfSqlNode.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/MixedSqlNode.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/MixedSqlNode.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/OgnlCache.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/OgnlCache.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/OgnlClassResolver.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/OgnlClassResolver.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/OgnlMemberAccess.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/OgnlMemberAccess.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/SetSqlNode.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/SetSqlNode.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/SqlNode.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/SqlNode.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/StaticTextSqlNode.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/StaticTextSqlNode.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/TextSqlNode.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/TextSqlNode.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/TrimSqlNode.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/TrimSqlNode.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/VarDeclSqlNode.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/VarDeclSqlNode.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/WhereSqlNode.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/WhereSqlNode.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/XMLLanguageDriver.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/XMLLanguageDriver.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/XMLScriptBuilder.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/XMLScriptBuilder.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/scripting/xmltags/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/scripting/xmltags/package-info.java"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/session",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/session/this",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/AutoMappingBehavior.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/AutoMappingBehavior.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/AutoMappingUnknownColumnBehavior.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/AutoMappingUnknownColumnBehavior.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/Configuration.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/Configuration.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/ExecutorType.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/ExecutorType.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/LocalCacheScope.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/LocalCacheScope.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/ResultContext.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/ResultContext.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/ResultHandler.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/ResultHandler.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/RowBounds.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/RowBounds.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/SqlSession.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/SqlSession.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/SqlSessionException.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/SqlSessionException.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/SqlSessionFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/SqlSessionFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/SqlSessionFactoryBuilder.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/SqlSessionFactoryBuilder.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/SqlSessionManager.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/SqlSessionManager.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/TransactionIsolationLevel.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/TransactionIsolationLevel.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/this/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/session/defaults",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/defaults/DefaultSqlSession.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/session/defaults/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/session/defaults/package-info.java"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/transaction",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/transaction/this",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/transaction/this/Transaction.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/transaction/this/TransactionException.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/transaction/TransactionException.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/transaction/this/TransactionFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/transaction/TransactionFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/transaction/this/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/transaction/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/transaction/jdbc",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/transaction/jdbc/JdbcTransaction.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/transaction/jdbc/JdbcTransaction.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/transaction/jdbc/JdbcTransactionFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/transaction/jdbc/JdbcTransactionFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/transaction/jdbc/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/transaction/jdbc/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/apache/ibatis/transaction/managed",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/transaction/managed/ManagedTransaction.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/apache/ibatis/transaction/managed/package-info.java",
+                                                    "rawName": "src/main/java/org/apache/ibatis/transaction/managed/package-info.java"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/type",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/Alias.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/Alias.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/ArrayTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/ArrayTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/BaseTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/BaseTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/BigDecimalTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/BigDecimalTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/BigIntegerTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/BigIntegerTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/BlobByteObjectArrayTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/BlobByteObjectArrayTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/BlobInputStreamTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/BlobInputStreamTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/BlobTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/BlobTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/BooleanTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/BooleanTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/ByteArrayTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/ByteArrayTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/ByteArrayUtils.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/ByteArrayUtils.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/ByteObjectArrayTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/ByteObjectArrayTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/ByteTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/ByteTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/CharacterTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/CharacterTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/ClobReaderTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/ClobReaderTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/ClobTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/ClobTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/DateOnlyTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/DateOnlyTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/DateTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/DateTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/DoubleTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/DoubleTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/EnumOrdinalTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/EnumOrdinalTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/EnumTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/EnumTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/FloatTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/FloatTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/InstantTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/InstantTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/IntegerTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/IntegerTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/JapaneseDateTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/JapaneseDateTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/JdbcType.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/JdbcType.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/LocalDateTimeTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/LocalDateTimeTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/LocalDateTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/LocalDateTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/LocalTimeTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/LocalTimeTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/LongTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/LongTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/MappedJdbcTypes.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/MappedJdbcTypes.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/MappedTypes.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/MappedTypes.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/MonthTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/MonthTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/NClobTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/NClobTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/NStringTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/NStringTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/ObjectTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/ObjectTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/OffsetDateTimeTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/OffsetDateTimeTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/OffsetTimeTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/OffsetTimeTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/ShortTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/ShortTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/SimpleTypeRegistry.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/SimpleTypeRegistry.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/SqlDateTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/SqlDateTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/SqlTimeTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/SqlTimeTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/SqlTimestampTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/SqlTimestampTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/SqlxmlTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/SqlxmlTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/StringTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/StringTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/TimeOnlyTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/TimeOnlyTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/TypeAliasRegistry.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/TypeAliasRegistry.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/TypeException.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/TypeException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/TypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/TypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/TypeHandlerRegistry.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/TypeHandlerRegistry.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/TypeReference.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/TypeReference.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/UnknownTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/UnknownTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/YearMonthTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/YearMonthTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/YearTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/YearTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/ZonedDateTimeTypeHandler.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/ZonedDateTimeTypeHandler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/type/package-info.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/type/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/apache/ibatis/util",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/apache/ibatis/util/MapUtil.java",
+                                            "rawName": "src/main/java/org/apache/ibatis/util/MapUtil.java"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

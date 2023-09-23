@@ -1,0 +1,1347 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "junit",
+            "nested": [
+                {
+                    "@type": "group",
+                    "name": "junit/extensions",
+                    "nested": [
+                        {
+                            "@type": "item",
+                            "name": "junit/extensions/ActiveTestSuite.java",
+                            "rawName": "src/main/java/junit/extensions/ActiveTestSuite.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/extensions/RepeatedTest.java",
+                            "rawName": "src/main/java/junit/extensions/RepeatedTest.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/extensions/TestDecorator.java",
+                            "rawName": "src/main/java/junit/extensions/TestDecorator.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/extensions/TestSetup.java",
+                            "rawName": "src/main/java/junit/extensions/TestSetup.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/extensions/package-info.java",
+                            "rawName": "src/main/java/junit/extensions/package-info.java"
+                        }
+                    ]
+                },
+                {
+                    "@type": "group",
+                    "name": "junit/framework",
+                    "nested": [
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/Assert.java",
+                            "rawName": "src/main/java/junit/framework/Assert.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/AssertionFailedError.java",
+                            "rawName": "src/main/java/junit/framework/AssertionFailedError.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/ComparisonCompactor.java",
+                            "rawName": "src/main/java/junit/framework/ComparisonCompactor.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/ComparisonFailure.java",
+                            "rawName": "src/main/java/junit/framework/ComparisonFailure.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/JUnit4TestAdapter.java",
+                            "rawName": "src/main/java/junit/framework/JUnit4TestAdapter.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/JUnit4TestAdapterCache.java",
+                            "rawName": "src/main/java/junit/framework/JUnit4TestAdapterCache.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/JUnit4TestCaseFacade.java",
+                            "rawName": "src/main/java/junit/framework/JUnit4TestCaseFacade.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/Protectable.java",
+                            "rawName": "src/main/java/junit/framework/Protectable.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/Test.java",
+                            "rawName": "src/main/java/junit/framework/Test.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/TestCase.java",
+                            "rawName": "src/main/java/junit/framework/TestCase.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/TestFailure.java",
+                            "rawName": "src/main/java/junit/framework/TestFailure.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/TestListener.java",
+                            "rawName": "src/main/java/junit/framework/TestListener.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/TestResult.java",
+                            "rawName": "src/main/java/junit/framework/TestResult.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/TestSuite.java",
+                            "rawName": "src/main/java/junit/framework/TestSuite.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/framework/package-info.java",
+                            "rawName": "src/main/java/junit/framework/package-info.java"
+                        }
+                    ]
+                },
+                {
+                    "@type": "group",
+                    "name": "junit/runner",
+                    "nested": [
+                        {
+                            "@type": "item",
+                            "name": "junit/runner/BaseTestRunner.java",
+                            "rawName": "src/main/java/junit/runner/BaseTestRunner.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/runner/TestRunListener.java",
+                            "rawName": "src/main/java/junit/runner/TestRunListener.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/runner/Version.java",
+                            "rawName": "src/main/java/junit/runner/Version.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/runner/package-info.java",
+                            "rawName": "src/main/java/junit/runner/package-info.java"
+                        }
+                    ]
+                },
+                {
+                    "@type": "group",
+                    "name": "junit/textui",
+                    "nested": [
+                        {
+                            "@type": "item",
+                            "name": "junit/textui/ResultPrinter.java",
+                            "rawName": "src/main/java/junit/textui/ResultPrinter.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/textui/TestRunner.java",
+                            "rawName": "src/main/java/junit/textui/TestRunner.java"
+                        },
+                        {
+                            "@type": "item",
+                            "name": "junit/textui/package-info.java",
+                            "rawName": "src/main/java/junit/textui/package-info.java"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org",
+            "nested": [
+                {
+                    "@type": "group",
+                    "name": "org/junit",
+                    "nested": [
+                        {
+                            "@type": "group",
+                            "name": "org/junit/this",
+                            "nested": [
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/After.java",
+                                    "rawName": "src/main/java/org/junit/After.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/AfterClass.java",
+                                    "rawName": "src/main/java/org/junit/AfterClass.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/Assert.java",
+                                    "rawName": "src/main/java/org/junit/Assert.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/Assume.java",
+                                    "rawName": "src/main/java/org/junit/Assume.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/AssumptionViolatedException.java",
+                                    "rawName": "src/main/java/org/junit/AssumptionViolatedException.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/Before.java",
+                                    "rawName": "src/main/java/org/junit/Before.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/BeforeClass.java",
+                                    "rawName": "src/main/java/org/junit/BeforeClass.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/ClassRule.java",
+                                    "rawName": "src/main/java/org/junit/ClassRule.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/ComparisonFailure.java",
+                                    "rawName": "src/main/java/org/junit/ComparisonFailure.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/FixMethodOrder.java",
+                                    "rawName": "src/main/java/org/junit/FixMethodOrder.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/Ignore.java",
+                                    "rawName": "src/main/java/org/junit/Ignore.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/Rule.java",
+                                    "rawName": "src/main/java/org/junit/Rule.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/Test.java",
+                                    "rawName": "src/main/java/org/junit/Test.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/TestCouldNotBeSkippedException.java",
+                                    "rawName": "src/main/java/org/junit/TestCouldNotBeSkippedException.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/this/package-info.java",
+                                    "rawName": "src/main/java/org/junit/package-info.java"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "group",
+                            "name": "org/junit/experimental",
+                            "nested": [
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/experimental/this",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/experimental/this/ParallelComputer.java",
+                                            "rawName": "src/main/java/org/junit/experimental/ParallelComputer.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/experimental/categories",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/experimental/categories/Categories.java",
+                                            "rawName": "src/main/java/org/junit/experimental/categories/Categories.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/experimental/categories/Category.java",
+                                            "rawName": "src/main/java/org/junit/experimental/categories/Category.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/experimental/categories/CategoryFilterFactory.java",
+                                            "rawName": "src/main/java/org/junit/experimental/categories/CategoryFilterFactory.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/experimental/categories/CategoryValidator.java",
+                                            "rawName": "src/main/java/org/junit/experimental/categories/CategoryValidator.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/experimental/categories/ExcludeCategories.java",
+                                            "rawName": "src/main/java/org/junit/experimental/categories/ExcludeCategories.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/experimental/categories/IncludeCategories.java",
+                                            "rawName": "src/main/java/org/junit/experimental/categories/IncludeCategories.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/experimental/max",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/experimental/max/CouldNotReadCoreException.java",
+                                            "rawName": "src/main/java/org/junit/experimental/max/CouldNotReadCoreException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/experimental/max/MaxCore.java",
+                                            "rawName": "src/main/java/org/junit/experimental/max/MaxCore.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/experimental/max/MaxHistory.java",
+                                            "rawName": "src/main/java/org/junit/experimental/max/MaxHistory.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/experimental/results",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/experimental/results/FailureList.java",
+                                            "rawName": "src/main/java/org/junit/experimental/results/FailureList.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/experimental/results/PrintableResult.java",
+                                            "rawName": "src/main/java/org/junit/experimental/results/PrintableResult.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/experimental/results/ResultMatchers.java",
+                                            "rawName": "src/main/java/org/junit/experimental/results/ResultMatchers.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/experimental/runners",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/experimental/runners/Enclosed.java",
+                                            "rawName": "src/main/java/org/junit/experimental/runners/Enclosed.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/experimental/theories",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "org/junit/experimental/theories/this",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/this/DataPoint.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/DataPoint.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/this/DataPoints.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/DataPoints.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/this/FromDataPoints.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/FromDataPoints.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/this/ParameterSignature.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/ParameterSignature.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/this/ParameterSupplier.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/ParameterSupplier.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/this/ParametersSuppliedBy.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/ParametersSuppliedBy.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/this/PotentialAssignment.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/PotentialAssignment.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/this/Theories.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/Theories.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/this/Theory.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/Theory.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/junit/experimental/theories/internal",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/internal/AllMembersSupplier.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/internal/AllMembersSupplier.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/internal/Assignments.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/internal/Assignments.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/internal/BooleanSupplier.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/internal/BooleanSupplier.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/internal/EnumSupplier.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/internal/EnumSupplier.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/internal/ParameterizedAssertionError.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/internal/ParameterizedAssertionError.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/junit/experimental/theories/suppliers",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/suppliers/TestedOn.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/suppliers/TestedOn.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/experimental/theories/suppliers/TestedOnSupplier.java",
+                                                    "rawName": "src/main/java/org/junit/experimental/theories/suppliers/TestedOnSupplier.java"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "group",
+                            "name": "org/junit/function",
+                            "nested": [
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/function/ThrowingRunnable.java",
+                                    "rawName": "src/main/java/org/junit/function/ThrowingRunnable.java"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "group",
+                            "name": "org/junit/internal",
+                            "nested": [
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/internal/this",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/this/ArrayComparisonFailure.java",
+                                            "rawName": "src/main/java/org/junit/internal/ArrayComparisonFailure.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/this/AssumptionViolatedException.java",
+                                            "rawName": "src/main/java/org/junit/internal/AssumptionViolatedException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/this/Checks.java",
+                                            "rawName": "src/main/java/org/junit/internal/Checks.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/this/Classes.java",
+                                            "rawName": "src/main/java/org/junit/internal/Classes.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/this/ComparisonCriteria.java",
+                                            "rawName": "src/main/java/org/junit/internal/ComparisonCriteria.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/this/ExactComparisonCriteria.java",
+                                            "rawName": "src/main/java/org/junit/internal/ExactComparisonCriteria.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/this/InexactComparisonCriteria.java",
+                                            "rawName": "src/main/java/org/junit/internal/InexactComparisonCriteria.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/this/JUnitSystem.java",
+                                            "rawName": "src/main/java/org/junit/internal/JUnitSystem.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/this/MethodSorter.java",
+                                            "rawName": "src/main/java/org/junit/internal/MethodSorter.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/this/RealSystem.java",
+                                            "rawName": "src/main/java/org/junit/internal/RealSystem.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/this/SerializableMatcherDescription.java",
+                                            "rawName": "src/main/java/org/junit/internal/SerializableMatcherDescription.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/this/SerializableValueDescription.java",
+                                            "rawName": "src/main/java/org/junit/internal/SerializableValueDescription.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/this/TextListener.java",
+                                            "rawName": "src/main/java/org/junit/internal/TextListener.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/this/Throwables.java",
+                                            "rawName": "src/main/java/org/junit/internal/Throwables.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/internal/builders",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/builders/AllDefaultPossibilitiesBuilder.java",
+                                            "rawName": "src/main/java/org/junit/internal/builders/AllDefaultPossibilitiesBuilder.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/builders/AnnotatedBuilder.java",
+                                            "rawName": "src/main/java/org/junit/internal/builders/AnnotatedBuilder.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/builders/IgnoredBuilder.java",
+                                            "rawName": "src/main/java/org/junit/internal/builders/IgnoredBuilder.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/builders/IgnoredClassRunner.java",
+                                            "rawName": "src/main/java/org/junit/internal/builders/IgnoredClassRunner.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/builders/JUnit3Builder.java",
+                                            "rawName": "src/main/java/org/junit/internal/builders/JUnit3Builder.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/builders/JUnit4Builder.java",
+                                            "rawName": "src/main/java/org/junit/internal/builders/JUnit4Builder.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/builders/NullBuilder.java",
+                                            "rawName": "src/main/java/org/junit/internal/builders/NullBuilder.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/builders/SuiteMethodBuilder.java",
+                                            "rawName": "src/main/java/org/junit/internal/builders/SuiteMethodBuilder.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/internal/management",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/management/FakeRuntimeMXBean.java",
+                                            "rawName": "src/main/java/org/junit/internal/management/FakeRuntimeMXBean.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/management/FakeThreadMXBean.java",
+                                            "rawName": "src/main/java/org/junit/internal/management/FakeThreadMXBean.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/management/ManagementFactory.java",
+                                            "rawName": "src/main/java/org/junit/internal/management/ManagementFactory.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/management/ReflectiveRuntimeMXBean.java",
+                                            "rawName": "src/main/java/org/junit/internal/management/ReflectiveRuntimeMXBean.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/management/ReflectiveThreadMXBean.java",
+                                            "rawName": "src/main/java/org/junit/internal/management/ReflectiveThreadMXBean.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/management/RuntimeMXBean.java",
+                                            "rawName": "src/main/java/org/junit/internal/management/RuntimeMXBean.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/management/ThreadMXBean.java",
+                                            "rawName": "src/main/java/org/junit/internal/management/ThreadMXBean.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/internal/matchers",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/matchers/StacktracePrintingMatcher.java",
+                                            "rawName": "src/main/java/org/junit/internal/matchers/StacktracePrintingMatcher.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/matchers/ThrowableCauseMatcher.java",
+                                            "rawName": "src/main/java/org/junit/internal/matchers/ThrowableCauseMatcher.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/matchers/ThrowableMessageMatcher.java",
+                                            "rawName": "src/main/java/org/junit/internal/matchers/ThrowableMessageMatcher.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/matchers/TypeSafeMatcher.java",
+                                            "rawName": "src/main/java/org/junit/internal/matchers/TypeSafeMatcher.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/internal/requests",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/requests/ClassRequest.java",
+                                            "rawName": "src/main/java/org/junit/internal/requests/ClassRequest.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/requests/FilterRequest.java",
+                                            "rawName": "src/main/java/org/junit/internal/requests/FilterRequest.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/requests/MemoizingRequest.java",
+                                            "rawName": "src/main/java/org/junit/internal/requests/MemoizingRequest.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/requests/OrderingRequest.java",
+                                            "rawName": "src/main/java/org/junit/internal/requests/OrderingRequest.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/requests/SortingRequest.java",
+                                            "rawName": "src/main/java/org/junit/internal/requests/SortingRequest.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/internal/requests/package-info.java",
+                                            "rawName": "src/main/java/org/junit/internal/requests/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/internal/runners",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "org/junit/internal/runners/this",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/this/ClassRoadie.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/ClassRoadie.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/this/ErrorReportingRunner.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/ErrorReportingRunner.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/this/FailedBefore.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/FailedBefore.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/this/InitializationError.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/InitializationError.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/this/JUnit38ClassRunner.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/JUnit38ClassRunner.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/this/JUnit4ClassRunner.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/JUnit4ClassRunner.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/this/MethodRoadie.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/MethodRoadie.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/this/MethodValidator.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/MethodValidator.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/this/SuiteMethod.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/SuiteMethod.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/this/TestClass.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/TestClass.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/this/TestMethod.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/TestMethod.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/this/package-info.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/package-info.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/junit/internal/runners/model",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/model/EachTestNotifier.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/model/EachTestNotifier.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/model/MultipleFailureException.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/model/MultipleFailureException.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/model/ReflectiveCallable.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/model/ReflectiveCallable.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/junit/internal/runners/rules",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/rules/RuleMemberValidator.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/rules/RuleMemberValidator.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/rules/ValidationError.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/rules/ValidationError.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "org/junit/internal/runners/statements",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/statements/ExpectException.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/statements/ExpectException.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/statements/Fail.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/statements/Fail.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/statements/FailOnTimeout.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/statements/FailOnTimeout.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/statements/InvokeMethod.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/statements/InvokeMethod.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/statements/RunAfters.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/statements/RunAfters.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "org/junit/internal/runners/statements/RunBefores.java",
+                                                    "rawName": "src/main/java/org/junit/internal/runners/statements/RunBefores.java"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "group",
+                            "name": "org/junit/matchers",
+                            "nested": [
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/matchers/JUnitMatchers.java",
+                                    "rawName": "src/main/java/org/junit/matchers/JUnitMatchers.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/matchers/package-info.java",
+                                    "rawName": "src/main/java/org/junit/matchers/package-info.java"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "group",
+                            "name": "org/junit/rules",
+                            "nested": [
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/DisableOnDebug.java",
+                                    "rawName": "src/main/java/org/junit/rules/DisableOnDebug.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/ErrorCollector.java",
+                                    "rawName": "src/main/java/org/junit/rules/ErrorCollector.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/ExpectedException.java",
+                                    "rawName": "src/main/java/org/junit/rules/ExpectedException.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/ExpectedExceptionMatcherBuilder.java",
+                                    "rawName": "src/main/java/org/junit/rules/ExpectedExceptionMatcherBuilder.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/ExternalResource.java",
+                                    "rawName": "src/main/java/org/junit/rules/ExternalResource.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/MethodRule.java",
+                                    "rawName": "src/main/java/org/junit/rules/MethodRule.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/RuleChain.java",
+                                    "rawName": "src/main/java/org/junit/rules/RuleChain.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/RunRules.java",
+                                    "rawName": "src/main/java/org/junit/rules/RunRules.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/Stopwatch.java",
+                                    "rawName": "src/main/java/org/junit/rules/Stopwatch.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/TemporaryFolder.java",
+                                    "rawName": "src/main/java/org/junit/rules/TemporaryFolder.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/TestName.java",
+                                    "rawName": "src/main/java/org/junit/rules/TestName.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/TestRule.java",
+                                    "rawName": "src/main/java/org/junit/rules/TestRule.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/TestWatcher.java",
+                                    "rawName": "src/main/java/org/junit/rules/TestWatcher.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/TestWatchman.java",
+                                    "rawName": "src/main/java/org/junit/rules/TestWatchman.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/Timeout.java",
+                                    "rawName": "src/main/java/org/junit/rules/Timeout.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/rules/Verifier.java",
+                                    "rawName": "src/main/java/org/junit/rules/Verifier.java"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "group",
+                            "name": "org/junit/runner",
+                            "nested": [
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/runner/this",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/Computer.java",
+                                            "rawName": "src/main/java/org/junit/runner/Computer.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/Describable.java",
+                                            "rawName": "src/main/java/org/junit/runner/Describable.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/Description.java",
+                                            "rawName": "src/main/java/org/junit/runner/Description.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/FilterFactories.java",
+                                            "rawName": "src/main/java/org/junit/runner/FilterFactories.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/FilterFactory.java",
+                                            "rawName": "src/main/java/org/junit/runner/FilterFactory.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/FilterFactoryParams.java",
+                                            "rawName": "src/main/java/org/junit/runner/FilterFactoryParams.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/JUnitCommandLineParseResult.java",
+                                            "rawName": "src/main/java/org/junit/runner/JUnitCommandLineParseResult.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/JUnitCore.java",
+                                            "rawName": "src/main/java/org/junit/runner/JUnitCore.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/OrderWith.java",
+                                            "rawName": "src/main/java/org/junit/runner/OrderWith.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/OrderWithValidator.java",
+                                            "rawName": "src/main/java/org/junit/runner/OrderWithValidator.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/Request.java",
+                                            "rawName": "src/main/java/org/junit/runner/Request.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/Result.java",
+                                            "rawName": "src/main/java/org/junit/runner/Result.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/RunWith.java",
+                                            "rawName": "src/main/java/org/junit/runner/RunWith.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/Runner.java",
+                                            "rawName": "src/main/java/org/junit/runner/Runner.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/this/package-info.java",
+                                            "rawName": "src/main/java/org/junit/runner/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/runner/manipulation",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/manipulation/Alphanumeric.java",
+                                            "rawName": "src/main/java/org/junit/runner/manipulation/Alphanumeric.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/manipulation/Filter.java",
+                                            "rawName": "src/main/java/org/junit/runner/manipulation/Filter.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/manipulation/Filterable.java",
+                                            "rawName": "src/main/java/org/junit/runner/manipulation/Filterable.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/manipulation/InvalidOrderingException.java",
+                                            "rawName": "src/main/java/org/junit/runner/manipulation/InvalidOrderingException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/manipulation/NoTestsRemainException.java",
+                                            "rawName": "src/main/java/org/junit/runner/manipulation/NoTestsRemainException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/manipulation/Orderable.java",
+                                            "rawName": "src/main/java/org/junit/runner/manipulation/Orderable.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/manipulation/Orderer.java",
+                                            "rawName": "src/main/java/org/junit/runner/manipulation/Orderer.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/manipulation/Ordering.java",
+                                            "rawName": "src/main/java/org/junit/runner/manipulation/Ordering.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/manipulation/Sortable.java",
+                                            "rawName": "src/main/java/org/junit/runner/manipulation/Sortable.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/manipulation/Sorter.java",
+                                            "rawName": "src/main/java/org/junit/runner/manipulation/Sorter.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/manipulation/package-info.java",
+                                            "rawName": "src/main/java/org/junit/runner/manipulation/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/runner/notification",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/notification/Failure.java",
+                                            "rawName": "src/main/java/org/junit/runner/notification/Failure.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/notification/RunListener.java",
+                                            "rawName": "src/main/java/org/junit/runner/notification/RunListener.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/notification/RunNotifier.java",
+                                            "rawName": "src/main/java/org/junit/runner/notification/RunNotifier.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/notification/StoppedByUserException.java",
+                                            "rawName": "src/main/java/org/junit/runner/notification/StoppedByUserException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/notification/SynchronizedRunListener.java",
+                                            "rawName": "src/main/java/org/junit/runner/notification/SynchronizedRunListener.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runner/notification/package-info.java",
+                                            "rawName": "src/main/java/org/junit/runner/notification/package-info.java"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "group",
+                            "name": "org/junit/runners",
+                            "nested": [
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/runners/this",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/this/AllTests.java",
+                                            "rawName": "src/main/java/org/junit/runners/AllTests.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/this/BlockJUnit4ClassRunner.java",
+                                            "rawName": "src/main/java/org/junit/runners/BlockJUnit4ClassRunner.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/this/JUnit4.java",
+                                            "rawName": "src/main/java/org/junit/runners/JUnit4.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/this/MethodSorters.java",
+                                            "rawName": "src/main/java/org/junit/runners/MethodSorters.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/this/Parameterized.java",
+                                            "rawName": "src/main/java/org/junit/runners/Parameterized.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/this/ParentRunner.java",
+                                            "rawName": "src/main/java/org/junit/runners/ParentRunner.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/this/RuleContainer.java",
+                                            "rawName": "src/main/java/org/junit/runners/RuleContainer.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/this/Suite.java",
+                                            "rawName": "src/main/java/org/junit/runners/Suite.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/this/package-info.java",
+                                            "rawName": "src/main/java/org/junit/runners/package-info.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/runners/model",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/model/Annotatable.java",
+                                            "rawName": "src/main/java/org/junit/runners/model/Annotatable.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/model/FrameworkField.java",
+                                            "rawName": "src/main/java/org/junit/runners/model/FrameworkField.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/model/FrameworkMember.java",
+                                            "rawName": "src/main/java/org/junit/runners/model/FrameworkMember.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/model/FrameworkMethod.java",
+                                            "rawName": "src/main/java/org/junit/runners/model/FrameworkMethod.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/model/InitializationError.java",
+                                            "rawName": "src/main/java/org/junit/runners/model/InitializationError.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/model/InvalidTestClassError.java",
+                                            "rawName": "src/main/java/org/junit/runners/model/InvalidTestClassError.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/model/MemberValueConsumer.java",
+                                            "rawName": "src/main/java/org/junit/runners/model/MemberValueConsumer.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/model/MultipleFailureException.java",
+                                            "rawName": "src/main/java/org/junit/runners/model/MultipleFailureException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/model/NoGenericTypeParametersValidator.java",
+                                            "rawName": "src/main/java/org/junit/runners/model/NoGenericTypeParametersValidator.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/model/RunnerBuilder.java",
+                                            "rawName": "src/main/java/org/junit/runners/model/RunnerBuilder.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/model/RunnerScheduler.java",
+                                            "rawName": "src/main/java/org/junit/runners/model/RunnerScheduler.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/model/Statement.java",
+                                            "rawName": "src/main/java/org/junit/runners/model/Statement.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/model/TestClass.java",
+                                            "rawName": "src/main/java/org/junit/runners/model/TestClass.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/model/TestTimedOutException.java",
+                                            "rawName": "src/main/java/org/junit/runners/model/TestTimedOutException.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "org/junit/runners/parameterized",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParameters.java",
+                                            "rawName": "src/main/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParameters.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParametersFactory.java",
+                                            "rawName": "src/main/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParametersFactory.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/parameterized/ParametersRunnerFactory.java",
+                                            "rawName": "src/main/java/org/junit/runners/parameterized/ParametersRunnerFactory.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "org/junit/runners/parameterized/TestWithParameters.java",
+                                            "rawName": "src/main/java/org/junit/runners/parameterized/TestWithParameters.java"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "group",
+                            "name": "org/junit/validator",
+                            "nested": [
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/validator/AnnotationValidator.java",
+                                    "rawName": "src/main/java/org/junit/validator/AnnotationValidator.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/validator/AnnotationValidatorFactory.java",
+                                    "rawName": "src/main/java/org/junit/validator/AnnotationValidatorFactory.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/validator/AnnotationsValidator.java",
+                                    "rawName": "src/main/java/org/junit/validator/AnnotationsValidator.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/validator/PublicClassValidator.java",
+                                    "rawName": "src/main/java/org/junit/validator/PublicClassValidator.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/validator/TestClassValidator.java",
+                                    "rawName": "src/main/java/org/junit/validator/TestClassValidator.java"
+                                },
+                                {
+                                    "@type": "item",
+                                    "name": "org/junit/validator/ValidateWith.java",
+                                    "rawName": "src/main/java/org/junit/validator/ValidateWith.java"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

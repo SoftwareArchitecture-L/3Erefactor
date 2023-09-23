@@ -1,0 +1,1110 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "dependency",
+    "variables": [
+        "org",
+        "org/apache",
+        "org/apache/ibatis",
+        "org/apache/ibatis/annotations",
+        "org/apache/ibatis/binding",
+        "org/apache/ibatis/builder",
+        "org/apache/ibatis/builder/this",
+        "org/apache/ibatis/builder/annotation",
+        "org/apache/ibatis/builder/xml",
+        "org/apache/ibatis/builder/xml/this",
+        "org/apache/ibatis/cache",
+        "org/apache/ibatis/cache/this",
+        "org/apache/ibatis/cache/decorators",
+        "org/apache/ibatis/cache/impl",
+        "org/apache/ibatis/cursor",
+        "org/apache/ibatis/cursor/this",
+        "org/apache/ibatis/cursor/defaults",
+        "org/apache/ibatis/datasource",
+        "org/apache/ibatis/datasource/this",
+        "org/apache/ibatis/datasource/jndi",
+        "org/apache/ibatis/datasource/pooled",
+        "org/apache/ibatis/datasource/unpooled",
+        "org/apache/ibatis/exceptions",
+        "org/apache/ibatis/executor",
+        "org/apache/ibatis/executor/this",
+        "org/apache/ibatis/executor/keygen",
+        "org/apache/ibatis/executor/loader",
+        "org/apache/ibatis/executor/loader/this",
+        "org/apache/ibatis/executor/loader/cglib",
+        "org/apache/ibatis/executor/loader/javassist",
+        "org/apache/ibatis/executor/parameter",
+        "org/apache/ibatis/executor/result",
+        "org/apache/ibatis/executor/resultset",
+        "org/apache/ibatis/executor/statement",
+        "org/apache/ibatis/io",
+        "org/apache/ibatis/jdbc",
+        "org/apache/ibatis/lang",
+        "org/apache/ibatis/logging",
+        "org/apache/ibatis/logging/this",
+        "org/apache/ibatis/logging/commons",
+        "org/apache/ibatis/logging/jdbc",
+        "org/apache/ibatis/logging/jdk14",
+        "org/apache/ibatis/logging/log4j",
+        "org/apache/ibatis/logging/log4j2",
+        "org/apache/ibatis/logging/nologging",
+        "org/apache/ibatis/logging/slf4j",
+        "org/apache/ibatis/logging/stdout",
+        "org/apache/ibatis/mapping",
+        "org/apache/ibatis/this",
+        "org/apache/ibatis/parsing",
+        "org/apache/ibatis/plugin",
+        "org/apache/ibatis/reflection",
+        "org/apache/ibatis/reflection/this",
+        "org/apache/ibatis/reflection/factory",
+        "org/apache/ibatis/reflection/invoker",
+        "org/apache/ibatis/reflection/property",
+        "org/apache/ibatis/reflection/wrapper",
+        "org/apache/ibatis/scripting",
+        "org/apache/ibatis/scripting/this",
+        "org/apache/ibatis/scripting/defaults",
+        "org/apache/ibatis/scripting/xmltags",
+        "org/apache/ibatis/session",
+        "org/apache/ibatis/session/this",
+        "org/apache/ibatis/session/defaults",
+        "org/apache/ibatis/transaction",
+        "org/apache/ibatis/transaction/this",
+        "org/apache/ibatis/transaction/jdbc",
+        "org/apache/ibatis/transaction/managed",
+        "org/apache/ibatis/type",
+        "org/apache/ibatis/util"
+    ],
+    "cells": [
+        {
+            "src": 3,
+            "dest": 47
+        },
+        {
+            "src": 3,
+            "dest": 68
+        },
+        {
+            "src": 4,
+            "dest": 3
+        },
+        {
+            "src": 4,
+            "dest": 7
+        },
+        {
+            "src": 4,
+            "dest": 15
+        },
+        {
+            "src": 4,
+            "dest": 22
+        },
+        {
+            "src": 4,
+            "dest": 34
+        },
+        {
+            "src": 4,
+            "dest": 47
+        },
+        {
+            "src": 4,
+            "dest": 52
+        },
+        {
+            "src": 4,
+            "dest": 53
+        },
+        {
+            "src": 4,
+            "dest": 62
+        },
+        {
+            "src": 6,
+            "dest": 11
+        },
+        {
+            "src": 6,
+            "dest": 22
+        },
+        {
+            "src": 6,
+            "dest": 24
+        },
+        {
+            "src": 6,
+            "dest": 25
+        },
+        {
+            "src": 6,
+            "dest": 47
+        },
+        {
+            "src": 6,
+            "dest": 49
+        },
+        {
+            "src": 6,
+            "dest": 52
+        },
+        {
+            "src": 6,
+            "dest": 58
+        },
+        {
+            "src": 6,
+            "dest": 62
+        },
+        {
+            "src": 6,
+            "dest": 68
+        },
+        {
+            "src": 7,
+            "dest": 3
+        },
+        {
+            "src": 7,
+            "dest": 6
+        },
+        {
+            "src": 7,
+            "dest": 9
+        },
+        {
+            "src": 7,
+            "dest": 25
+        },
+        {
+            "src": 7,
+            "dest": 34
+        },
+        {
+            "src": 7,
+            "dest": 47
+        },
+        {
+            "src": 7,
+            "dest": 49
+        },
+        {
+            "src": 7,
+            "dest": 52
+        },
+        {
+            "src": 7,
+            "dest": 58
+        },
+        {
+            "src": 7,
+            "dest": 62
+        },
+        {
+            "src": 7,
+            "dest": 68
+        },
+        {
+            "src": 9,
+            "dest": 6
+        },
+        {
+            "src": 9,
+            "dest": 11
+        },
+        {
+            "src": 9,
+            "dest": 18
+        },
+        {
+            "src": 9,
+            "dest": 24
+        },
+        {
+            "src": 9,
+            "dest": 25
+        },
+        {
+            "src": 9,
+            "dest": 34
+        },
+        {
+            "src": 9,
+            "dest": 38
+        },
+        {
+            "src": 9,
+            "dest": 47
+        },
+        {
+            "src": 9,
+            "dest": 49
+        },
+        {
+            "src": 9,
+            "dest": 50
+        },
+        {
+            "src": 9,
+            "dest": 52
+        },
+        {
+            "src": 9,
+            "dest": 53
+        },
+        {
+            "src": 9,
+            "dest": 56
+        },
+        {
+            "src": 9,
+            "dest": 58
+        },
+        {
+            "src": 9,
+            "dest": 62
+        },
+        {
+            "src": 9,
+            "dest": 65
+        },
+        {
+            "src": 9,
+            "dest": 68
+        },
+        {
+            "src": 11,
+            "dest": 12
+        },
+        {
+            "src": 11,
+            "dest": 22
+        },
+        {
+            "src": 11,
+            "dest": 52
+        },
+        {
+            "src": 12,
+            "dest": 11
+        },
+        {
+            "src": 12,
+            "dest": 34
+        },
+        {
+            "src": 12,
+            "dest": 38
+        },
+        {
+            "src": 13,
+            "dest": 11
+        },
+        {
+            "src": 16,
+            "dest": 15
+        },
+        {
+            "src": 16,
+            "dest": 32
+        },
+        {
+            "src": 16,
+            "dest": 47
+        },
+        {
+            "src": 16,
+            "dest": 62
+        },
+        {
+            "src": 18,
+            "dest": 22
+        },
+        {
+            "src": 19,
+            "dest": 18
+        },
+        {
+            "src": 20,
+            "dest": 21
+        },
+        {
+            "src": 20,
+            "dest": 38
+        },
+        {
+            "src": 20,
+            "dest": 52
+        },
+        {
+            "src": 21,
+            "dest": 18
+        },
+        {
+            "src": 21,
+            "dest": 34
+        },
+        {
+            "src": 21,
+            "dest": 52
+        },
+        {
+            "src": 24,
+            "dest": 11
+        },
+        {
+            "src": 24,
+            "dest": 13
+        },
+        {
+            "src": 24,
+            "dest": 15
+        },
+        {
+            "src": 24,
+            "dest": 22
+        },
+        {
+            "src": 24,
+            "dest": 25
+        },
+        {
+            "src": 24,
+            "dest": 33
+        },
+        {
+            "src": 24,
+            "dest": 38
+        },
+        {
+            "src": 24,
+            "dest": 40
+        },
+        {
+            "src": 24,
+            "dest": 47
+        },
+        {
+            "src": 24,
+            "dest": 52
+        },
+        {
+            "src": 24,
+            "dest": 53
+        },
+        {
+            "src": 24,
+            "dest": 62
+        },
+        {
+            "src": 24,
+            "dest": 65
+        },
+        {
+            "src": 24,
+            "dest": 68
+        },
+        {
+            "src": 25,
+            "dest": 4
+        },
+        {
+            "src": 25,
+            "dest": 24
+        },
+        {
+            "src": 25,
+            "dest": 47
+        },
+        {
+            "src": 25,
+            "dest": 52
+        },
+        {
+            "src": 25,
+            "dest": 62
+        },
+        {
+            "src": 25,
+            "dest": 68
+        },
+        {
+            "src": 27,
+            "dest": 11
+        },
+        {
+            "src": 27,
+            "dest": 15
+        },
+        {
+            "src": 27,
+            "dest": 24
+        },
+        {
+            "src": 27,
+            "dest": 28
+        },
+        {
+            "src": 27,
+            "dest": 29
+        },
+        {
+            "src": 27,
+            "dest": 34
+        },
+        {
+            "src": 27,
+            "dest": 38
+        },
+        {
+            "src": 27,
+            "dest": 47
+        },
+        {
+            "src": 27,
+            "dest": 52
+        },
+        {
+            "src": 27,
+            "dest": 53
+        },
+        {
+            "src": 27,
+            "dest": 55
+        },
+        {
+            "src": 27,
+            "dest": 62
+        },
+        {
+            "src": 27,
+            "dest": 65
+        },
+        {
+            "src": 28,
+            "dest": 27
+        },
+        {
+            "src": 28,
+            "dest": 34
+        },
+        {
+            "src": 28,
+            "dest": 38
+        },
+        {
+            "src": 28,
+            "dest": 52
+        },
+        {
+            "src": 28,
+            "dest": 53
+        },
+        {
+            "src": 28,
+            "dest": 55
+        },
+        {
+            "src": 28,
+            "dest": 62
+        },
+        {
+            "src": 29,
+            "dest": 24
+        },
+        {
+            "src": 29,
+            "dest": 27
+        },
+        {
+            "src": 29,
+            "dest": 34
+        },
+        {
+            "src": 29,
+            "dest": 38
+        },
+        {
+            "src": 29,
+            "dest": 52
+        },
+        {
+            "src": 29,
+            "dest": 53
+        },
+        {
+            "src": 29,
+            "dest": 55
+        },
+        {
+            "src": 29,
+            "dest": 62
+        },
+        {
+            "src": 31,
+            "dest": 22
+        },
+        {
+            "src": 31,
+            "dest": 52
+        },
+        {
+            "src": 31,
+            "dest": 53
+        },
+        {
+            "src": 31,
+            "dest": 56
+        },
+        {
+            "src": 31,
+            "dest": 62
+        },
+        {
+            "src": 32,
+            "dest": 11
+        },
+        {
+            "src": 32,
+            "dest": 15
+        },
+        {
+            "src": 32,
+            "dest": 16
+        },
+        {
+            "src": 32,
+            "dest": 24
+        },
+        {
+            "src": 32,
+            "dest": 27
+        },
+        {
+            "src": 32,
+            "dest": 30
+        },
+        {
+            "src": 32,
+            "dest": 31
+        },
+        {
+            "src": 32,
+            "dest": 34
+        },
+        {
+            "src": 32,
+            "dest": 47
+        },
+        {
+            "src": 32,
+            "dest": 52
+        },
+        {
+            "src": 32,
+            "dest": 53
+        },
+        {
+            "src": 32,
+            "dest": 62
+        },
+        {
+            "src": 32,
+            "dest": 68
+        },
+        {
+            "src": 33,
+            "dest": 15
+        },
+        {
+            "src": 33,
+            "dest": 24
+        },
+        {
+            "src": 33,
+            "dest": 25
+        },
+        {
+            "src": 33,
+            "dest": 30
+        },
+        {
+            "src": 33,
+            "dest": 32
+        },
+        {
+            "src": 33,
+            "dest": 47
+        },
+        {
+            "src": 33,
+            "dest": 53
+        },
+        {
+            "src": 33,
+            "dest": 62
+        },
+        {
+            "src": 33,
+            "dest": 68
+        },
+        {
+            "src": 34,
+            "dest": 38
+        },
+        {
+            "src": 35,
+            "dest": 34
+        },
+        {
+            "src": 35,
+            "dest": 68
+        },
+        {
+            "src": 38,
+            "dest": 22
+        },
+        {
+            "src": 39,
+            "dest": 38
+        },
+        {
+            "src": 40,
+            "dest": 6
+        },
+        {
+            "src": 40,
+            "dest": 38
+        },
+        {
+            "src": 40,
+            "dest": 52
+        },
+        {
+            "src": 41,
+            "dest": 38
+        },
+        {
+            "src": 42,
+            "dest": 38
+        },
+        {
+            "src": 43,
+            "dest": 38
+        },
+        {
+            "src": 44,
+            "dest": 38
+        },
+        {
+            "src": 45,
+            "dest": 38
+        },
+        {
+            "src": 46,
+            "dest": 38
+        },
+        {
+            "src": 47,
+            "dest": 6
+        },
+        {
+            "src": 47,
+            "dest": 11
+        },
+        {
+            "src": 47,
+            "dest": 12
+        },
+        {
+            "src": 47,
+            "dest": 13
+        },
+        {
+            "src": 47,
+            "dest": 25
+        },
+        {
+            "src": 47,
+            "dest": 38
+        },
+        {
+            "src": 47,
+            "dest": 52
+        },
+        {
+            "src": 47,
+            "dest": 55
+        },
+        {
+            "src": 47,
+            "dest": 58
+        },
+        {
+            "src": 47,
+            "dest": 62
+        },
+        {
+            "src": 47,
+            "dest": 65
+        },
+        {
+            "src": 47,
+            "dest": 68
+        },
+        {
+            "src": 49,
+            "dest": 6
+        },
+        {
+            "src": 49,
+            "dest": 22
+        },
+        {
+            "src": 50,
+            "dest": 22
+        },
+        {
+            "src": 50,
+            "dest": 52
+        },
+        {
+            "src": 52,
+            "dest": 4
+        },
+        {
+            "src": 52,
+            "dest": 22
+        },
+        {
+            "src": 52,
+            "dest": 34
+        },
+        {
+            "src": 52,
+            "dest": 53
+        },
+        {
+            "src": 52,
+            "dest": 54
+        },
+        {
+            "src": 52,
+            "dest": 55
+        },
+        {
+            "src": 52,
+            "dest": 56
+        },
+        {
+            "src": 52,
+            "dest": 62
+        },
+        {
+            "src": 53,
+            "dest": 52
+        },
+        {
+            "src": 54,
+            "dest": 52
+        },
+        {
+            "src": 55,
+            "dest": 52
+        },
+        {
+            "src": 56,
+            "dest": 52
+        },
+        {
+            "src": 56,
+            "dest": 53
+        },
+        {
+            "src": 56,
+            "dest": 54
+        },
+        {
+            "src": 56,
+            "dest": 55
+        },
+        {
+            "src": 58,
+            "dest": 22
+        },
+        {
+            "src": 58,
+            "dest": 30
+        },
+        {
+            "src": 58,
+            "dest": 47
+        },
+        {
+            "src": 58,
+            "dest": 49
+        },
+        {
+            "src": 58,
+            "dest": 62
+        },
+        {
+            "src": 59,
+            "dest": 6
+        },
+        {
+            "src": 59,
+            "dest": 24
+        },
+        {
+            "src": 59,
+            "dest": 30
+        },
+        {
+            "src": 59,
+            "dest": 47
+        },
+        {
+            "src": 59,
+            "dest": 49
+        },
+        {
+            "src": 59,
+            "dest": 52
+        },
+        {
+            "src": 59,
+            "dest": 60
+        },
+        {
+            "src": 59,
+            "dest": 62
+        },
+        {
+            "src": 59,
+            "dest": 68
+        },
+        {
+            "src": 60,
+            "dest": 6
+        },
+        {
+            "src": 60,
+            "dest": 9
+        },
+        {
+            "src": 60,
+            "dest": 30
+        },
+        {
+            "src": 60,
+            "dest": 34
+        },
+        {
+            "src": 60,
+            "dest": 47
+        },
+        {
+            "src": 60,
+            "dest": 49
+        },
+        {
+            "src": 60,
+            "dest": 52
+        },
+        {
+            "src": 60,
+            "dest": 58
+        },
+        {
+            "src": 60,
+            "dest": 59
+        },
+        {
+            "src": 60,
+            "dest": 62
+        },
+        {
+            "src": 60,
+            "dest": 68
+        },
+        {
+            "src": 62,
+            "dest": 4
+        },
+        {
+            "src": 62,
+            "dest": 6
+        },
+        {
+            "src": 62,
+            "dest": 7
+        },
+        {
+            "src": 62,
+            "dest": 9
+        },
+        {
+            "src": 62,
+            "dest": 11
+        },
+        {
+            "src": 62,
+            "dest": 15
+        },
+        {
+            "src": 62,
+            "dest": 22
+        },
+        {
+            "src": 62,
+            "dest": 24
+        },
+        {
+            "src": 62,
+            "dest": 25
+        },
+        {
+            "src": 62,
+            "dest": 27
+        },
+        {
+            "src": 62,
+            "dest": 29
+        },
+        {
+            "src": 62,
+            "dest": 30
+        },
+        {
+            "src": 62,
+            "dest": 32
+        },
+        {
+            "src": 62,
+            "dest": 33
+        },
+        {
+            "src": 62,
+            "dest": 34
+        },
+        {
+            "src": 62,
+            "dest": 38
+        },
+        {
+            "src": 62,
+            "dest": 47
+        },
+        {
+            "src": 62,
+            "dest": 49
+        },
+        {
+            "src": 62,
+            "dest": 50
+        },
+        {
+            "src": 62,
+            "dest": 52
+        },
+        {
+            "src": 62,
+            "dest": 53
+        },
+        {
+            "src": 62,
+            "dest": 56
+        },
+        {
+            "src": 62,
+            "dest": 58
+        },
+        {
+            "src": 62,
+            "dest": 63
+        },
+        {
+            "src": 62,
+            "dest": 68
+        },
+        {
+            "src": 63,
+            "dest": 4
+        },
+        {
+            "src": 63,
+            "dest": 15
+        },
+        {
+            "src": 63,
+            "dest": 22
+        },
+        {
+            "src": 63,
+            "dest": 24
+        },
+        {
+            "src": 63,
+            "dest": 31
+        },
+        {
+            "src": 63,
+            "dest": 47
+        },
+        {
+            "src": 63,
+            "dest": 52
+        },
+        {
+            "src": 63,
+            "dest": 62
+        },
+        {
+            "src": 63,
+            "dest": 65
+        },
+        {
+            "src": 63,
+            "dest": 67
+        },
+        {
+            "src": 65,
+            "dest": 22
+        },
+        {
+            "src": 65,
+            "dest": 62
+        },
+        {
+            "src": 66,
+            "dest": 38
+        },
+        {
+            "src": 66,
+            "dest": 62
+        },
+        {
+            "src": 66,
+            "dest": 65
+        },
+        {
+            "src": 67,
+            "dest": 38
+        },
+        {
+            "src": 67,
+            "dest": 65
+        },
+        {
+            "src": 68,
+            "dest": 22
+        },
+        {
+            "src": 68,
+            "dest": 34
+        },
+        {
+            "src": 68,
+            "dest": 62
+        }
+    ]
+}

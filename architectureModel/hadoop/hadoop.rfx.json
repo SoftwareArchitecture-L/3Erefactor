@@ -1,0 +1,2625 @@
+{
+  "structure": [
+    {
+      "name": "hadoop",
+      "nested": [
+        {
+          "name": "Join_utilities",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/join/CompositeInputSplit.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/OverrideRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/ComposableRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/WrappedRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/StreamBackedIterator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/OuterJoinRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/Parser.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/CompositeInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/InnerJoinRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/CompositeRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/TupleWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/ResetableIterator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/ArrayListBackedIterator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/JoinRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/MultiFilterRecordReader.java"
+            }
+          ]
+        },
+        {
+          "name": "DFS_Utils",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/GenerationStamp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/StorageInfo.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/Storage.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/InconsistentFSStateException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/IncorrectVersionException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/HdfsConstants.java"
+            }
+          ]
+        },
+        {
+          "name": "Mapred_client",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/IFile.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/FieldSelectionMapReduce.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/KeyValueLineRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/HashPartitioner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Mapper.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/IFileInputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/FileSplit.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/OutputCommitter.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SkipBadRecords.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/InputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Reducer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/IdentityMapper.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/OutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SortedRanges.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/LongSumReducer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/RamManager.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Partitioner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MultiFileSplit.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/FileInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobQueueInfo.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/RecordWriter.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/MultipleOutputs.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MultiFileInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Counters.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MergeSorter.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/IdentityReducer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/InvalidInputException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/RecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/FileOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/KeyValueTextInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/OutputCollector.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TextInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/InverseMapper.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Merger.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/LocalJobRunner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TextOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MapTaskCompletionEventsUpdate.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobStatus.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/NullOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/InvalidFileTypeException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskAttemptContext.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MapReduceBase.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/ID.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/BasicTypeSorterBase.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/RegexMapper.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/OutputLogFilter.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/RawKeyValueIterator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/FileOutputCommitter.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/LineRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Reporter.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/IFileOutputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MapRunner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/NLineInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobConf.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobConfigurable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobContext.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/TokenCountMapper.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MapRunnable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/InputSplit.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/MultithreadedMapRunner.java"
+            }
+          ]
+        },
+        {
+          "name": "Orphaned_Protocol_Utilities",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/AlreadyBeingCreatedException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/QuotaExceededException.java"
+            }
+          ]
+        },
+        {
+          "name": "org_apache_hadoop_log",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/log/LogLevel.java"
+            }
+          ]
+        },
+        {
+          "name": "Cpp_Pipes_Protocol",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/pipes/BinaryProtocol.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/pipes/UpwardProtocol.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/pipes/OutputHandler.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/pipes/DownwardProtocol.java"
+            }
+          ]
+        },
+        {
+          "name": "Datanode_Protocol",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/BlockCommand.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/DatanodeCommand.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/NamespaceInfo.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/DatanodeProtocol.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/UpgradeCommand.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/DatanodeRegistration.java"
+            }
+          ]
+        },
+        {
+          "name": "Tracker_Protocols",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskUmbilicalProtocol.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/InterTrackerProtocol.java"
+            }
+          ]
+        },
+        {
+          "name": "Filters",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/fs/FilterFileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/http/FilterInitializer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/PathFilter.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SequenceFileInputFilter.java"
+            }
+          ]
+        },
+        {
+          "name": "org_apache_hadoop_metrics",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/metrics/jvm/EventCounter.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/spi/AbstractMetricsContext.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/util/MetricsTimeVaryingRate.java"
+            }
+          ]
+        },
+        {
+          "name": "Metrics",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/metrics/NameNodeMetrics.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/metrics/NameNodeStatistics.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/Updater.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/jvm/EventCounter.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/spi/NullContext.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/metrics/FSNamesystemMetrics.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/MetricsRecord.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/spi/OutputRecord.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/spi/MetricValue.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/ganglia/GangliaContext.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/spi/AbstractMetricsContext.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/util/MBeanUtil.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/util/MetricsTimeVaryingInt.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/spi/MetricsRecordImpl.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/util/MetricsIntValue.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/file/FileContext.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/MetricsContext.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/spi/NullContextWithUpdateThread.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/util/MetricsTimeVaryingRate.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/jvm/JvmMetrics.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/util/MetricsLongValue.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/MetricsUtil.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/spi/Util.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/ContextFactory.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/metrics/MetricsException.java"
+            }
+          ]
+        },
+        {
+          "name": "DataNode",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/DataXceiver.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/DataBlockScanner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/DataNode.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/metrics/DataNodeStatistics.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/BlockSender.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/UpgradeManagerDatanode.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/FSDataset.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/DataXceiverServer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/metrics/DataNodeMetrics.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/DatanodeBlockInfo.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/UpgradeObjectDatanode.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/DataStorage.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/FSDatasetInterface.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/BlockMetadataHeader.java"
+            }
+          ]
+        },
+        {
+          "name": "Client-facing_Exceptions",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/SafeModeException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/NotReplicatedYetException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/LeaseExpiredException.java"
+            }
+          ]
+        },
+        {
+          "name": "Value_Aggregator",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/ValueAggregatorReducer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/ValueAggregatorMapper.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/LongValueMin.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/StringValueMin.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/LongValueSum.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/DoubleValueSum.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/ValueAggregatorCombiner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/UniqValueCount.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/ValueAggregatorJobBase.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/ValueAggregatorJob.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/LongValueMax.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/ValueAggregatorDescriptor.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/ValueHistogram.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/StringValueMax.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/UserDefinedValueAggregatorDescriptor.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/ValueAggregatorBaseDescriptor.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/ValueAggregator.java"
+            }
+          ]
+        },
+        {
+          "name": "org_apache_hadoop_filecache",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/filecache/DistributedCache.java"
+            }
+          ]
+        },
+        {
+          "name": "org_apache_hadoop_conf",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/conf/Configured.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/conf/Configuration.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/conf/Configurable.java"
+            }
+          ]
+        },
+        {
+          "name": "org_apache_hadoop_record",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/record/RecordInput.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/XmlRecordInput.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/RecordComparator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/meta/RecordTypeInfo.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JString.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JBoolean.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JVector.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/meta/Utils.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JFloat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/meta/TypeID.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/generated/RccConstants.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/generated/ParseException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/BinaryRecordOutput.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/generated/Token.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JDouble.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JType.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/Consts.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/CppGenerator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/generated/Rcc.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JField.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/CodeBuffer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/meta/MapTypeID.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/XmlRecordOutput.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JByte.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/generated/SimpleCharStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/Buffer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JInt.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/CGenerator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/ant/RccTask.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JFile.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JBuffer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JLong.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/CodeGenerator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JRecord.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JCompType.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/meta/VectorTypeID.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/meta/StructTypeID.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/Record.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/RecordOutput.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/CsvRecordInput.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/generated/RccTokenManager.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/Index.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/Utils.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/meta/FieldTypeInfo.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JavaGenerator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/JMap.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/BinaryRecordInput.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/compiler/generated/TokenMgrError.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/record/CsvRecordOutput.java"
+            }
+          ]
+        },
+        {
+          "name": "DB_I/O",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/db/DBWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/db/DBInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/db/DBOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/db/DBConfiguration.java"
+            }
+          ]
+        },
+        {
+          "name": "Multiple_Output_File_Formatting",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/MultipleOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/MultipleSequenceFileOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/MultipleTextOutputFormat.java"
+            }
+          ]
+        },
+        {
+          "name": "Domain_data_structures",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/BlockMetaDataInfo.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskStatus.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/DatanodeInfo.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/net/NodeBase.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/DataBlockScanner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/net/Node.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3/Block.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/DatanodeRegistration.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobStatus.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobProfile.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/Block.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Counters.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/LocatedBlocks.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskTrackerStatus.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/BlocksWithLocations.java"
+            }
+          ]
+        },
+        {
+          "name": "Cpp_Pipes_Job",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/pipes/PipesReducer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/pipes/PipesPartitioner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/pipes/PipesMapRunner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/pipes/Application.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/pipes/PipesNonJavaInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/pipes/Submitter.java"
+            }
+          ]
+        },
+        {
+          "name": "Job_Tracking",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/ReinitTrackerAction.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/QueueManager.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobTrackerInstrumentation.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobQueueJobInProgressListener.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskReport.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobQueueTaskScheduler.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/EagerTaskInitializationListener.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskScheduler.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobTrackerMetricsInst.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobID.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobChangeEvent.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobEndNotifier.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobPriority.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/CompletedJobStatusStore.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobInProgressListener.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobStatusChangeEvent.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobTracker.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobInProgress.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobProfile.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/ClusterStatus.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskInProgress.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskID.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskTrackerManager.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/LimitTasksPerJobTaskScheduler.java"
+            }
+          ]
+        },
+        {
+          "name": "Secondary_Name_Node",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/GetImageServlet.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/SecondaryNameNode.java"
+            }
+          ]
+        },
+        {
+          "name": "Balancer",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/balancer/Balancer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/Util.java"
+            }
+          ]
+        },
+        {
+          "name": "InterDataNode_Protocol",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/BlockMetaDataInfo.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/InterDatanodeProtocol.java"
+            }
+          ]
+        },
+        {
+          "name": "Client_Protocol",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/FSConstants.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/ClientProtocol.java"
+            }
+          ]
+        },
+        {
+          "name": "Sequence_File_Handling",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/SequenceFileOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SequenceFileInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SequenceFileAsBinaryOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SequenceFileRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SequenceFileInputFilter.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SequenceFileAsBinaryInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SequenceFileAsTextRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SequenceFileAsTextInputFormat.java"
+            }
+          ]
+        },
+        {
+          "name": "Namenode",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/PermissionChecker.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/UpgradeObjectNamenode.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/SerialNumberManager.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/JspHelper.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/DfsServlet.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/TransferFsImage.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/CorruptReplicasMap.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/INode.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/INodeFileUnderConstruction.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/CheckpointSignature.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/ReplicationTargetChooser.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/DatanodeDescriptor.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/StreamFile.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/NamenodeFsck.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/FSNamesystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/UnderReplicatedBlocks.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/INodeDirectoryWithQuota.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/FsckServlet.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/INodeDirectory.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/PendingReplicationBlocks.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/StringBytesWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/FileChecksumServlets.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/EditLogInputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/UpgradeManagerNamenode.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/EditLogOutputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/NameNode.java"
+            }
+          ]
+        },
+        {
+          "name": "Mapred_utilities",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/ResourceEstimator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/LaunchTaskAction.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/DisallowedTaskTrackerException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/KillJobAction.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/CommitTaskAction.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/KillTaskAction.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/FileAlreadyExistsException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JSPUtil.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MapFileOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/StatusHttpServer.java"
+            }
+          ]
+        },
+        {
+          "name": "Core_Name_Node_Structures",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/Host2NodesMap.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/BlocksMap.java"
+            }
+          ]
+        },
+        {
+          "name": "org_apache_hadoop_hdfs",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/FSConstants.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/JspHelper.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/FSEditLog.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/INode.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/browseBlock_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/DatanodeRegistration.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/LocatedBlocks.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/FSImage.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/browseDirectory_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/dfshealth_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/DatanodeDescriptor.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/HdfsConstants.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/FSDatasetInterface.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/FSNamesystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/balancer/Balancer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/DFSClient.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/PendingReplicationBlocks.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/Block.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/UpgradeObjectCollection.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/FSDataset.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/BlocksWithLocations.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/NameNode.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/DataStorage.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/SerialNumberManager.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/GenerationStamp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/NamespaceInfo.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/DataNode.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/UpgradeCommand.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/nn_005fbrowsedfscontent_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/LeaseManager.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/BlockCommand.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/DatanodeCommand.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/DFSUtil.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/SecondaryNameNode.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/Storage.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/UpgradeStatusReport.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/HftpFileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/ReplicationTargetChooser.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/BlockMetaDataInfo.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/NamenodeFsck.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/DatanodeInfo.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/DistributedFileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/DataBlockScanner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/UnderReplicatedBlocks.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/LocatedBlock.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/BlocksMap.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/tools/DFSAdmin.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/tail_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/FileChecksumServlets.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/DataXceiverServer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/UpgradeManagerNamenode.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/BlockTransferThrottler.java"
+            }
+          ]
+        },
+        {
+          "name": "FS_Logging",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/FSImage.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/Storage.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/FSEditLog.java"
+            }
+          ]
+        },
+        {
+          "name": "FSDataSet",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/FSDataset.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/datanode/FSDatasetInterface.java"
+            }
+          ]
+        },
+        {
+          "name": "org_apache_hadoop_security",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/security/AccessControlException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/security/UnixUserGroupInformation.java"
+            }
+          ]
+        },
+        {
+          "name": "Task_Tracking_and_Running",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskStatus.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/IndexRecord.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/ReduceTaskStatus.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MapTaskRunner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskTrackerAction.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskTrackerMetricsInst.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/IndexCache.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskCompletionEvent.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskMemoryManagerThread.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskTrackerStatus.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskAttemptID.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskLog.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JvmTask.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskLogAppender.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskRunner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/ReduceTaskRunner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskLogServlet.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Child.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MapTaskStatus.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskTracker.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Task.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskTrackerInstrumentation.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskInProgress.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MapOutputFile.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/IsolationRunner.java"
+            }
+          ]
+        },
+        {
+          "name": "JvmManager",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/JVMId.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JvmManager.java"
+            }
+          ]
+        },
+        {
+          "name": "JobClient",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/RunningJob.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/InvalidJobConfException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/jobcontrol/Job.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobClient.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobSubmissionProtocol.java"
+            }
+          ]
+        },
+        {
+          "name": "JobQueueClient",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/JobQueueClient.java"
+            }
+          ]
+        },
+        {
+          "name": "org_apache_hadoop_ipc",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/ipc/metrics/RpcMgt.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/ipc/metrics/RpcMetrics.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/ipc/VersionedProtocol.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/ipc/Client.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/ipc/RPC.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/ipc/RemoteException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/ipc/Server.java"
+            }
+          ]
+        },
+        {
+          "name": "KeyFieldBasedPartitioner",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/KeyFieldBasedPartitioner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/KeyFieldHelper.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/KeyFieldBasedComparator.java"
+            }
+          ]
+        },
+        {
+          "name": "org_apache_hadoop_net",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/net/DNSToSwitchMapping.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/net/CachedDNSToSwitchMapping.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/net/DNS.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/net/SocketInputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/net/ScriptBasedMapping.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/net/SocketIOWithTimeout.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/net/NetworkTopology.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/net/StandardSocketFactory.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/net/SocketOutputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/net/SocksSocketFactory.java"
+            }
+          ]
+        },
+        {
+          "name": "Security_Data_Structures",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/security/UserGroupInformation.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/security/UnixUserGroupInformation.java"
+            }
+          ]
+        },
+        {
+          "name": "Client_Datanode_Protocol",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/ClientDatanodeProtocol.java"
+            }
+          ]
+        },
+        {
+          "name": "DFS_Tools",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/tools/DFSAdmin.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/tools/DFSck.java"
+            }
+          ]
+        },
+        {
+          "name": "Distributed_File_System",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/DFSClient.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/ChecksumDistributedFileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/DistributedFileSystem.java"
+            }
+          ]
+        },
+        {
+          "name": "Protocol_Utilities",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/DatanodeID.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/DatanodeInfo.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/Block.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/LocatedBlocks.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/UnregisteredDatanodeException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/LocatedBlock.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/protocol/BlockListAsLongs.java"
+            }
+          ]
+        },
+        {
+          "name": "Other_utilities",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/util/IndexedSorter.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/DisallowedDatanodeException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/PriorityQueue.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/NativeCodeLoader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/Shell.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/GenericOptionsParser.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/GenericsUtil.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/DiskChecker.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/StringUtils.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/RunJar.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/LineReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/HostsFileReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/PrintJarMainClass.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/ToolRunner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/DataChecksum.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/XMLUtils.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/ServletUtil.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/PlatformName.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/Daemon.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/Tool.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/ProcfsBasedProcessTree.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/UTF8ByteArrayUtils.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/ReflectionUtils.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/ProgramDriver.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/VersionInfo.java"
+            }
+          ]
+        },
+        {
+          "name": "org_apache_hadoop_fs",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/fs/FsUrlStreamHandlerFactory.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/ChecksumException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3/MigrationTool.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3/S3OutputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/FileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/BlockLocation.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/FsShellPermissions.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/FSInputChecker.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/FileStatus.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/Trash.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/permission/FsPermission.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/Seekable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/kfs/IFSImpl.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/kfs/KFSInputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/FsUrlConnection.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/shell/Count.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/Path.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3/Jets3tFileSystemStore.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/FileUtil.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3native/NativeFileSystemStore.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/FileChecksum.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/MD5MD5CRC32FileChecksum.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3native/FileMetadata.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/kfs/KFSOutputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/ftp/FTPFileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/DF.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/HarFileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/ChecksumFileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/permission/AccessControlException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/ftp/FTPException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/DU.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/FSOutputSummer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/BufferedFSInputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/shell/Command.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/kfs/KosmosFileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/permission/FsAction.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/ContentSummary.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3/INode.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/FSDataOutputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3native/NativeS3FileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/Syncable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/FSError.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3/S3FileSystemException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/PositionedReadable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/kfs/KFSImpl.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/shell/CommandUtils.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/LocalDirAllocator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/FsShell.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3native/PartialListing.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/RawLocalFileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3/S3Exception.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3/S3InputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/GlobExpander.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/shell/CommandFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3/FileSystemStore.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/FsUrlStreamHandler.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3/S3FileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3native/Jets3tNativeFileSystemStore.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/FSInputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/InMemoryFileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/permission/PermissionStatus.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/LocalFileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3/VersionMismatchException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/s3/S3Credentials.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/ftp/FTPInputStream.java"
+            }
+          ]
+        },
+        {
+          "name": "Progress",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/util/Progressable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/Progress.java"
+            }
+          ]
+        },
+        {
+          "name": "DelegatingMapper",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/DelegatingInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/MultipleInputs.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/TaggedInputSplit.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/DelegatingMapper.java"
+            }
+          ]
+        },
+        {
+          "name": "org_apache_hadoop_io",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/io/WritableName.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/zlib/ZlibDecompressor.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/NullWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/zlib/ZlibFactory.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/CompressionOutputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/Text.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/retry/RetryPolicies.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/Writable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/VLongWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/serializer/JavaSerialization.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/GzipCodec.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/VersionedWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/SequenceFile.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/LongWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/zlib/BuiltInZlibDeflater.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/retry/RetryPolicy.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/CompressionCodec.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/serializer/WritableSerialization.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/DefaultStringifier.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/OutputBuffer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/WritableFactories.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/SetFile.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/GenericWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/bzip2/CRC.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/MapFile.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/ArrayWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/IntWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/TwoDArrayWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/serializer/Deserializer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/BlockCompressorStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/SortedMapWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/lzo/LzoDecompressor.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/DefaultCodec.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/zlib/BuiltInZlibInflater.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/BooleanWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/Decompressor.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/InputBuffer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/DataOutputBuffer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/CodecPool.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/zlib/ZlibCompressor.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/ArrayFile.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/WritableComparable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/BinaryComparable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/LzoCodec.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/MapWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/WritableComparator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/UTF8.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/DoubleWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/Stringifier.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/ObjectWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/serializer/SerializationFactory.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/CompressedWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/retry/RetryInvocationHandler.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/Compressor.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/ByteWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/bzip2/CBZip2InputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/VersionMismatchException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/LzopCodec.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/BytesWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/DataInputBuffer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/serializer/JavaSerializationComparator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/lzo/LzoCompressor.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/bzip2/CBZip2OutputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/serializer/Serialization.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/serializer/Serializer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/CompressionCodecFactory.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/AbstractMapWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/WritableFactory.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/bzip2/BZip2Constants.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/CompressionInputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/CompressorStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/IOUtils.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/BZip2Codec.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/RawComparator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/BlockDecompressorStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/MD5Hash.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/compress/DecompressorStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/MultipleIOException.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/VIntWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/retry/RetryProxy.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/FloatWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/serializer/DeserializerComparator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/io/WritableUtils.java"
+            }
+          ]
+        },
+        {
+          "name": "HDFS_Upgrade_Management",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/UpgradeObjectCollection.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/UpgradeManager.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/Upgradeable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/UpgradeStatusReport.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/common/UpgradeObject.java"
+            }
+          ]
+        },
+        {
+          "name": "HTTP_Protocol_Access",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/HftpFileSystem.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/HsftpFileSystem.java"
+            }
+          ]
+        },
+        {
+          "name": "Namenode_Protocol",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/NamenodeProtocol.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/protocol/BlocksWithLocations.java"
+            }
+          ]
+        },
+        {
+          "name": "Transfer_HDFS_over_HTTP",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/ListPathsServlet.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/FileDataServlet.java"
+            }
+          ]
+        },
+        {
+          "name": "Connectors",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/fs/FSDataOutputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/fs/FSDataInputStream.java"
+            }
+          ]
+        },
+        {
+          "name": "Task_Data_storage_component",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/util/QuickSort.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Task.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/HeapSort.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/ReduceTask.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MapTask.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/MergeSort.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/IndexedSortable.java"
+            }
+          ]
+        },
+        {
+          "name": "org_apache_hadoop_mapred",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskStatus.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/pipes/BinaryProtocol.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/IFile.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SequenceFileOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/jobtasks_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/jobdetails_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/ReduceTask.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MapFileOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobStatusChangeEvent.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobProfile.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/pipes/PipesReducer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskCompletionEvent.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskMemoryManagerThread.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/pipes/PipesNonJavaInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/jobcontrol/JobControl.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SequenceFileAsBinaryInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SortedRanges.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/jobtracker_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobQueueJobInProgressListener.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/FileInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/machines_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/db/DBOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/jobconf_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Child.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobEndNotifier.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/MultipleOutputs.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobTracker.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskTracker.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Task.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/jobconf_005fhistory_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Counters.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MRSortResultIterator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/ResetableIterator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/aggregate/ValueAggregatorBaseDescriptor.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JvmManager.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/IsolationRunner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/JoinRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/jobtaskshistory_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/taskdetails_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Merger.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/loadhistory_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/EagerTaskInitializationListener.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/LocalJobRunner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/Chain.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/Parser.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SequenceFileAsBinaryOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/tasktracker_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskTrackerAction.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TextOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/pipes/Submitter.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/taskstats_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobHistory.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/MultipleOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/IndexCache.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobStatus.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/jobhistory_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/NullOutputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskTrackerStatus.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/TupleWritable.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/MapTask.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/HeartbeatResponse.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskLog.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/MultiFilterRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/QueueManager.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/db/DBInputFormat.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/TotalOrderPartitioner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/LineRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/StreamBackedIterator.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/KeyFieldHelper.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/Reporter.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/InputSampler.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/analysejobhistory_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/taskdetailshistory_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/SequenceFileInputFilter.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/jobblacklistedtrackers_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/StatusHttpServer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/DefaultJobHistoryParser.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobInProgress.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/join/CompositeRecordReader.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/TaskInProgress.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/jobdetailshistory_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/jobqueue_005fdetails_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/HistoryViewer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/jobfailures_jsp.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/MultithreadedMapRunner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobClient.java"
+            }
+          ]
+        },
+        {
+          "name": "org_apache_hadoop_http",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/http/HttpServer.java"
+            }
+          ]
+        },
+        {
+          "name": "Network_Utilities",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/net/ScriptBasedMapping.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/net/SocketInputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/net/SocketOutputStream.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/net/NetUtils.java"
+            }
+          ]
+        },
+        {
+          "name": "NameNode_HDFS_Protocol_Core",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/FSDirectory.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/INodeFile.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/FSImage.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/INode.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/FSEditLog.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/hdfs/server/namenode/LeaseManager.java"
+            }
+          ]
+        },
+        {
+          "name": "org_apache_hadoop_util",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/util/DiskChecker.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/StringUtils.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/RunJar.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/DataChecksum.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/Shell.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/ProcfsBasedProcessTree.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/util/ProgramDriver.java"
+            }
+          ]
+        },
+        {
+          "name": "JobShell",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/JobShell.java"
+            }
+          ]
+        },
+        {
+          "name": "Job_History",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/DefaultJobHistoryParser.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/HistoryViewer.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/JobHistory.java"
+            }
+          ]
+        },
+        {
+          "name": "TotalOrderPartitioner",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/TotalOrderPartitioner.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/InputSampler.java"
+            }
+          ]
+        },
+        {
+          "name": "Chain_MapReduce",
+          "nested": [
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/ChainMapper.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/Chain.java"
+            },
+            {
+              "rawName": "org/apache/hadoop/mapred/lib/ChainReducer.java"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

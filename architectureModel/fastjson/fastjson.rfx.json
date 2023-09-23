@@ -1,0 +1,1096 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "com",
+            "nested": [
+                {
+                    "@type": "group",
+                    "name": "com/alibaba",
+                    "nested": [
+                        {
+                            "@type": "group",
+                            "name": "com/alibaba/fastjson",
+                            "nested": [
+                                {
+                                    "@type": "group",
+                                    "name": "com/alibaba/fastjson/this",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/JSON.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/JSON.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/JSONArray.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/JSONArray.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/JSONAware.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/JSONAware.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/JSONException.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/JSONException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/JSONObject.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/JSONObject.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/JSONPObject.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/JSONPObject.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/JSONPath.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/JSONPath.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/JSONPathException.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/JSONPathException.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/JSONReader.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/JSONReader.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/JSONStreamAware.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/JSONStreamAware.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/JSONStreamContext.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/JSONStreamContext.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/JSONValidator.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/JSONValidator.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/JSONWriter.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/JSONWriter.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/PropertyNamingStrategy.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/PropertyNamingStrategy.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/this/TypeReference.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/TypeReference.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "com/alibaba/fastjson/annotation",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/annotation/JSONCreator.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/annotation/JSONCreator.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/annotation/JSONField.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/annotation/JSONField.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/annotation/JSONPOJOBuilder.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/annotation/JSONPOJOBuilder.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/annotation/JSONType.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/annotation/JSONType.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "com/alibaba/fastjson/asm",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/asm/ByteVector.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/asm/ByteVector.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/asm/ClassReader.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/asm/ClassReader.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/asm/ClassWriter.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/asm/ClassWriter.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/asm/FieldWriter.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/asm/FieldWriter.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/asm/Item.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/asm/Item.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/asm/Label.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/asm/Label.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/asm/MethodCollector.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/asm/MethodCollector.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/asm/MethodVisitor.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/asm/MethodVisitor.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/asm/MethodWriter.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/asm/MethodWriter.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/asm/Opcodes.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/asm/Opcodes.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/asm/Type.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/asm/Type.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/asm/TypeCollector.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/asm/TypeCollector.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "com/alibaba/fastjson/parser",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "com/alibaba/fastjson/parser/this",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/this/DefaultExtJSONParser.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/DefaultExtJSONParser.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/this/DefaultJSONParser.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/DefaultJSONParser.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/this/Feature.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/Feature.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/this/JSONLexer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/JSONLexer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/this/JSONLexerBase.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/this/JSONReaderScanner.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/JSONReaderScanner.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/this/JSONScanner.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/JSONScanner.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/this/JSONToken.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/JSONToken.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/this/ParseContext.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/ParseContext.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/this/ParserConfig.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/ParserConfig.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/this/SymbolTable.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/SymbolTable.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "com/alibaba/fastjson/parser/deserializer",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/ASMDeserializerFactory.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/ASMDeserializerFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/AbstractDateDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/AbstractDateDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/ArrayListTypeFieldDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/ArrayListTypeFieldDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/AutowiredObjectDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/AutowiredObjectDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/ContextObjectDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/ContextObjectDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/DefaultFieldDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/DefaultFieldDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/EnumDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/EnumDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/ExtraProcessable.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/ExtraProcessable.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/ExtraProcessor.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/ExtraProcessor.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/ExtraTypeProvider.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/ExtraTypeProvider.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/FieldDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/FieldDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/FieldTypeResolver.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/FieldTypeResolver.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/JSONPDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/JSONPDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/JavaObjectDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/JavaObjectDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/Jdk8DateCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/Jdk8DateCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/MapDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/MapDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/NumberDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/NumberDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/ObjectDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/ObjectDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/OptionalCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/OptionalCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/ParseProcess.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/ParseProcess.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/PropertyProcessable.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/PropertyProcessable.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/PropertyProcessableDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/PropertyProcessableDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/ResolveFieldDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/ResolveFieldDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/SqlDateDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/SqlDateDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/StackTraceElementDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/StackTraceElementDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/ThrowableDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/ThrowableDeserializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/parser/deserializer/TimeDeserializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/parser/deserializer/TimeDeserializer.java"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "com/alibaba/fastjson/serializer",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "com/alibaba/fastjson/serializer/this",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/ASMSerializerFactory.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/ASMSerializerFactory.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/AdderSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/AdderSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/AfterFilter.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/AfterFilter.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/AnnotationSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/AnnotationSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/AppendableSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/AppendableSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/ArraySerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/ArraySerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/AtomicCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/AtomicCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/AutowiredObjectSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/AutowiredObjectSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/AwtCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/AwtCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/BeanContext.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/BeanContext.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/BeforeFilter.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/BeforeFilter.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/BigDecimalCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/BigDecimalCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/BigIntegerCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/BigIntegerCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/BooleanCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/BooleanCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/ByteBufferCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/ByteBufferCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/CalendarCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/CalendarCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/CharArrayCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/CharArrayCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/CharacterCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/CharacterCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/ClobSeriliazer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/ClobSeriliazer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/CollectionCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/CollectionCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/ContextObjectSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/ContextObjectSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/ContextValueFilter.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/ContextValueFilter.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/DateCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/DateCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/DoubleSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/DoubleSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/EnumSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/EnumSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/EnumerationSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/EnumerationSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/FieldSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/FieldSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/FloatCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/FloatCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/GuavaCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/GuavaCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/IntegerCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/IntegerCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/JSONAwareSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/JSONAwareSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/JSONLibDataFormatSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/JSONLibDataFormatSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/JSONObjectCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/JSONObjectCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/JSONSerializable.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/JSONSerializable.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/JSONSerializableSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/JSONSerializableSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/JSONSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/JSONSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/JSONSerializerMap.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/JSONSerializerMap.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/JavaBeanSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/JavaBeanSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/JodaCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/JodaCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/LabelFilter.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/LabelFilter.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/Labels.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/Labels.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/ListSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/ListSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/LongCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/LongCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/MapSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/MapSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/MiscCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/MiscCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/NameFilter.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/NameFilter.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/ObjectArrayCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/ObjectArrayCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/ObjectSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/ObjectSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/PascalNameFilter.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/PascalNameFilter.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/PrimitiveArraySerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/PrimitiveArraySerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/PropertyFilter.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/PropertyFilter.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/PropertyPreFilter.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/PropertyPreFilter.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/ReferenceCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/ReferenceCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/SerialContext.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/SerialContext.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/SerializeBeanInfo.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/SerializeBeanInfo.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/SerializeConfig.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/SerializeConfig.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/SerializeFilter.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/SerializeFilter.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/SerializeFilterable.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/SerializeFilterable.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/SerializeWriter.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/SerializeWriter.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/SerializerFeature.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/SerializerFeature.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/SimpleDateFormatSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/SimpleDateFormatSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/SimplePropertyPreFilter.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/SimplePropertyPreFilter.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/StringCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/StringCodec.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/ToStringSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/ToStringSerializer.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/serializer/this/ValueFilter.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/serializer/ValueFilter.java"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "com/alibaba/fastjson/spi",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/spi/Module.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/spi/Module.java"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "com/alibaba/fastjson/support",
+                                    "nested": [
+                                        {
+                                            "@type": "group",
+                                            "name": "com/alibaba/fastjson/support/config",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/config/FastJsonConfig.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/config/FastJsonConfig.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "com/alibaba/fastjson/support/geo",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/geo/Feature.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/geo/Feature.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/geo/FeatureCollection.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/geo/FeatureCollection.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/geo/Geometry.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/geo/Geometry.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/geo/GeometryCollection.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/geo/GeometryCollection.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/geo/LineString.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/geo/LineString.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/geo/MultiLineString.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/geo/MultiLineString.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/geo/MultiPoint.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/geo/MultiPoint.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/geo/MultiPolygon.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/geo/MultiPolygon.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/geo/Point.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/geo/Point.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/geo/Polygon.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/geo/Polygon.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "com/alibaba/fastjson/support/hsf",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/hsf/HSFJSONUtils.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/hsf/HSFJSONUtils.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/hsf/MethodLocator.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/hsf/MethodLocator.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "com/alibaba/fastjson/support/jaxrs",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/jaxrs/FastJsonAutoDiscoverable.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/jaxrs/FastJsonAutoDiscoverable.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/jaxrs/FastJsonFeature.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/jaxrs/FastJsonFeature.java"
+                                                },
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/jaxrs/FastJsonProvider.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/jaxrs/FastJsonProvider.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "com/alibaba/fastjson/support/moneta",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/moneta/MonetaCodec.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/moneta/MonetaCodec.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "com/alibaba/fastjson/support/retrofit",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/retrofit/Retrofit2ConverterFactory.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/retrofit/Retrofit2ConverterFactory.java"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "com/alibaba/fastjson/support/spring",
+                                            "nested": [
+                                                {
+                                                    "@type": "group",
+                                                    "name": "com/alibaba/fastjson/support/spring/this",
+                                                    "nested": [
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/this/FastJsonContainer.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/FastJsonContainer.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/this/FastJsonHttpMessageConverter.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/FastJsonHttpMessageConverter.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/this/FastJsonHttpMessageConverter4.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/FastJsonHttpMessageConverter4.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/this/FastJsonJsonView.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/FastJsonJsonView.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/this/FastJsonRedisSerializer.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/FastJsonRedisSerializer.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/this/FastJsonViewResponseBodyAdvice.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/FastJsonViewResponseBodyAdvice.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/this/FastJsonpHttpMessageConverter4.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/FastJsonpHttpMessageConverter4.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/this/FastJsonpResponseBodyAdvice.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/FastJsonpResponseBodyAdvice.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/this/FastjsonSockJsMessageCodec.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/FastjsonSockJsMessageCodec.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/this/GenericFastJsonRedisSerializer.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/GenericFastJsonRedisSerializer.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/this/JSONPResponseBodyAdvice.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/JSONPResponseBodyAdvice.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/this/MappingFastJsonValue.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/MappingFastJsonValue.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/this/PropertyPreFilters.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/PropertyPreFilters.java"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "group",
+                                                    "name": "com/alibaba/fastjson/support/spring/annotation",
+                                                    "nested": [
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/annotation/FastJsonFilter.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/annotation/FastJsonFilter.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/annotation/FastJsonView.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/annotation/FastJsonView.java"
+                                                        },
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/annotation/ResponseJSONP.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/annotation/ResponseJSONP.java"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "group",
+                                                    "name": "com/alibaba/fastjson/support/spring/messaging",
+                                                    "nested": [
+                                                        {
+                                                            "@type": "item",
+                                                            "name": "com/alibaba/fastjson/support/spring/messaging/MappingFastJsonMessageConverter.java",
+                                                            "rawName": "src/main/java/com/alibaba/fastjson/support/spring/messaging/MappingFastJsonMessageConverter.java"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "group",
+                                            "name": "com/alibaba/fastjson/support/springfox",
+                                            "nested": [
+                                                {
+                                                    "@type": "item",
+                                                    "name": "com/alibaba/fastjson/support/springfox/SwaggerJsonSerializer.java",
+                                                    "rawName": "src/main/java/com/alibaba/fastjson/support/springfox/SwaggerJsonSerializer.java"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "group",
+                                    "name": "com/alibaba/fastjson/util",
+                                    "nested": [
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/ASMClassLoader.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/ASMClassLoader.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/ASMUtils.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/ASMUtils.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/AntiCollisionHashMap.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/AntiCollisionHashMap.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/Base64.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/Base64.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/FieldInfo.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/FieldInfo.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/GenericArrayTypeImpl.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/GenericArrayTypeImpl.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/IOUtils.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/IOUtils.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/IdentityHashMap.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/IdentityHashMap.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/JavaBeanInfo.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/JavaBeanInfo.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/ParameterizedTypeImpl.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/ParameterizedTypeImpl.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/RyuDouble.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/RyuDouble.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/RyuFloat.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/RyuFloat.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/ServiceLoader.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/ServiceLoader.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/ThreadLocalCache.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/ThreadLocalCache.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/TypeUtils.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/TypeUtils.java"
+                                        },
+                                        {
+                                            "@type": "item",
+                                            "name": "com/alibaba/fastjson/util/UTF8Decoder.java",
+                                            "rawName": "src/main/java/com/alibaba/fastjson/util/UTF8Decoder.java"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
