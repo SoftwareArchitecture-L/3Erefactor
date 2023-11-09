@@ -1,0 +1,2838 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "archstudio4",
+  "structure" : [ {
+    "@type" : "group",
+    "name" : "L0",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L0/M0",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/resources/IResources.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M1",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/Bootstrap.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/Archstudio4Activator.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M2",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/editors/FocusEditorListener.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M3",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/launcher/ILaunchable.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/launcher/ILaunchData.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M4",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L0/M4/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L0/M4/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/graphlayout/GraphLayoutParameters.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M4/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/graphlayout/GraphLayoutException.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M4/L0/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/graphlayout/GraphLayout.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L0/M4/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/graphlayout/IGraphLayout.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M5",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/graphlayout/GraphLayoutConstants.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M6",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/editors/XadlEditorMatchingStrategy.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M7",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/editors/IEditorManager.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M8",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/editors/EditorConstants.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M9",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/fileman/CantOpenFileException.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/fileman/IFileManager.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M10",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/fileman/IFileManagerListener.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M11",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/versionpruner/InvalidURIException.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/versionpruner/IVersionPruner.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M12",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L0/M12/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L0/M12/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/pruner/MissingAttributeException.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M12/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/pruner/InvalidURIException.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M12/L0/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/pruner/InvalidElementIDException.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M12/L0/M3",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/pruner/BrokenLinkException.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M12/L0/M4",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/pruner/MissingElementException.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L0/M12/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/pruner/IPruner.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M13",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/guardtracker/IGuardTracker.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M14",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L0/M14/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L0/M14/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/ParseException.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/Token.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M14/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/TokenMgrError.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L0/M14/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/IBooleanNotation.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M15",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/copypaste/ICopyPasteManager.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/copypaste/ICopiedElementNode.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M16",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/testadt/IArchlightTestADT.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/archlight/ArchlightTest.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M17",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L0/M17/M0",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/archlight/ArchlightElementIdentifier.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L0/M17/M1",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/archlight/ArchlightIssue.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L0/M17/M2",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/archlight/issueadt/IArchlightIssueADT.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M18",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/tools/schematron/SchematronConstants.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M19",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/noticeadt/IArchlightNoticeADT.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/archlight/ArchlightNotice.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M20",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/archlight/IArchlightTool.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M21",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/DoubleClickAction.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/ArchlightConstants.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M22",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/IArchipelagoEvent.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M23",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/ArchipelagoConstants.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M24",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/ArchipelagoTypesConstants.java"
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L1",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L1/M0",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/natures/ArchStudio4Nature.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/util/EclipseUtils.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M1",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/launcher/LaunchData.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M2",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/editors/AbstractArchstudioEditorMyxComponent.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M3",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/copypaste/RelatedElementNode.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/copypaste/ObjRefNode.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M4",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/noticeadt/ArchlightNoticeADTListener.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/noticeadt/ArchlightNoticeADTEvent.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M5",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/issueadt/ArchlightIssueADTListener.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/issueadt/ArchlightIssueADTEvent.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M6",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L1/M6/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L1/M6/L0/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L1/M6/L0/M0/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L1/M6/L0/M0/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/IArchipelagoTreeNodeDataCache.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L1/M6/L0/M0/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/IArchipelagoEventListener.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/IArchipelagoEventBus.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L1/M6/L0/M0/L0/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/IArchipelagoEditorPane.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L1/M6/L0/M0/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/ArchipelagoServices.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L1/M6/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/IXArchEventHandlerLogic.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L1/M6/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/ArchipelagoUtils.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M7",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L1/M7/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L1/M7/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/codegen/BrickList.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L1/M7/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/codegen/BrickLabel.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L1/M7/Control",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L1/M7/Control/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/codegen/BrickLabelList.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L1/M7/Control/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/codegen/SWTBrickSelectorThing.java"
+          } ]
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M8",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/things/SWTXadlSelectorThing.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M9",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/util/ArchstudioResources.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M10",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/fileman/FileManagerMyxComponent.java"
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L2",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L2/M0",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/editors/AbstractArchstudioOutlinePage.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/editors/AbstractArchstudioEditor.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L2/M1",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/util/XadlTreeUtils.java"
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L3",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L3/M0",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/util/XadlTreeLabelProvider.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L3/M1",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/util/XadlTreeContentProvider.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L3/M2",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L3/M2/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L3/M2/L0/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L3/M2/L0/M0/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L0/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L3/M2/L0/M0/L0/M0/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L3/M2/L0/M0/L0/M0/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureMapper.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureEvents.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M2/L0/M0/L0/M0/L0/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesEvents.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M2/L0/M0/L0/M0/Control",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L3/M2/L0/M0/L0/M0/Control/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesMapper.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M2/L0/M0/L0/M0/Control/M2",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/InterfaceLocationSyncUtils.java"
+                  } ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L3/M2/L0/M0/L1",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesXArchEventHandlerLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesEditColorLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesCreateSIMLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M3",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesStructureDropLogic.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesRemoveDeadSIMLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M4",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/ArchipelagoFinder.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M5",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesNewSignatureLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M6",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesAssignStructureLogic.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/AbstractXadlSelectorLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M7",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesTypeDropLogic.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/AbstractTypeDropLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M8",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesRemoveLogic.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/AbstractRemoveLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M9",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/AbstractEditDirectionLogic.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesEditDirectionLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M10",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/AbstractEditDescriptionLogic.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesEditDescriptionLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M11",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/hints/XAdlHintRepository.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M12",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L3/M2/L0/M0/L1/M12/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L3/M2/L0/M0/L1/M12/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/PropertyDecodeException.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/IPropertyCoder.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M2/L0/M0/L1/M12/L1",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L3/M2/L0/M0/L1/M12/L1/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/EnumPropertyCoder.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/ArrayPropertyCoder.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M2/L0/M0/L1/M12/L1/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/BasicSWTPropertyCoder.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/BasicPropertyCoder.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M2/L0/M0/L1/M12/L1/M2",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesHintSupport.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M2/L0/M0/L1/M12/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/HintSupport.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M13",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/ArchipelagoMyxComponent.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L0/M0/L1/M14",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/FileDirtyLogic.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L3/M2/L0/M0/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesEditorSupport.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/codegen/EditorUtil.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L3/M2/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L3/M2/L1/M0/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L3/M2/L1/M0/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/editing/dialogs/OptionsDialogLabelProvider.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L1/M0/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/editing/dialogs/OptionsDialogContentProvider.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L1/M0/L0/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/editing/XadlCopyPasteLogic.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L3/M2/L1/M0/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/editing/dialogs/OptionsDialog.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/editing/AlignSignatureInterfaceMappingsLogic.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M2",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L3/M2/L1/M2/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L3/M2/L1/M2/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/graphlayout/gui/IGraphLayoutParameterPanel.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/graphlayout/gui/DataValidationException.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L3/M2/L1/M2/L1",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L3/M2/L1/M2/L1/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L3/M2/L1/M2/L1/M0/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L3/M2/L1/M2/L1/M0/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/graphlayout/gui/SizeAndScaleParameterPanel.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M2/L1/M2/L1/M0/L0/M1",
+                  "nested" : [ {
+                    "@type" : "group",
+                    "name" : "L3/M2/L1/M2/L1/M0/L0/M1/M0",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "src/edu/uci/isr/archstudio4/graphlayout/gui/IGraphLayoutParameterPanelProvider.java"
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L3/M2/L1/M2/L1/M0/L0/M1/M1",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "src/edu/uci/isr/archstudio4/graphlayout/gui/GraphLayoutDialog.java"
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L3/M2/L1/M2/L1/M0/L0/M1/M2",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureGraphLayoutLogic.java"
+                    } ]
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M2/L1/M2/L1/M0/L0/M2",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/graphlayout/gui/GeneralOptionsParameterPanel.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M2/L1/M2/L1/M0/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/edu/uci/isr/archstudio4/graphlayout/gui/NeatoPanelProvider.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L1/M2/L1/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/graphlayout/gui/OrientInterfacesParameterPanel.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/graphlayout/gui/DotSpacingParameterPanel.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L3/M2/L1/M2/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/graphlayout/gui/DotPanelProvider.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M3",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L3/M2/L1/M3/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L3/M2/L1/M3/L0/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L3/M2/L1/M3/L0/M0/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L3/M2/L1/M3/L0/M0/L0/M0",
+                  "nested" : [ {
+                    "@type" : "group",
+                    "name" : "L3/M2/L1/M3/L0/M0/L0/M0/M0",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/mapping/BNAPath.java"
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L3/M2/L1/M3/L0/M0/L0/M0/M1",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/mapping/SingleAssemblyXadlMappingLogic.java"
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L3/M2/L1/M3/L0/M0/L0/M0/M2",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/mapping/MapXadlSplineLogic.java"
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L3/M2/L1/M3/L0/M0/L0/M0/M3",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/mapping/MapXadlNondirectionalSplineLogic.java"
+                    } ]
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M2/L1/M3/L0/M0/L0/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/coordinating/MaintainXadlLinksLogic.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M2/L1/M3/L0/M0/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/mapping/AbstractAutomapSingleAssemblyXArchRelativePathMappingLogic.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M2/L1/M3/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/options/OptionsUtils.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L3/M2/L1/M3/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/archstructure/logics/mapping/MapXadlLinkLogic.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M4",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureNewElementLogic.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M5",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/editing/XadlRemoveElementLogic.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M6",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/editing/XadlSelectionProviderLogic.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M7",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureEditDirectionLogic.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M8",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureEditDescriptionLogic.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M9",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureEditColorLogic.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M10",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureAssignTypeLogic.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureMapSignatureLogic.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M11",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureNewInterfaceLogic.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M12",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureInterfaceLocationsLogic.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M13",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureHintSupport.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M14",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureTypeDropLogic.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M15",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureXArchEventHandlerLogic.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M16",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/codegen/ExternalBrickSelectorLogic.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/codegen/BrickSelectorLogic.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M2/L1/M17",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/codegen/BrickInterfaceSelectorLogic.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L3/M2/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureEditorSupport.java"
+        } ]
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L4",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L4/M0",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/util/XadlSelectorDialog.java"
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L5",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L5/M0",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M0/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M0/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/rationale/RationaleViewManager.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M0/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M0/L1/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/rationale/views/RationaleViewMyxComponent.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/rationale/views/AbstractRationaleViewMyxComponent.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M0/L1/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/rationale/views/RationaleLabelProvider.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/rationale/views/AssociatedItemsLabelProvider.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/rationale/actions/DeleteRationaleAction.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/rationale/actions/AddRationaleAction.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M0/L1/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/rationale/views/RationaleContentProvider.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/rationale/views/RationaleCellModifier.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/rationale/views/AssociatedItemsContentProvider.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M0/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/rationale/views/RationaleViewPart.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M1",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/versionpruner/VersionPrunerMyxComponent.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/versionpruner/VersionPrunerImpl.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M2",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M2/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M2/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/typewrangler/TypeWranglerOutlinePage.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M2/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/typewrangler/TypeWranglerMyxComponent.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M2/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/typewrangler/TypeWranglerEditor.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M3",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M3/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M3/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/selectordriver/SelectorDriverOutlinePage.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M3/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/selectordriver/SelectorDriverMyxComponent.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M3/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/selectordriver/SelectorDriverEditor.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M4",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/pruner/PrunerMyxComponent.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/pruner/PrunerImpl.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M5",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M5/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M5/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/launcher/LauncherMyxComponent.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M5/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/fileman/NewFileWizard.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M5/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/launcher/LauncherView.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M6",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/guardtracker/GuardTrackerMyxComponent.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/guardtracker/GuardTrackerImpl.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M7",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M7/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M7/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/graphlayout/graphviz/DotLayoutEngine.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M7/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/graphlayout/ILayoutEngine.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M7/L0/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/graphlayout/AliasTable.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M7/Control",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M7/Control/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/graphlayout/graphviz/AbstractGraphvizLayoutEngine.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M7/Control/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/graphlayout/GraphLayoutMyxComponent.java"
+          } ]
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M8",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/graphlayout/GraphLayoutPrefsMyxComponent.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/graphlayout/GraphLayoutPreferencePanel.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M9",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/filetracker/FileTrackerView.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/filetracker/FileTrackerMyxComponent.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M10",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/editormanager/EditorPrefsMyxComponent.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/editormanager/EditorPreferencePanel.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M11",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/copypaste/CopyPasteMyxComponent.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/copypaste/CopyPasteManagerImpl.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M12",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M12/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M12/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/changesetsviewer/ChangeSetsViewerOutlinePage.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/changesetsviewer/ChangeSetsViewerMyxComponent.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M12/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/changesetsviewer/ChangeSetsViewerConstants.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M12/L0/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/changesetsviewer/ChangeSetsDisplayLabelProvider.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M12/L0/M3",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/changesetsviewer/ChangeSetsDisplayContentProvider.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M12/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/changesetsviewer/ChangeSetsViewerEditor.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M13",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M13/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M13/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/Node.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M13/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BPUtilities.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M13/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M13/L1/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/IBooleanGuard.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/SimpleNode.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M13/L2",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M13/L2/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M13/L2/M0/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M13/L2/M0/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BooleanGuardParserConstants.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M13/L2/M0/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/SimpleCharStream.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M13/L2/M0/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BooleanGuardParserTokenManager.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M13/L2/M1",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M13/L2/M1/M0",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BPStart.java"
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M13/L2/M1/M1",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BooleanGuardConverter.java"
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M13/L2/M1/M2",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BooleanNotationMyxComponent.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M13/L2/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BooleanGuardParserTreeConstants.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M13/L2/M3",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BPAndNode.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BPOrNode.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BPNotNode.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BPInSetNode.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BPInRangeNode.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M13/L2/M4",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/JJTBooleanGuardParserState.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M13/L2/M5",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BPNotEqualNode.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BPLessNode.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BPLessEqualNode.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BPGreaterNode.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BPGreaterEqualNode.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BPEqualNode.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M13/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/booleannotation/BooleanGuardParser.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M14",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/basepreferences/BasePreferencesMyxComponent.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/basepreferences/ArchStudioPreferencePanel.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M15",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M15/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M15/L0/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M15/L0/M0/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M15/L0/M0/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archlight/tools/schematron/SchematronUtils.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archlight/tools/schematron/SchematronInitializationException.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M15/L0/M0/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archlight/tools/schematron/SchematronTestFileParseException.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M15/L0/M0/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archlight/tools/schematron/SchematronTestFile.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M15/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archlight/tools/schematron/SchematronTestException.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M15/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M15/L1/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archlight/tools/schematron/SchematronTestResultParser.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/archlight/ArchlightTestResult.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M15/L1/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/archlight/ArchlightTestError.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M15/L1/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archlight/tools/schematron/SchematronTestManager.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M15/L1/M3",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archlight/tools/schematron/SchematronTester.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M15/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/archlight/tools/schematron/SchematronMyxComponent.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M16",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/tools/schematron/SchematronPrefsMyxComponent.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/tools/schematron/SchematronPreferencePanel.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M17",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M17/M0",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/archlight/testadt/ArchlightTestADTEvent.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M17/M1",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/archlight/testadt/ArchlightTestADTListener.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M17/M2",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/archlight/testadt/ArchlightTestADT.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M17/M3",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/archlight/testadt/ArchlightTestADTMyxComponent.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M18",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/prefs/ArchlightPrefsMyxComponent.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/prefs/ArchlightPreferencePanel.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M19",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/noticeview/ArchlightNoticeView.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/noticeview/ArchlightNoticeViewMyxComponent.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M20",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/noticeadt/ArchlightNoticeADTMyxComponent.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/noticeadt/ArchlightNoticeADT.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M21",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/issueview/ArchlightIssueViewMyxComponent.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/issueview/ArchlightIssueView.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M22",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/issueadt/ArchlightIssueADTMyxComponent.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/issueadt/ArchlightIssueADT.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M23",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M23/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M23/L0/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M23/L0/M0/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M23/L0/M0/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archlight/FolderNode.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M23/L0/M0/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archlight/ArchlightDocTest.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M23/L0/M0/Control",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M23/L0/M0/Control/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archlight/ArchlightUtils.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M23/L0/M0/Control/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archlight/ArchlightOutlinePage.java"
+              } ]
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M23/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archlight/ArchlightMyxComponent.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M23/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/archlight/ArchlightEditor.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M24",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M24/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M24/L0/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M24/L0/M0/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M24/L0/M0/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/IArchipelagoTreeDoubleClickHandler.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L0/M0/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/IArchipelagoTreeContextMenuFiller.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L0/M0/L0/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/IArchipelagoTreeContentProvider.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L0/M0/L0/M3",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/IArchipelagoLabelProvider.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L0/M0/L0/M4",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/IArchipelagoEditorFocuser.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M24/L0/M0/Control",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M24/L0/M0/Control/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/IArchipelagoTreePlugin.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L0/M0/Control/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/AbstractArchipelagoTreePlugin.java"
+              } ]
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/AbstractEditGuardLogic.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L0/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/FolderNode.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L0/M3",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/StatechartsEvents.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L0/M4",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M24/L0/M4/M0",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/logics/mapping/MapXadlInitialStateLogic.java"
+            }, {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/logics/mapping/MapXadlFinalStateLogic.java"
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M24/L0/M4/M1",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/mapping/MapXadlDirectionalSplineLogic.java"
+            } ]
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M24/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M24/L1/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/AbstractRemoveContextMenuFiller.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L1/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/AbstractEditDescriptionContextMenuFiller.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L1/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/util/AbstractEditDescriptionCellModifier.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M24/L2",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M24/L2/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M0/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M0/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesXArchEventHandler.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M0/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesTreeLabelProvider.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M0/L0/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesTreeDragSourceListener.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M0/L0/M3",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesTreeContentProvider.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesNewTypeContextMenuFiller.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M0/L0/M4",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesRemoveTypeSetContextMenuFiller.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M0/L0/M5",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesRemoveContextMenuFiller.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M0/L0/M6",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesNewTypeSetContextMenuFiller.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M0/L0/M7",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesFileManagerListener.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M0/L0/M8",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesEditorFocuser.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M0/L0/M9",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesEditDescriptionContextMenuFiller.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M0/L0/M10",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesEditDescriptionCellModifier.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M0/L0/M11",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesDoubleClickHandler.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M0/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/TypesTreePlugin.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L2/M1",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M1/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M1/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/variants/PromoteToVariantLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M1/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/variants/EditVariantsLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M1/L0/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/variants/AddVariantLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M1/L0/M3",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/variants/VariantsTreePlugin.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M1/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/variants/VariantsEventListener.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L2/M2",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M2/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M2/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureEditorFocuser.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M2/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureEditDescriptionContextMenuFiller.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M2/L0/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureEditDescriptionCellModifier.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M2/L0/M3",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureXArchEventHandler.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M2/L0/M4",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureTreeLabelProvider.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M2/L0/M5",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureTreeContentProvider.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureNewStructureContextMenuFiller.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M2/L0/M6",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureRemoveContextMenuFiller.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M2/L0/M7",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureDoubleClickHandler.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M2/L0/M8",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureFileManagerListener.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M2/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/types/StructureTreePlugin.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L2/M3",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M3/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M3/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/stateline/StatelineUtils.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M3/L1",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M3/L1/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/stateline/StatelineTreePlugin.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M3/L1/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/stateline/StatelineStructureLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M3/L1/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/stateline/StatelineStatechartsLogic.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M3/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/stateline/StatelineEventListener.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L2/M4",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M4/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M4/L0/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L5/M24/L2/M4/L0/M0/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L5/M24/L2/M4/L0/M0/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/StatechartsDoubleClickHandler.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L5/M24/L2/M4/L0/M0/L0/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/logics/mapping/MapXadlTransitionLogic.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L5/M24/L2/M4/L0/M0/L0/M2",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/logics/mapping/MapXadlStateLogic.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L5/M24/L2/M4/L0/M0/L0/M3",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/logics/editing/StatechartsNewElementLogic.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L5/M24/L2/M4/L0/M0/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/StatechartsEditorSupport.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M4/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/StatechartsXArchEventHandler.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M4/L0/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/StatechartsTreeLabelProvider.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M4/L0/M3",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/StatechartsTreeContentProvider.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/StatechartsNewStatechartContextMenuFiller.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M4/L0/M4",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/StatechartsRemoveContextMenuFiller.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M4/L0/M5",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/StatechartsFileManagerListener.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M4/L0/M6",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/StatechartsEditDescriptionContextMenuFiller.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M4/L0/M7",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/StatechartsEditDescriptionCellModifier.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M4/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/statecharts/StatechartsTreePlugin.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L2/M5",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/FolderNodeTreePlugin.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/FolderNodeLabelProvider.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L2/M6",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/DefaultArchipelagoEventBus.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L2/M7",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/TreeNodeDataCache.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/ArchipelagoDataCache.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L2/M8",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M8/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M8/L0/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L5/M24/L2/M8/L0/M0/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L5/M24/L2/M8/L0/M0/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/ActivityDiagramsEditDescriptionCellModifier.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L5/M24/L2/M8/L0/M0/L0/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/ActivityDiagramsDoubleClickHandler.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L5/M24/L2/M8/L0/M0/L0/M2",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/ActivityDiagramsXArchEventHandler.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L5/M24/L2/M8/L0/M0/L0/M3",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/ActivityDiagramsTreeLabelProvider.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L5/M24/L2/M8/L0/M0/L0/M4",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/ActivityDiagramsTreeContentProvider.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/ActivityDiagramsNewActivityDiagramContextMenuFiller.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L5/M24/L2/M8/L0/M0/L0/M5",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/ActivityDiagramsRemoveContextMenuFiller.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L5/M24/L2/M8/L0/M0/L0/M6",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/ActivityDiagramsFileManagerListener.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L5/M24/L2/M8/L0/M0/L0/M7",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/ActivityDiagramsEditDescriptionContextMenuFiller.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L5/M24/L2/M8/L0/M0/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/ActivityDiagramsTreePlugin.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M8/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/logics/mapping/MapXadlReferenceLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M8/L0/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/logics/mapping/MapXadlNoteLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M8/L0/M3",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/logics/mapping/MapXadlForkJoinLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M8/L0/M4",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/logics/mapping/MapXadlDecisionMergeLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M8/L0/M5",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/logics/mapping/MapXadlControlFlowLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M8/L0/M6",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/logics/mapping/MapXadlActorLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M8/L0/M7",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/logics/mapping/MapXadlActionLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M8/L0/M8",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/logics/editing/ActivityDiagramsEditorContextMenuAddDiagramLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M8/L0/M9",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/logics/editing/ActivityDiagramNewElementLogic.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M8/L0/M10",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/logic/util/ExportPPTLogic2.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M8/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/ActivityDiagramsEditorSupport.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L2/M9",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M9/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M9/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/RootLabelProvider.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M24/L2/M9/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/RootContentProvider.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M9/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/RootTreePlugin.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L2/M10",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M10/M0",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/options/EditOptionalLogic.java"
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M10/M1",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/options/OptionsEventListener.java"
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M24/L2/M10/M2",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/options/OptionsTreePlugin.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M24/L2/M11",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/ArchipelagoEditor.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M24/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/ArchipelagoOutlinePage.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M25",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/prefs/types/ArchipelagoTypesPrefsMyxComponent.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/prefs/types/ArchipelagoTypesPreferencePanel.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M26",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/prefs/ArchipelagoPrefsMyxComponent.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/prefs/ArchipelagoPreferencePanel.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M27",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M27/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M27/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/codegen/BrickContentProvider.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M27/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/codegen/BrickLabelProvider.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M27/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/codegen/SWTBrickSelectorThingPeer.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M28",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M28/M0",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/archedit/ArchEditMyxComponent.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M28/M1",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/archedit/ArchEditOutlinePage.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M28/M2",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/archedit/ArchEditEditor.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M29",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M29/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M29/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/aimlauncher/AIMLauncherOutlinePage.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M29/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/edu/uci/isr/archstudio4/comp/aimlauncher/AIMLauncherMyxComponent.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M29/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/edu/uci/isr/archstudio4/comp/aimlauncher/AIMLauncherEditor.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M30",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/resources/ResourcesMyxComponent.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M31",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/generic/logics/editing/XadlEditDescriptionLogic.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M32",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/preferencesadt/PreferencesADTMyxComponent.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M33",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/editorsupport/events/ActivityDiagramsEvents.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M34",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/activitydiagrams/editorsupport/logics/StructureNewElementLogic.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M35",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archlight/ArchlightToolAggregatorMyxComponent.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M36",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/editormanager/EditorManagerMyxComponent.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M37",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/things/SWTXadlSelectorThingPeer.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M38",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/fileman/FileManagerView.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M39",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/codegen/CodeGenLogic.java"
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "Isolated",
+    "nested" : [ {
+      "@type" : "item",
+      "name" : "src/edu/uci/isr/archstudio4/comp/archipelago/ObjRefTransfer.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/edu/uci/isr/archstudio4/comp/eclipsecontentstore/EclipseContentStoreMyxComponent.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/edu/uci/isr/archstudio4/comp/versionpruner/MissingElementException.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/edu/uci/isr/archstudio4/comp/versionpruner/MissingAttributeException.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/edu/uci/isr/archstudio4/comp/versionpruner/InvalidElementIDException.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/edu/uci/isr/archstudio4/comp/versionpruner/BrokenLinkException.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/edu/uci/isr/archstudio4/rationale/dialog/CustomizedMessageDialog.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/edu/uci/isr/archstudio4/editors/XadlRootElementContentDescriber.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/edu/uci/isr/archstudio4/perspectives/ArchStudio4PerspectiveFactory.java"
+    } ]
+  } ]
+}

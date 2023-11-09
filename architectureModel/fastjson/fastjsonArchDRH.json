@@ -1,0 +1,1513 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "fastjsonArchDRH",
+  "structure" : [ {
+    "@type" : "group",
+    "name" : "L0",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L0/M0",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/serializer/SerializeFilter.java"
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L1",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L1/M0",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L1/M0/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L1/M0/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/serializer/SerializerFeature.java"
+          }, {
+            "@type" : "item",
+            "name" : "fastjson/parser/Feature.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L1/M0/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L1/M0/L1/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/annotation/JSONType.java"
+          }, {
+            "@type" : "item",
+            "name" : "fastjson/PropertyNamingStrategy.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L1/M0/L1/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/annotation/JSONField.java"
+          } ]
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M1",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/serializer/NameFilter.java"
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L2",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L2/M0",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L2/M0/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L2/M0/L0/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L2/M0/L0/M0/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/util/IOUtils.java"
+              }, {
+                "@type" : "item",
+                "name" : "fastjson/JSONException.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L2/M0/L0/M0/L1",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L1/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L2/M0/L0/M0/L1/M0/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L2/M0/L0/M0/L1/M0/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "fastjson/parser/deserializer/ParseProcess.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L2/M0/L0/M0/L1/M0/L1",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L2/M0/L0/M0/L1/M0/L1/M0",
+                  "nested" : [ {
+                    "@type" : "group",
+                    "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0",
+                    "nested" : [ {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0",
+                      "nested" : [ {
+                        "@type" : "group",
+                        "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0",
+                        "nested" : [ {
+                          "@type" : "group",
+                          "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0",
+                          "nested" : [ {
+                            "@type" : "group",
+                            "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L0",
+                            "nested" : [ {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L0/M0",
+                              "nested" : [ {
+                                "@type" : "group",
+                                "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L0/M0/M0",
+                                "nested" : [ {
+                                  "@type" : "item",
+                                  "name" : "fastjson/parser/SymbolTable.java"
+                                }, {
+                                  "@type" : "item",
+                                  "name" : "fastjson/parser/JSONLexer.java"
+                                } ]
+                              }, {
+                                "@type" : "group",
+                                "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L0/M0/M1",
+                                "nested" : [ {
+                                  "@type" : "item",
+                                  "name" : "fastjson/parser/JSONToken.java"
+                                } ]
+                              }, {
+                                "@type" : "group",
+                                "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L0/M0/M2",
+                                "nested" : [ {
+                                  "@type" : "item",
+                                  "name" : "fastjson/parser/deserializer/ObjectDeserializer.java"
+                                } ]
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L0/M1",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "fastjson/util/ParameterizedTypeImpl.java"
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L0/M2",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "fastjson/JSONValidator.java"
+                              } ]
+                            } ]
+                          }, {
+                            "@type" : "group",
+                            "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L1",
+                            "nested" : [ {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L1/M0",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "fastjson/util/FieldInfo.java"
+                              } ]
+                            } ]
+                          }, {
+                            "@type" : "group",
+                            "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2",
+                            "nested" : [ {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0",
+                              "nested" : [ {
+                                "@type" : "group",
+                                "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L0",
+                                "nested" : [ {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L0/M0",
+                                  "nested" : [ {
+                                    "@type" : "group",
+                                    "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L0/M0/L0",
+                                    "nested" : [ {
+                                      "@type" : "group",
+                                      "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L0/M0/L0/M0",
+                                      "nested" : [ {
+                                        "@type" : "group",
+                                        "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L0/M0/L0/M0/L0",
+                                        "nested" : [ {
+                                          "@type" : "group",
+                                          "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L0/M0/L0/M0/L0/M0",
+                                          "nested" : [ {
+                                            "@type" : "group",
+                                            "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L0/M0/L0/M0/L0/M0/L0",
+                                            "nested" : [ {
+                                              "@type" : "group",
+                                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L0/M0/L0/M0/L0/M0/L0/M0",
+                                              "nested" : [ {
+                                                "@type" : "item",
+                                                "name" : "fastjson/util/RyuFloat.java"
+                                              } ]
+                                            }, {
+                                              "@type" : "group",
+                                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L0/M0/L0/M0/L0/M0/L0/M1",
+                                              "nested" : [ {
+                                                "@type" : "item",
+                                                "name" : "fastjson/util/RyuDouble.java"
+                                              } ]
+                                            } ]
+                                          }, {
+                                            "@type" : "group",
+                                            "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L0/M0/L0/M0/L0/M0/Control",
+                                            "nested" : [ {
+                                              "@type" : "item",
+                                              "name" : "fastjson/serializer/SerializeWriter.java"
+                                            } ]
+                                          } ]
+                                        }, {
+                                          "@type" : "group",
+                                          "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L0/M0/L0/M0/L0/M1",
+                                          "nested" : [ {
+                                            "@type" : "item",
+                                            "name" : "fastjson/serializer/ObjectSerializer.java"
+                                          } ]
+                                        } ]
+                                      }, {
+                                        "@type" : "group",
+                                        "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L0/M0/L0/M0/Control",
+                                        "nested" : [ {
+                                          "@type" : "item",
+                                          "name" : "fastjson/serializer/StringCodec.java"
+                                        } ]
+                                      } ]
+                                    }, {
+                                      "@type" : "group",
+                                      "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L0/M0/L0/M1",
+                                      "nested" : [ {
+                                        "@type" : "item",
+                                        "name" : "fastjson/serializer/SerialContext.java"
+                                      } ]
+                                    } ]
+                                  }, {
+                                    "@type" : "group",
+                                    "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L0/M0/Control",
+                                    "nested" : [ {
+                                      "@type" : "item",
+                                      "name" : "fastjson/serializer/JSONSerializer.java"
+                                    } ]
+                                  } ]
+                                } ]
+                              }, {
+                                "@type" : "group",
+                                "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L1",
+                                "nested" : [ {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L1/M0",
+                                  "nested" : [ {
+                                    "@type" : "item",
+                                    "name" : "fastjson/serializer/ContextValueFilter.java"
+                                  }, {
+                                    "@type" : "item",
+                                    "name" : "fastjson/serializer/BeanContext.java"
+                                  } ]
+                                }, {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L1/M1",
+                                  "nested" : [ {
+                                    "@type" : "item",
+                                    "name" : "fastjson/serializer/ValueFilter.java"
+                                  } ]
+                                }, {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L1/M2",
+                                  "nested" : [ {
+                                    "@type" : "item",
+                                    "name" : "fastjson/serializer/PropertyFilter.java"
+                                  } ]
+                                }, {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L1/M3",
+                                  "nested" : [ {
+                                    "@type" : "item",
+                                    "name" : "fastjson/serializer/LabelFilter.java"
+                                  } ]
+                                }, {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/L1/M4",
+                                  "nested" : [ {
+                                    "@type" : "item",
+                                    "name" : "fastjson/serializer/BeforeFilter.java"
+                                  }, {
+                                    "@type" : "item",
+                                    "name" : "fastjson/serializer/PropertyPreFilter.java"
+                                  }, {
+                                    "@type" : "item",
+                                    "name" : "fastjson/serializer/AfterFilter.java"
+                                  } ]
+                                } ]
+                              }, {
+                                "@type" : "group",
+                                "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L2/M0/Control",
+                                "nested" : [ {
+                                  "@type" : "item",
+                                  "name" : "fastjson/serializer/SerializeFilterable.java"
+                                } ]
+                              } ]
+                            } ]
+                          }, {
+                            "@type" : "group",
+                            "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3",
+                            "nested" : [ {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0",
+                              "nested" : [ {
+                                "@type" : "group",
+                                "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0",
+                                "nested" : [ {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0",
+                                  "nested" : [ {
+                                    "@type" : "group",
+                                    "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/L0",
+                                    "nested" : [ {
+                                      "@type" : "group",
+                                      "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/L0/M0",
+                                      "nested" : [ {
+                                        "@type" : "group",
+                                        "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/L0/M0/L0",
+                                        "nested" : [ {
+                                          "@type" : "group",
+                                          "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/L0/M0/L0/M0",
+                                          "nested" : [ {
+                                            "@type" : "group",
+                                            "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/L0/M0/L0/M0/L0",
+                                            "nested" : [ {
+                                              "@type" : "group",
+                                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/L0/M0/L0/M0/L0/M0",
+                                              "nested" : [ {
+                                                "@type" : "group",
+                                                "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/L0/M0/L0/M0/L0/M0/M0",
+                                                "nested" : [ {
+                                                  "@type" : "item",
+                                                  "name" : "fastjson/asm/MethodCollector.java"
+                                                } ]
+                                              }, {
+                                                "@type" : "group",
+                                                "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/L0/M0/L0/M0/L0/M0/M1",
+                                                "nested" : [ {
+                                                  "@type" : "item",
+                                                  "name" : "fastjson/asm/ClassReader.java"
+                                                } ]
+                                              }, {
+                                                "@type" : "group",
+                                                "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/L0/M0/L0/M0/L0/M0/M2",
+                                                "nested" : [ {
+                                                  "@type" : "item",
+                                                  "name" : "fastjson/util/ASMUtils.java"
+                                                } ]
+                                              } ]
+                                            }, {
+                                              "@type" : "group",
+                                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/L0/M0/L0/M0/L0/M1",
+                                              "nested" : [ {
+                                                "@type" : "item",
+                                                "name" : "fastjson/parser/JSONLexerBase.java"
+                                              } ]
+                                            } ]
+                                          }, {
+                                            "@type" : "group",
+                                            "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/L0/M0/L0/M0/Control",
+                                            "nested" : [ {
+                                              "@type" : "item",
+                                              "name" : "fastjson/parser/JSONScanner.java"
+                                            } ]
+                                          } ]
+                                        }, {
+                                          "@type" : "group",
+                                          "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/L0/M0/L0/M1",
+                                          "nested" : [ {
+                                            "@type" : "item",
+                                            "name" : "fastjson/asm/Type.java"
+                                          } ]
+                                        } ]
+                                      }, {
+                                        "@type" : "group",
+                                        "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/L0/M0/Control",
+                                        "nested" : [ {
+                                          "@type" : "item",
+                                          "name" : "fastjson/asm/TypeCollector.java"
+                                        } ]
+                                      } ]
+                                    }, {
+                                      "@type" : "group",
+                                      "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/L0/M1",
+                                      "nested" : [ {
+                                        "@type" : "item",
+                                        "name" : "fastjson/parser/deserializer/ContextObjectDeserializer.java"
+                                      } ]
+                                    } ]
+                                  }, {
+                                    "@type" : "group",
+                                    "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/Control",
+                                    "nested" : [ {
+                                      "@type" : "group",
+                                      "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/Control/M1",
+                                      "nested" : [ {
+                                        "@type" : "item",
+                                        "name" : "fastjson/parser/deserializer/AbstractDateDeserializer.java"
+                                      } ]
+                                    }, {
+                                      "@type" : "group",
+                                      "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M0/Control/M2",
+                                      "nested" : [ {
+                                        "@type" : "item",
+                                        "name" : "fastjson/serializer/DateCodec.java"
+                                      } ]
+                                    } ]
+                                  } ]
+                                }, {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/L0/M1",
+                                  "nested" : [ {
+                                    "@type" : "item",
+                                    "name" : "fastjson/serializer/ContextObjectSerializer.java"
+                                  } ]
+                                } ]
+                              }, {
+                                "@type" : "group",
+                                "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M0/Control",
+                                "nested" : [ {
+                                  "@type" : "item",
+                                  "name" : "fastjson/serializer/CalendarCodec.java"
+                                } ]
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M1",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "fastjson/serializer/JSONSerializable.java"
+                              }, {
+                                "@type" : "item",
+                                "name" : "fastjson/JSONPObject.java"
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M2",
+                              "nested" : [ {
+                                "@type" : "group",
+                                "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M2/L0",
+                                "nested" : [ {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M2/L0/M0",
+                                  "nested" : [ {
+                                    "@type" : "item",
+                                    "name" : "fastjson/TypeReference.java"
+                                  } ]
+                                }, {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M2/L0/M1",
+                                  "nested" : [ {
+                                    "@type" : "item",
+                                    "name" : "fastjson/JSONArray.java"
+                                  } ]
+                                } ]
+                              }, {
+                                "@type" : "group",
+                                "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M2/Control",
+                                "nested" : [ {
+                                  "@type" : "item",
+                                  "name" : "fastjson/JSONObject.java"
+                                } ]
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M3",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "fastjson/util/GenericArrayTypeImpl.java"
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M4",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "fastjson/parser/deserializer/EnumDeserializer.java"
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/L3/M5",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "fastjson/serializer/SerializeBeanInfo.java"
+                              } ]
+                            } ]
+                          }, {
+                            "@type" : "group",
+                            "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M0/Control",
+                            "nested" : [ {
+                              "@type" : "item",
+                              "name" : "fastjson/util/TypeUtils.java"
+                            } ]
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L0/M1",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "fastjson/parser/ParseContext.java"
+                          } ]
+                        } ]
+                      }, {
+                        "@type" : "group",
+                        "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L1",
+                        "nested" : [ {
+                          "@type" : "group",
+                          "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L1/M0",
+                          "nested" : [ {
+                            "@type" : "group",
+                            "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L1/M0/L0",
+                            "nested" : [ {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L1/M0/L0/M0",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "fastjson/serializer/MapSerializer.java"
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L1/M0/L0/M1",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "fastjson/serializer/FloatCodec.java"
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L1/M0/L0/M2",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "fastjson/serializer/DoubleSerializer.java"
+                              } ]
+                            } ]
+                          }, {
+                            "@type" : "group",
+                            "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L1/M0/Control",
+                            "nested" : [ {
+                              "@type" : "item",
+                              "name" : "fastjson/serializer/FieldSerializer.java"
+                            } ]
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L1/M1",
+                          "nested" : [ {
+                            "@type" : "group",
+                            "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L1/M1/L0",
+                            "nested" : [ {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L1/M1/L0/M0",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "fastjson/annotation/JSONPOJOBuilder.java"
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L1/M1/L0/M1",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "fastjson/annotation/JSONCreator.java"
+                              } ]
+                            } ]
+                          }, {
+                            "@type" : "group",
+                            "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L1/M1/Control",
+                            "nested" : [ {
+                              "@type" : "item",
+                              "name" : "fastjson/util/JavaBeanInfo.java"
+                            } ]
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L1/M2",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "fastjson/parser/deserializer/FieldDeserializer.java"
+                          }, {
+                            "@type" : "item",
+                            "name" : "fastjson/parser/deserializer/DefaultFieldDeserializer.java"
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/L1/M3",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "fastjson/parser/deserializer/MapDeserializer.java"
+                          } ]
+                        } ]
+                      }, {
+                        "@type" : "group",
+                        "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/Control",
+                        "nested" : [ {
+                          "@type" : "group",
+                          "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/Control/M2",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "fastjson/parser/deserializer/JavaBeanDeserializer.java"
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M0/Control/M3",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "fastjson/serializer/JavaBeanSerializer.java"
+                          } ]
+                        } ]
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M1",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "fastjson/parser/deserializer/ExtraTypeProvider.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M2",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "fastjson/util/IdentityHashMap.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M3",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "fastjson/parser/deserializer/FieldTypeResolver.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M4",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "fastjson/JSONAware.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M5",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "fastjson/JSONStreamAware.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L1/M0/L1/M0/L0/M6",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "fastjson/parser/deserializer/ExtraProcessor.java"
+                      } ]
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L2/M0/L0/M0/L1/M0/L1/M0/Control",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "fastjson/JSON.java"
+                    } ]
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L2/M0/L0/M0/L1/M0/L2",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L2/M0/L0/M0/L1/M0/L2/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "fastjson/parser/deserializer/ThrowableDeserializer.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L2/M0/L0/M0/L1/M0/L2/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "fastjson/serializer/LongCodec.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "fastjson/serializer/IntegerCodec.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L2/M0/L0/M0/L1/M0/L2/M2",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "fastjson/parser/deserializer/ResolveFieldDeserializer.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L2/M0/L0/M0/L1/M0/L2/M3",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "fastjson/parser/deserializer/ExtraProcessable.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L2/M0/L0/M0/L1/M0/L2/M4",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "fastjson/JSONPathException.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "fastjson/JSONPath.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L2/M0/L0/M0/L1/M0/L2/M5",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "fastjson/parser/deserializer/PropertyProcessable.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L2/M0/L0/M0/L1/M0/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "fastjson/parser/DefaultJSONParser.java"
+                } ]
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L2/M0/L0/M0/L2",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L2/M0/L0/M0/L2/M0/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L2/M0/L0/M0/L2/M0/L0/M0",
+                  "nested" : [ {
+                    "@type" : "group",
+                    "name" : "L2/M0/L0/M0/L2/M0/L0/M0/L0",
+                    "nested" : [ {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L2/M0/L0/M0/L0/M0",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "fastjson/JSONStreamContext.java"
+                      } ]
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L2/M0/L0/M0/L2/M0/L0/M0/L1",
+                    "nested" : [ {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L2/M0/L0/M0/L1/M0",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "fastjson/parser/deserializer/AutowiredObjectDeserializer.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L2/M0/L0/M0/L1/M1",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "fastjson/serializer/Labels.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L2/M0/L0/M0/L1/M2",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "fastjson/parser/JSONReaderScanner.java"
+                      }, {
+                        "@type" : "item",
+                        "name" : "fastjson/JSONReader.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L2/M0/L0/M0/L1/M3",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "fastjson/JSONWriter.java"
+                      } ]
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L2/M0/L0/M0/L2/M0/L0/M0/Control",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "fastjson/util/ASMClassLoader.java"
+                    } ]
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L2/M0/L0/M0/L2/M0/L0/M1",
+                  "nested" : [ {
+                    "@type" : "group",
+                    "name" : "L2/M0/L0/M0/L2/M0/L0/M1/L0",
+                    "nested" : [ {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L2/M0/L0/M1/L0/M0",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "fastjson/asm/ByteVector.java"
+                      } ]
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L2/M0/L0/M0/L2/M0/L0/M1/L1",
+                    "nested" : [ {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L2/M0/L0/M1/L1/M0",
+                      "nested" : [ {
+                        "@type" : "group",
+                        "name" : "L2/M0/L0/M0/L2/M0/L0/M1/L1/M0/L0",
+                        "nested" : [ {
+                          "@type" : "group",
+                          "name" : "L2/M0/L0/M0/L2/M0/L0/M1/L1/M0/L0/M0",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "fastjson/asm/FieldWriter.java"
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L0/M0/L2/M0/L0/M1/L1/M0/L0/M1",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "fastjson/asm/Item.java"
+                          } ]
+                        } ]
+                      }, {
+                        "@type" : "group",
+                        "name" : "L2/M0/L0/M0/L2/M0/L0/M1/L1/M0/Control",
+                        "nested" : [ {
+                          "@type" : "item",
+                          "name" : "fastjson/asm/ClassWriter.java"
+                        } ]
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L2/M0/L0/M1/L1/M1",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "fastjson/asm/Opcodes.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L0/M0/L2/M0/L0/M1/L1/M2",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "fastjson/asm/MethodVisitor.java"
+                      }, {
+                        "@type" : "item",
+                        "name" : "fastjson/asm/Label.java"
+                      } ]
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L2/M0/L0/M0/L2/M0/L0/M1/Control",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "fastjson/asm/MethodWriter.java"
+                    } ]
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L2/M0/L0/M0/L2/M0/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "fastjson/serializer/ASMSerializerFactory.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/util/ServiceLoader.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/AppendableSerializer.java"
+              }, {
+                "@type" : "item",
+                "name" : "fastjson/serializer/PrimitiveArraySerializer.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M3",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/EnumerationSerializer.java"
+              }, {
+                "@type" : "item",
+                "name" : "fastjson/serializer/ArraySerializer.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M4",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/EnumSerializer.java"
+              }, {
+                "@type" : "item",
+                "name" : "fastjson/support/springfox/SwaggerJsonSerializer.java"
+              }, {
+                "@type" : "item",
+                "name" : "fastjson/serializer/AdderSerializer.java"
+              }, {
+                "@type" : "item",
+                "name" : "fastjson/serializer/ToStringSerializer.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M5",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/CollectionCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M6",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/CharacterCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M7",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/ByteBufferCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M8",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/BigIntegerCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M9",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/AutowiredObjectSerializer.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M10",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/AtomicCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M11",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/parser/deserializer/Jdk8DateCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M12",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/support/moneta/MonetaCodec.java"
+              }, {
+                "@type" : "item",
+                "name" : "fastjson/serializer/GuavaCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M13",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/spi/Module.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M14",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/ReferenceCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M15",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/ObjectArrayCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M16",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/ListSerializer.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M17",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/JodaCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M18",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/JSONSerializableSerializer.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M19",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/JSONObjectCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M20",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/JSONAwareSerializer.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M21",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/MiscCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M22",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/ClobSeriliazer.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M23",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/parser/deserializer/OptionalCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M24",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/BooleanCodec.java"
+              }, {
+                "@type" : "item",
+                "name" : "fastjson/serializer/BigDecimalCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M25",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/AwtCodec.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L0/M0/L2/M26",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "fastjson/serializer/AnnotationSerializer.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L2/M0/L0/M0/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "fastjson/serializer/SerializeConfig.java"
+            } ]
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L2/M0/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/parser/deserializer/StackTraceElementDeserializer.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/parser/deserializer/SqlDateDeserializer.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/parser/deserializer/ASMDeserializerFactory.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M3",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/parser/deserializer/PropertyProcessableDeserializer.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M4",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/serializer/CharArrayCodec.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M5",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/parser/deserializer/ArrayListTypeFieldDeserializer.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M6",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/parser/deserializer/NumberDeserializer.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M7",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/parser/deserializer/JavaObjectDeserializer.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M8",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/parser/deserializer/JSONPDeserializer.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M9",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/parser/deserializer/TimeDeserializer.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L2/M0/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "fastjson/parser/ParserConfig.java"
+        } ]
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L3",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L3/M0",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/support/config/FastJsonConfig.java"
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L4",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L4/M0",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L4/M0/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L4/M0/L0/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L4/M0/L0/M0/M0",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "fastjson/serializer/SimplePropertyPreFilter.java"
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L4/M0/L0/M0/M1",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "fastjson/support/spring/PropertyPreFilters.java"
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L4/M0/L0/M0/M2",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "fastjson/support/spring/FastJsonContainer.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L4/M0/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/support/spring/MappingFastJsonValue.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L4/M0/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "fastjson/support/spring/FastJsonHttpMessageConverter.java"
+        } ]
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L5",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L5/M0",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/util/UTF8Decoder.java"
+      }, {
+        "@type" : "item",
+        "name" : "fastjson/util/ThreadLocalCache.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M1",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/support/spring/annotation/ResponseJSONP.java"
+      }, {
+        "@type" : "item",
+        "name" : "fastjson/support/spring/JSONPResponseBodyAdvice.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M2",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M2/M0",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "fastjson/support/spring/annotation/FastJsonFilter.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M2/M1",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "fastjson/support/spring/annotation/FastJsonView.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M2/M2",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "fastjson/support/spring/FastJsonViewResponseBodyAdvice.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M3",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M3/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M3/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/support/geo/Feature.java"
+          }, {
+            "@type" : "item",
+            "name" : "fastjson/support/geo/FeatureCollection.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M3/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/support/geo/Polygon.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M3/L0/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/support/geo/Point.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M3/L0/M3",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/support/geo/MultiPolygon.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M3/L0/M4",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/support/geo/MultiPoint.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M3/L0/M5",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/support/geo/MultiLineString.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M3/L0/M6",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/support/geo/LineString.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M3/L0/M7",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "fastjson/support/geo/GeometryCollection.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M3/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "fastjson/support/geo/Geometry.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M4",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M4/M0",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "fastjson/support/jaxrs/FastJsonProvider.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M4/M1",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "fastjson/support/jaxrs/FastJsonFeature.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M4/M2",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "fastjson/support/jaxrs/FastJsonAutoDiscoverable.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M5",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/support/hsf/MethodLocator.java"
+      }, {
+        "@type" : "item",
+        "name" : "fastjson/support/hsf/HSFJSONUtils.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M6",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/serializer/SimpleDateFormatSerializer.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M7",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/serializer/JSONSerializerMap.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M8",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/serializer/JSONLibDataFormatSerializer.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M9",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/parser/DefaultExtJSONParser.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M10",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/support/spring/FastjsonSockJsMessageCodec.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M11",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/support/spring/GenericFastJsonRedisSerializer.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M12",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/serializer/PascalNameFilter.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M13",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/support/spring/FastJsonRedisSerializer.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M14",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/support/spring/messaging/MappingFastJsonMessageConverter.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M15",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/support/retrofit/Retrofit2ConverterFactory.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M16",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/support/spring/FastJsonpHttpMessageConverter4.java"
+      }, {
+        "@type" : "item",
+        "name" : "fastjson/support/spring/FastJsonHttpMessageConverter4.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M17",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/support/spring/FastJsonpResponseBodyAdvice.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M18",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "fastjson/support/spring/FastJsonJsonView.java"
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "Isolated",
+    "nested" : [ {
+      "@type" : "item",
+      "name" : "fastjson/util/Base64.java"
+    }, {
+      "@type" : "item",
+      "name" : "fastjson/util/AntiCollisionHashMap.java"
+    } ]
+  } ]
+}

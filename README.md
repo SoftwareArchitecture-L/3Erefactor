@@ -20,6 +20,7 @@ usage: refactor search [<options>]
     -d, --dependency        specify dependency file path
     -t, --target            specify target file path
     -r, --reflexion         specify reflexion file path
+    -h, --DRH               specify architecture recovery file path (optional)
     -o, --output            specify output result file path (optional)
     -i, --iteration         specify max iteration size (optional)
     -p, --populationSize    specify population size (optional)
@@ -43,9 +44,10 @@ usage: refactor feedback [<options>]
 
 ```bash
 java -jar 3Erefactor-jar-with-dependencies.jar search \
-    --dependency=architectureModel/depends.dep.json \
-    --target=architectureModel/depends.con.json \
-    --reflexion=architectureModel/depends.rfx.json \
+    --dependency=architectureModel/depends/depends.dep.json \
+    --target=architectureModel/depends/depends.con.json \
+    --reflexion=architectureModel/depends/depends.rfx.json \
+    --DRH=architectureModel/depends/dependsArchDRH.json # optional; This makes the algorithm converge faster
     --output=out.json   \  # optional; default value = ${PWD}/refactor.search.out.json
     --iteration=10 \  # optional; default value = 10
     --mutation=0.1 \  # optional; default value = 0.1

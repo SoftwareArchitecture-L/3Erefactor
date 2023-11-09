@@ -1,0 +1,1722 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "JunitArchDRH",
+  "structure" : [ {
+    "@type" : "group",
+    "name" : "L0",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L0/M0",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/function/ThrowingRunnable.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M1",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L0/M1/M0",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/runners/MethodSorters.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L0/M1/M1",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/FixMethodOrder.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L0/M1/M2",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/internal/MethodSorter.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M2",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/Rule.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M3",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/runners/model/Statement.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M4",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L0/M4/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L0/M4/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/SerializableValueDescription.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M4/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/SerializableMatcherDescription.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L0/M4/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/internal/AssumptionViolatedException.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M5",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L0/M5/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L0/M5/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/Classes.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M5/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/management/ThreadMXBean.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M5/L0/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/management/RuntimeMXBean.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L0/M5/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L0/M5/L1/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/management/ReflectiveThreadMXBean.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M5/L1/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/management/FakeThreadMXBean.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M5/L1/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/management/ReflectiveRuntimeMXBean.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M5/L1/M3",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/management/FakeRuntimeMXBean.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L0/M5/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/internal/management/ManagementFactory.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M6",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/internal/Throwables.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M7",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/junit/runner/Version.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M8",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L0/M8/M0",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/experimental/theories/ParameterSupplier.java"
+        }, {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/experimental/theories/ParameterSignature.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L0/M8/M1",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/experimental/theories/PotentialAssignment.java"
+        }, {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/experimental/theories/ParametersSuppliedBy.java"
+        } ]
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L1",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L1/M0",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L1/M0/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L1/M0/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/runners/model/NoGenericTypeParametersValidator.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L1/M0/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/runners/model/FrameworkMember.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/runners/model/Annotatable.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L1/M0/L0/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/runners/model/ReflectiveCallable.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L1/M0/L0/M3",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/rules/MethodRule.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L1/M0/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/runners/model/FrameworkMethod.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M1",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/runner/Description.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/rules/TestRule.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M2",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L1/M2/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L1/M2/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/TestCouldNotBeSkippedException.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L1/M2/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/runners/model/MultipleFailureException.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L1/M2/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/runners/model/MultipleFailureException.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M3",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L1/M3/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L1/M3/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/junit/framework/Test.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L1/M3/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/junit/framework/AssertionFailedError.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L1/M3/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L1/M3/L1/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/junit/framework/TestListener.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L1/M3/L1/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/junit/framework/TestFailure.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L1/M3/L1/M2",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L1/M3/L1/M2/M0",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/main/java/junit/framework/Assert.java"
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L1/M3/L1/M2/M1",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/main/java/junit/framework/ComparisonCompactor.java"
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L1/M3/L1/M2/M2",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/main/java/junit/framework/ComparisonFailure.java"
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L1/M3/L1/M2/M3",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/main/java/junit/framework/TestCase.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L1/M3/L1/M3",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/junit/framework/Protectable.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L1/M3/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/junit/framework/TestResult.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L1/M4",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/AssumptionViolatedException.java"
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L2",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L2/M0",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/internal/runners/statements/FailOnTimeout.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/runners/model/TestTimedOutException.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L2/M1",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/rules/TestWatcher.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L2/M2",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/junit/framework/TestSuite.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L2/M3",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/rules/RunRules.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L2/M4",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/junit/extensions/TestDecorator.java"
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L3",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L3/M0",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L3/M0/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L3/M0/L0/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L3/M0/L0/M0/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L3/M0/L0/M0/L0/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L3/M0/L0/M0/L0/M0/M0",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/main/java/org/junit/runner/notification/Failure.java"
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M0/L0/M0/L0/M0/M1",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/main/java/org/junit/runner/Result.java"
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M0/L0/M0/L0/M0/M2",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/main/java/org/junit/runner/notification/RunListener.java"
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M0/L0/M0/L0/M0/M3",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/main/java/org/junit/runner/notification/SynchronizedRunListener.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L0/M0/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/runner/notification/StoppedByUserException.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L3/M0/L0/M0/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/main/java/org/junit/runner/notification/RunNotifier.java"
+            } ]
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L3/M0/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L3/M0/L1/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L3/M0/L1/M0/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L3/M0/L1/M0/L0/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L3/M0/L1/M0/L0/M0/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L3/M0/L1/M0/L0/M0/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/BeforeClass.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L1/M0/L0/M0/L0/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/runners/model/MemberValueConsumer.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L1/M0/L0/M0/L0/M2",
+                  "nested" : [ {
+                    "@type" : "group",
+                    "name" : "L3/M0/L1/M0/L0/M0/L0/M2/L0",
+                    "nested" : [ {
+                      "@type" : "group",
+                      "name" : "L3/M0/L1/M0/L0/M0/L0/M2/L0/M0",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "src/main/java/org/junit/internal/ComparisonCriteria.java"
+                      }, {
+                        "@type" : "item",
+                        "name" : "src/main/java/org/junit/internal/ArrayComparisonFailure.java"
+                      } ]
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L3/M0/L1/M0/L0/M0/L0/M2/L1",
+                    "nested" : [ {
+                      "@type" : "group",
+                      "name" : "L3/M0/L1/M0/L0/M0/L0/M2/L1/M0",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "src/main/java/org/junit/ComparisonFailure.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L3/M0/L1/M0/L0/M0/L0/M2/L1/M1",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "src/main/java/org/junit/internal/InexactComparisonCriteria.java"
+                      }, {
+                        "@type" : "item",
+                        "name" : "src/main/java/org/junit/internal/ExactComparisonCriteria.java"
+                      } ]
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L3/M0/L1/M0/L0/M0/L0/M2/Control",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "src/main/java/org/junit/Assert.java"
+                    } ]
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L1/M0/L0/M0/L0/M3",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/runners/model/FrameworkField.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L1/M0/L0/M0/L0/M4",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/Before.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M0/L1/M0/L0/M0/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/main/java/org/junit/runners/model/TestClass.java"
+                } ]
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L3/M0/L1/M0/L1",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L3/M0/L1/M0/L1/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/Ignore.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L1/M0/L1/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/runners/RuleContainer.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L1/M0/L1/M2",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L3/M0/L1/M0/L1/M2/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L3/M0/L1/M0/L1/M2/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/internal/runners/rules/ValidationError.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L1/M0/L1/M2/L0/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/ClassRule.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M0/L1/M0/L1/M2/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/main/java/org/junit/internal/runners/rules/RuleMemberValidator.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L1/M0/L1/M3",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/validator/TestClassValidator.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/validator/PublicClassValidator.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L1/M0/L1/M4",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/After.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L1/M0/L1/M5",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/internal/runners/statements/RunBefores.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L1/M0/L1/M6",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/internal/runners/statements/RunAfters.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L1/M0/L1/M7",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/internal/runners/statements/InvokeMethod.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L1/M0/L1/M8",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/internal/runners/statements/Fail.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L1/M0/L1/M9",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/internal/runners/statements/ExpectException.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L1/M0/L1/M10",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/Test.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L1/M0/L1/M11",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/runners/model/InitializationError.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L1/M0/L1/M12",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/validator/AnnotationValidator.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L3/M0/L1/M0/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/main/java/org/junit/runners/BlockJUnit4ClassRunner.java"
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L3/M0/L1/M0/M3",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/main/java/org/junit/validator/ValidateWith.java"
+            } ]
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L3/M0/L2",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L3/M0/L2/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L3/M0/L2/M0/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L3/M0/L2/M0/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/runner/Describable.java"
+              }, {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/runner/Runner.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L2/M0/L0/M1",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L3/M0/L2/M0/L0/M1/M0",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/main/java/org/junit/runner/manipulation/NoTestsRemainException.java"
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M0/L2/M0/L0/M1/M1",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/main/java/org/junit/runner/manipulation/Filter.java"
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M0/L2/M0/L0/M1/M2",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/main/java/org/junit/runner/manipulation/Filterable.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L2/M0/L0/M2",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L3/M0/L2/M0/L0/M2/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L0/M2/L0/M0",
+                  "nested" : [ {
+                    "@type" : "group",
+                    "name" : "L3/M0/L2/M0/L0/M2/L0/M0/L0",
+                    "nested" : [ {
+                      "@type" : "group",
+                      "name" : "L3/M0/L2/M0/L0/M2/L0/M0/L0/M0",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "src/main/java/org/junit/runner/manipulation/Sorter.java"
+                      }, {
+                        "@type" : "item",
+                        "name" : "src/main/java/org/junit/runner/manipulation/Sortable.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L3/M0/L2/M0/L0/M2/L0/M0/L0/M1",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "src/main/java/org/junit/runner/manipulation/Orderer.java"
+                      }, {
+                        "@type" : "item",
+                        "name" : "src/main/java/org/junit/runner/manipulation/InvalidOrderingException.java"
+                      } ]
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L3/M0/L2/M0/L0/M2/L0/M0/Control",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "src/main/java/org/junit/runner/manipulation/Orderable.java"
+                    } ]
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L0/M2/L0/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/runner/OrderWithValidator.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/runner/OrderWith.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M0/L2/M0/L0/M2/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/main/java/org/junit/runner/manipulation/Ordering.java"
+                } ]
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L3/M0/L2/M0/L1",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L3/M0/L2/M0/L1/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L3/M0/L2/M0/L1/M0/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L1/M0/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/runners/model/InvalidTestClassError.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L1/M0/L0/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/internal/runners/InitializationError.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M0/L2/M0/L1/M0/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/main/java/org/junit/internal/runners/ErrorReportingRunner.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L2/M0/L1/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/internal/requests/MemoizingRequest.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L3/M0/L2/M0/L2",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L3/M0/L2/M0/L2/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L3/M0/L2/M0/L2/M0/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L2/M0/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/runners/model/RunnerBuilder.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L2/M0/L0/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/internal/runners/JUnit38ClassRunner.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M0/L2/M0/L2/M0/L1",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L2/M0/L1/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/internal/builders/NullBuilder.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L2/M0/L1/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/runners/JUnit4.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/internal/builders/JUnit4Builder.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L2/M0/L1/M2",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/internal/builders/IgnoredClassRunner.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/internal/builders/IgnoredBuilder.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L2/M0/L1/M3",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/internal/builders/AnnotatedBuilder.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/runner/RunWith.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L2/M0/L1/M4",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/internal/runners/SuiteMethod.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/internal/builders/SuiteMethodBuilder.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L2/M0/L1/M5",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/internal/builders/JUnit3Builder.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M0/L2/M0/L2/M0/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/main/java/org/junit/internal/builders/AllDefaultPossibilitiesBuilder.java"
+                } ]
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L3/M0/L2/M0/L3",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L3/M0/L2/M0/L3/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L3/M0/L2/M0/L3/M0/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L3/M0/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/internal/JUnitSystem.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M0/L2/M0/L3/M0/L1",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L3/M0/L1/M0",
+                  "nested" : [ {
+                    "@type" : "group",
+                    "name" : "L3/M0/L2/M0/L3/M0/L1/M0/L0",
+                    "nested" : [ {
+                      "@type" : "group",
+                      "name" : "L3/M0/L2/M0/L3/M0/L1/M0/L0/M0",
+                      "nested" : [ {
+                        "@type" : "group",
+                        "name" : "L3/M0/L2/M0/L3/M0/L1/M0/L0/M0/M0",
+                        "nested" : [ {
+                          "@type" : "item",
+                          "name" : "src/main/java/org/junit/runner/FilterFactoryParams.java"
+                        } ]
+                      }, {
+                        "@type" : "group",
+                        "name" : "L3/M0/L2/M0/L3/M0/L1/M0/L0/M0/M1",
+                        "nested" : [ {
+                          "@type" : "item",
+                          "name" : "src/main/java/org/junit/runner/FilterFactory.java"
+                        } ]
+                      }, {
+                        "@type" : "group",
+                        "name" : "L3/M0/L2/M0/L3/M0/L1/M0/L0/M0/M2",
+                        "nested" : [ {
+                          "@type" : "item",
+                          "name" : "src/main/java/org/junit/runner/FilterFactories.java"
+                        } ]
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L3/M0/L2/M0/L3/M0/L1/M0/L0/M1",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "src/main/java/org/junit/runner/Computer.java"
+                      }, {
+                        "@type" : "item",
+                        "name" : "src/main/java/org/junit/runners/Suite.java"
+                      } ]
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L3/M0/L2/M0/L3/M0/L1/M0/Control",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "src/main/java/org/junit/runner/JUnitCommandLineParseResult.java"
+                    } ]
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L3/M0/L1/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/internal/TextListener.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L3/M0/L2/M0/L3/M0/L1/M2",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "src/main/java/org/junit/internal/RealSystem.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L3/M0/L2/M0/L3/M0/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "src/main/java/org/junit/runner/JUnitCore.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L2/M0/L3/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/internal/requests/SortingRequest.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L2/M0/L3/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/internal/requests/FilterRequest.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L2/M0/L3/M3",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/internal/requests/ClassRequest.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L3/M0/L2/M0/L3/M4",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/internal/requests/OrderingRequest.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L3/M0/L2/M0/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/main/java/org/junit/runner/Request.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M0/L2/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/runners/model/RunnerScheduler.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M0/L2/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/validator/AnnotationsValidator.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/validator/AnnotationValidatorFactory.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M0/L2/M3",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/AfterClass.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L3/M0/L2/M4",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/runners/model/EachTestNotifier.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L3/M0/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/runners/ParentRunner.java"
+        } ]
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L4",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L4/M0",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L4/M0/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L4/M0/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/experimental/theories/DataPoints.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L4/M0/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/experimental/theories/DataPoint.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L4/M0/L0/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/Assume.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L4/M0/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/experimental/theories/internal/AllMembersSupplier.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L4/M1",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L4/M1/Control",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L4/M1/Control/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/experimental/categories/CategoryValidator.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L4/M1/Control/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/experimental/categories/Category.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L4/M1/Control/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/experimental/categories/Categories.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L4/M1/M1",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/experimental/categories/CategoryFilterFactory.java"
+        } ]
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L5",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L5/M0",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M0/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M0/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/runners/parameterized/TestWithParameters.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M0/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M0/L1/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/runners/parameterized/ParametersRunnerFactory.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M0/L1/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParameters.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M0/Control",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M0/Control/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParametersFactory.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M0/Control/M3",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/runners/Parameterized.java"
+          } ]
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M1",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/rules/Verifier.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/rules/ErrorCollector.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M2",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/rules/TemporaryFolder.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/rules/ExternalResource.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M3",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M3/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M3/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/matchers/TypeSafeMatcher.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M3/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M3/L1/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M3/L1/M0/M0",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/main/java/org/junit/internal/matchers/StacktracePrintingMatcher.java"
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M3/L1/M0/M1",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/main/java/org/junit/matchers/JUnitMatchers.java"
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M3/L1/M0/M2",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/main/java/org/junit/rules/ExpectedExceptionMatcherBuilder.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M3/L1/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/matchers/ThrowableMessageMatcher.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/matchers/ThrowableCauseMatcher.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M3/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/rules/ExpectedException.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M4",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M4/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M4/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/runners/FailedBefore.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M4/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/runners/TestClass.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M4/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M4/L1/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/runners/TestMethod.java"
+          }, {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/runners/MethodRoadie.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M4/L1/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/runners/ClassRoadie.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M4/L1/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/internal/runners/MethodValidator.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M4/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/internal/runners/JUnit4ClassRunner.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M5",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/experimental/theories/suppliers/TestedOnSupplier.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/experimental/theories/suppliers/TestedOn.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M6",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/experimental/theories/FromDataPoints.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M7",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M7/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M7/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/experimental/theories/internal/ParameterizedAssertionError.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M7/L0/M1",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L5/M7/L0/M1/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L5/M7/L0/M1/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/experimental/theories/internal/EnumSupplier.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L5/M7/L0/M1/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "src/main/java/org/junit/experimental/theories/internal/BooleanSupplier.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L5/M7/L0/M1/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "src/main/java/org/junit/experimental/theories/internal/Assignments.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M7/L0/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/org/junit/experimental/theories/Theory.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M7/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/experimental/theories/Theories.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M8",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M8/M0",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/experimental/results/FailureList.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M8/M1",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/experimental/results/PrintableResult.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M8/M2",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/experimental/results/ResultMatchers.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M9",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M9/M0",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/experimental/max/CouldNotReadCoreException.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M9/M1",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/experimental/max/MaxHistory.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M9/M2",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/org/junit/experimental/max/MaxCore.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M10",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M10/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L5/M10/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/junit/framework/JUnit4TestCaseFacade.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L5/M10/L0/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "src/main/java/junit/framework/JUnit4TestAdapter.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M10/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/junit/framework/JUnit4TestAdapterCache.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M11",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L5/M11/M0",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/junit/runner/TestRunListener.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M11/M1",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/junit/runner/BaseTestRunner.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M11/M2",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/junit/textui/ResultPrinter.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L5/M11/M3",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "src/main/java/junit/textui/TestRunner.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M12",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/experimental/ParallelComputer.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M13",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/experimental/runners/Enclosed.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M14",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/runners/AllTests.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M15",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/rules/DisableOnDebug.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M16",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/runner/manipulation/Alphanumeric.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M17",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/rules/Timeout.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M18",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/experimental/categories/IncludeCategories.java"
+      }, {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/experimental/categories/ExcludeCategories.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M19",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/junit/extensions/TestSetup.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M20",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/junit/extensions/RepeatedTest.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M21",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/rules/RuleChain.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M22",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/rules/Stopwatch.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M23",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/junit/extensions/ActiveTestSuite.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M24",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/rules/TestWatchman.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L5/M25",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "src/main/java/org/junit/rules/TestName.java"
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "Isolated",
+    "nested" : [ {
+      "@type" : "item",
+      "name" : "src/main/java/org/junit/runner/package-info.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/main/java/org/junit/package-info.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/main/java/org/junit/matchers/package-info.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/main/java/org/junit/runner/notification/package-info.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/main/java/org/junit/runner/manipulation/package-info.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/main/java/org/junit/internal/runners/package-info.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/main/java/org/junit/internal/Checks.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/main/java/junit/textui/package-info.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/main/java/junit/runner/package-info.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/main/java/org/junit/runners/package-info.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/main/java/junit/framework/package-info.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/main/java/org/junit/internal/requests/package-info.java"
+    }, {
+      "@type" : "item",
+      "name" : "src/main/java/junit/extensions/package-info.java"
+    } ]
+  } ]
+}

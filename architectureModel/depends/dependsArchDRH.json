@@ -1,0 +1,1410 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "archDRH",
+  "structure" : [ {
+    "@type" : "group",
+    "name" : "L0",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L0/M0",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L0/M0/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L0/M0/L0/M0",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L0/M0/L0/M0/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L0/M0/L0/M0/L0/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L0/M0/L0/M0/L0/M0/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L0/M0/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "entity/GenericName.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L0/M0/L0/M0/L0/M0/L1",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L0/M0/L1/M0",
+                  "nested" : [ {
+                    "@type" : "group",
+                    "name" : "L0/M0/L0/M0/L0/M0/L1/M0/L0",
+                    "nested" : [ {
+                      "@type" : "group",
+                      "name" : "L0/M0/L0/M0/L0/M0/L1/M0/L0/M0",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "entity/Location.java"
+                      }, {
+                        "@type" : "item",
+                        "name" : "relations/Relation.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L0/M0/L0/M0/L0/M0/L1/M0/L0/M1",
+                      "nested" : [ {
+                        "@type" : "group",
+                        "name" : "L0/M0/L0/M0/L0/M0/L1/M0/L0/M1/L0",
+                        "nested" : [ {
+                          "@type" : "group",
+                          "name" : "L0/M0/L0/M0/L0/M0/L1/M0/L0/M1/L0/M0",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "entity/DecoratedEntity.java"
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L0/M0/L0/M0/L0/M0/L1/M0/L0/M1/L0/M1",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "entity/MultiDeclareEntities.java"
+                          } ]
+                        } ]
+                      }, {
+                        "@type" : "group",
+                        "name" : "L0/M0/L0/M0/L0/M0/L1/M0/L0/M1/Control",
+                        "nested" : [ {
+                          "@type" : "item",
+                          "name" : "entity/TypeEntity.java"
+                        } ]
+                      } ]
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L0/M0/L0/M0/L0/M0/L1/M0/Control",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "entity/Entity.java"
+                    } ]
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L0/M0/L0/M0/L0/M0/L2",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L0/M0/L2/M0",
+                  "nested" : [ {
+                    "@type" : "group",
+                    "name" : "L0/M0/L0/M0/L0/M0/L2/M0/L0",
+                    "nested" : [ {
+                      "@type" : "group",
+                      "name" : "L0/M0/L0/M0/L0/M0/L2/M0/L0/M0",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "entity/ImportedFileCollector.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L0/M0/L0/M0/L0/M0/L2/M0/L0/M1",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "importtypes/Import.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L0/M0/L0/M0/L0/M0/L2/M0/L0/M2",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "entity/repo/IdGenerator.java"
+                      }, {
+                        "@type" : "item",
+                        "name" : "entity/repo/EntityRepo.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L0/M0/L0/M0/L0/M0/L2/M0/L0/M3",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "entity/PackageEntity.java"
+                      } ]
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L0/M0/L0/M0/L0/M0/L2/M0/Control",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "entity/FileEntity.java"
+                    } ]
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L0/M0/L2/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "entity/FunctionCall.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L0/M0/L2/M2",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "entity/EmptyTypeEntity.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L0/M0/L0/M0/L0/M0/Control",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L0/M0/Control/M3",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "entity/VarEntity.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L0/M0/Control/M4",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "entity/FunctionEntity.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L0/M0/Control/M5",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "entity/AliasEntity.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L0/M0/Control/M6",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "entity/CandidateTypes.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L0/M0/Control/M7",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "entity/ContainerEntity.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L0/M0/Control/M8",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "entity/Expression.java"
+                  } ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L0/M0/L0/M0/L1",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L0/M0/L0/M0/L1/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "entity/repo/BuiltInType.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L0/M0/L0/M0/L2",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L0/M0/L0/M0/L2/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L0/M0/L0/M0/L2/M0/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L2/M0/L0/M0",
+                  "nested" : [ {
+                    "@type" : "group",
+                    "name" : "L0/M0/L0/M0/L2/M0/L0/M0/M0",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "matrix/core/LocationInfo.java"
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L0/M0/L0/M0/L2/M0/L0/M0/M1",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "matrix/core/DependencyDetail.java"
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L0/M0/L0/M0/L2/M0/L0/M0/M2",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "matrix/core/DependencyValue.java"
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L0/M0/L0/M0/L2/M0/L0/M0/M3",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "matrix/core/DependencyPair.java"
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L0/M0/L0/M0/L2/M0/L0/M0/M4",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "matrix/core/DependencyMatrix.java"
+                    } ]
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L0/M0/L0/M0/L2/M0/L1",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L2/M0/L1/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "extractor/UnsolvedBindings.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "relations/ImportLookupStrategy.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L2/M0/L1/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "extractor/FileParser.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L2/M0/L1/M2",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "entity/repo/SimpleIdGenerator.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "entity/repo/InMemoryEntityRepo.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L2/M0/L1/M3",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "entity/EntityNameBuilder.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "generator/DependencyGenerator.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L0/M0/L0/M0/L2/M0/L1/M4",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "matrix/transform/OrderedMatrixGenerator.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L0/M0/L0/M0/L2/M0/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "extractor/AbstractLangProcessor.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L0/M0/L0/M0/L2/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "relations/FunctionMatcher.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L0/M0/L0/M0/L2/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "entity/repo/NullBuiltInType.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L0/M0/L0/M0/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "relations/Inferer.java"
+            } ]
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L0/M0/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L0/M0/L1/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "entity/FunctionEntityProto.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M0/L1/M1",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "entity/FunctionEntityImpl.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L0/M0/L1/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "deptypes/DependencyType.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L0/M0/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "relations/RelationCounter.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L0/M1",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "extractor/cpp/cdt/GPPParserExtensionConfigurationExtension.java"
+      }, {
+        "@type" : "item",
+        "name" : "extractor/cpp/MacroRepo.java"
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L1",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L1/M0",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L1/M0/M0",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "extractor/HandlerContext.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L1/M0/M1",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "extractor/java/JavaHandlerContext.java"
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L1/M0/M2",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "extractor/kotlin/KotlinHandlerContext.java"
+        } ]
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L2",
+    "nested" : [ {
+      "@type" : "group",
+      "name" : "L2/M0",
+      "nested" : [ {
+        "@type" : "group",
+        "name" : "L2/M0/L0",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L2/M0/L0/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "extractor/LangProcessorRegistration.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L2/M0/L1",
+        "nested" : [ {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M0",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "matrix/transform/MatrixLevelReducer.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M1",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L2/M0/L1/M1/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M1/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "extractor/java/context/QualitiedNameContextHelper.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M1/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "extractor/java/context/ClassTypeContextHelper.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L2/M0/L1/M1/L1",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M1/L1/M0",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L2/M0/L1/M1/L1/M0/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L2/M0/L1/M1/L1/M0/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "importtypes/PackageWildCardImport.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L2/M0/L1/M1/L1/M0/L0/M1",
+                  "nested" : [ {
+                    "@type" : "group",
+                    "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L0",
+                    "nested" : [ {
+                      "@type" : "group",
+                      "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L0/M0",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "importtypes/FileImport.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L0/M1",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "extractor/ruby/IncludedFileLocator.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L0/M2",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "extractor/java/JavaImportLookupStrategy.java"
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L0/M3",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "extractor/java/JavaBuiltInType.java"
+                      } ]
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L1",
+                    "nested" : [ {
+                      "@type" : "group",
+                      "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L1/M0",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "extractor/cpp/CppImportLookupStrategy.java"
+                      } ]
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2",
+                    "nested" : [ {
+                      "@type" : "group",
+                      "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M0",
+                      "nested" : [ {
+                        "@type" : "group",
+                        "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M0/L0",
+                        "nested" : [ {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M0/L0/M0",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "extractor/kotlin/KotlinFileParser.java"
+                          }, {
+                            "@type" : "item",
+                            "name" : "extractor/kotlin/KotlinProcessor.java"
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M0/L0/M1",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "extractor/kotlin/ContextHelper.java"
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M0/L0/M2",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "importtypes/ExactMatchImport.java"
+                          } ]
+                        } ]
+                      }, {
+                        "@type" : "group",
+                        "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M0/Control",
+                        "nested" : [ {
+                          "@type" : "item",
+                          "name" : "extractor/kotlin/KotlinListener.java"
+                        } ]
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1",
+                      "nested" : [ {
+                        "@type" : "group",
+                        "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0",
+                        "nested" : [ {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0/M0",
+                          "nested" : [ {
+                            "@type" : "group",
+                            "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0/M0/L0",
+                            "nested" : [ {
+                              "@type" : "group",
+                              "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0/M0/L0/M0",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "extractor/ParserCreator.java"
+                              } ]
+                            } ]
+                          }, {
+                            "@type" : "group",
+                            "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0/M0/L1",
+                            "nested" : [ {
+                              "@type" : "group",
+                              "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0/M0/L1/M0",
+                              "nested" : [ {
+                                "@type" : "group",
+                                "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0/M0/L1/M0/L0",
+                                "nested" : [ {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0/M0/L1/M0/L0/M0",
+                                  "nested" : [ {
+                                    "@type" : "item",
+                                    "name" : "extractor/ruby/RubyHandlerContext.java"
+                                  } ]
+                                }, {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0/M0/L1/M0/L0/M1",
+                                  "nested" : [ {
+                                    "@type" : "item",
+                                    "name" : "extractor/ruby/RubyBuiltInType.java"
+                                  } ]
+                                } ]
+                              }, {
+                                "@type" : "group",
+                                "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0/M0/L1/M0/Control",
+                                "nested" : [ {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0/M0/L1/M0/Control/M1",
+                                  "nested" : [ {
+                                    "@type" : "item",
+                                    "name" : "extractor/ruby/jruby/RubyParserHelper.java"
+                                  } ]
+                                }, {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0/M0/L1/M0/Control/M2",
+                                  "nested" : [ {
+                                    "@type" : "item",
+                                    "name" : "extractor/ruby/jruby/ExpressionUsage.java"
+                                  } ]
+                                } ]
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0/M0/L1/M1",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "extractor/ruby/jruby/JRubyFileParser.java"
+                              } ]
+                            } ]
+                          }, {
+                            "@type" : "group",
+                            "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0/M0/Control",
+                            "nested" : [ {
+                              "@type" : "item",
+                              "name" : "extractor/ruby/jruby/JRubyVisitor.java"
+                            } ]
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/L0/M1",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "extractor/ruby/RubyImportLookupStrategy.java"
+                          } ]
+                        } ]
+                      }, {
+                        "@type" : "group",
+                        "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M1/Control",
+                        "nested" : [ {
+                          "@type" : "item",
+                          "name" : "extractor/ruby/RubyProcessor.java"
+                        } ]
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M2",
+                      "nested" : [ {
+                        "@type" : "group",
+                        "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M2/L0",
+                        "nested" : [ {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M2/L0/M0",
+                          "nested" : [ {
+                            "@type" : "group",
+                            "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M2/L0/M0/L0",
+                            "nested" : [ {
+                              "@type" : "group",
+                              "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M2/L0/M0/L0/M0",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "extractor/python/union/PythonFileParser.java"
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M2/L0/M0/L0/M1",
+                              "nested" : [ {
+                                "@type" : "group",
+                                "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M2/L0/M0/L0/M1/L0",
+                                "nested" : [ {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M2/L0/M0/L0/M1/L0/M0",
+                                  "nested" : [ {
+                                    "@type" : "item",
+                                    "name" : "extractor/python/PythonImportLookupStrategy.java"
+                                  }, {
+                                    "@type" : "item",
+                                    "name" : "extractor/python/NameAliasImport.java"
+                                  } ]
+                                }, {
+                                  "@type" : "group",
+                                  "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M2/L0/M0/L0/M1/L0/M1",
+                                  "nested" : [ {
+                                    "@type" : "item",
+                                    "name" : "extractor/python/PythonBuiltInType.java"
+                                  } ]
+                                } ]
+                              }, {
+                                "@type" : "group",
+                                "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M2/L0/M0/L0/M1/Control",
+                                "nested" : [ {
+                                  "@type" : "item",
+                                  "name" : "extractor/python/BasePythonProcessor.java"
+                                } ]
+                              } ]
+                            } ]
+                          }, {
+                            "@type" : "group",
+                            "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M2/L0/M0/Control",
+                            "nested" : [ {
+                              "@type" : "item",
+                              "name" : "extractor/python/union/PythonProcessor.java"
+                            } ]
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M2/L0/M1",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "extractor/python/union/ExpressionUsage.java"
+                          }, {
+                            "@type" : "item",
+                            "name" : "extractor/python/PythonHandlerContext.java"
+                          } ]
+                        } ]
+                      }, {
+                        "@type" : "group",
+                        "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M2/Control",
+                        "nested" : [ {
+                          "@type" : "item",
+                          "name" : "extractor/python/union/PythonCodeListener.java"
+                        } ]
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M3",
+                      "nested" : [ {
+                        "@type" : "group",
+                        "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M3/L0",
+                        "nested" : [ {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M3/L0/M0",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "extractor/pom/PomParent.java"
+                          }, {
+                            "@type" : "item",
+                            "name" : "extractor/pom/PomCoords.java"
+                          } ]
+                        } ]
+                      }, {
+                        "@type" : "group",
+                        "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M3/L1",
+                        "nested" : [ {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M3/L1/M0",
+                          "nested" : [ {
+                            "@type" : "group",
+                            "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M3/L1/M0/L0",
+                            "nested" : [ {
+                              "@type" : "group",
+                              "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M3/L1/M0/L0/M0",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "extractor/empty/EmptyImportLookupStategy.java"
+                              }, {
+                                "@type" : "item",
+                                "name" : "extractor/pom/PomImportLookupStategy.java"
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M3/L1/M0/L0/M1",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "extractor/empty/EmptyBuiltInType.java"
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M3/L1/M0/L0/M2",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "extractor/pom/PomFileParser.java"
+                              } ]
+                            } ]
+                          }, {
+                            "@type" : "group",
+                            "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M3/L1/M0/Control",
+                            "nested" : [ {
+                              "@type" : "item",
+                              "name" : "extractor/pom/PomProcessor.java"
+                            } ]
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M3/L1/M1",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "extractor/pom/PomHandlerContext.java"
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M3/L1/M2",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "extractor/pom/PomArtifactEntity.java"
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M3/L1/M3",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "extractor/pom/PomLocator.java"
+                          } ]
+                        } ]
+                      }, {
+                        "@type" : "group",
+                        "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M3/Control",
+                        "nested" : [ {
+                          "@type" : "item",
+                          "name" : "extractor/pom/PomListener.java"
+                        } ]
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M4",
+                      "nested" : [ {
+                        "@type" : "group",
+                        "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M4/L0",
+                        "nested" : [ {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M4/L0/M0",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "extractor/golang/TypeDefHelper.java"
+                          } ]
+                        } ]
+                      }, {
+                        "@type" : "group",
+                        "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M4/L1",
+                        "nested" : [ {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M4/L1/M0",
+                          "nested" : [ {
+                            "@type" : "group",
+                            "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M4/L1/M0/L0",
+                            "nested" : [ {
+                              "@type" : "group",
+                              "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M4/L1/M0/L0/M0",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "extractor/golang/GoImportLookupStrategy.java"
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M4/L1/M0/L0/M1",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "extractor/golang/GoFileParser.java"
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M4/L1/M0/L0/M2",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "extractor/golang/GoBuiltInType.java"
+                              } ]
+                            } ]
+                          }, {
+                            "@type" : "group",
+                            "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M4/L1/M0/Control",
+                            "nested" : [ {
+                              "@type" : "item",
+                              "name" : "extractor/golang/GoProcessor.java"
+                            } ]
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M4/L1/M1",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "extractor/golang/GoHandlerContext.java"
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M4/L1/M2",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "extractor/golang/FieldDeclHelper.java"
+                          }, {
+                            "@type" : "item",
+                            "name" : "extractor/golang/TypeSpecHelper.java"
+                          } ]
+                        } ]
+                      }, {
+                        "@type" : "group",
+                        "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M4/Control",
+                        "nested" : [ {
+                          "@type" : "item",
+                          "name" : "extractor/golang/GoListener.java"
+                        } ]
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M5",
+                      "nested" : [ {
+                        "@type" : "group",
+                        "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M5/L0",
+                        "nested" : [ {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M5/L0/M0",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "extractor/cpp/MacroEhcacheRepo.java"
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M5/L0/M1",
+                          "nested" : [ {
+                            "@type" : "group",
+                            "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M5/L0/M1/L0",
+                            "nested" : [ {
+                              "@type" : "group",
+                              "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M5/L0/M1/L0/M0",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "extractor/cpp/CppFileParser.java"
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M5/L0/M1/L0/M1",
+                              "nested" : [ {
+                                "@type" : "item",
+                                "name" : "extractor/cpp/cdt/PreprocessorHandler.java"
+                              } ]
+                            }, {
+                              "@type" : "group",
+                              "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M5/L0/M1/L0/M2",
+                              "nested" : [ {
+                                "@type" : "group",
+                                "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M5/L0/M1/L0/M2/M0",
+                                "nested" : [ {
+                                  "@type" : "item",
+                                  "name" : "extractor/cpp/cdt/FileCache.java"
+                                } ]
+                              }, {
+                                "@type" : "group",
+                                "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M5/L0/M1/L0/M2/M1",
+                                "nested" : [ {
+                                  "@type" : "item",
+                                  "name" : "extractor/cpp/Scanner.java"
+                                } ]
+                              }, {
+                                "@type" : "group",
+                                "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M5/L0/M1/L0/M2/M2",
+                                "nested" : [ {
+                                  "@type" : "item",
+                                  "name" : "extractor/cpp/cdt/CDTParser.java"
+                                } ]
+                              } ]
+                            } ]
+                          }, {
+                            "@type" : "group",
+                            "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M5/L0/M1/Control",
+                            "nested" : [ {
+                              "@type" : "item",
+                              "name" : "extractor/cpp/cdt/CdtCppFileParser.java"
+                            } ]
+                          } ]
+                        }, {
+                          "@type" : "group",
+                          "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M5/L0/M2",
+                          "nested" : [ {
+                            "@type" : "item",
+                            "name" : "extractor/cpp/CppBuiltInType.java"
+                          } ]
+                        } ]
+                      }, {
+                        "@type" : "group",
+                        "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M5/Control",
+                        "nested" : [ {
+                          "@type" : "item",
+                          "name" : "extractor/cpp/CppProcessor.java"
+                        } ]
+                      } ]
+                    }, {
+                      "@type" : "group",
+                      "name" : "L2/M0/L1/M1/L1/M0/L0/M1/L2/M6",
+                      "nested" : [ {
+                        "@type" : "item",
+                        "name" : "extractor/java/JavaProcessor.java"
+                      }, {
+                        "@type" : "item",
+                        "name" : "extractor/java/JavaFileParser.java"
+                      } ]
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L2/M0/L1/M1/L1/M0/L0/M1/Control",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "LangRegister.java"
+                    } ]
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L2/M0/L1/M1/L1/M0/L0/M2",
+                  "nested" : [ {
+                    "@type" : "group",
+                    "name" : "L2/M0/L1/M1/L1/M0/L0/M2/M0",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "extractor/cpp/cdt/ASTStringUtilExt.java"
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L2/M0/L1/M1/L1/M0/L0/M2/M1",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "extractor/cpp/cdt/TemplateParameterASTVisitor.java"
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L2/M0/L1/M1/L1/M0/L0/M2/M2",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "extractor/cpp/cdt/ExpressionUsage.java"
+                    } ]
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L2/M0/L1/M1/L1/M0/L0/M3",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "extractor/cpp/CppHandlerContext.java"
+                  }, {
+                    "@type" : "item",
+                    "name" : "extractor/cpp/cdt/MacroExtractor.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L2/M0/L1/M1/L1/M0/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "extractor/cpp/cdt/CppVisitor.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M1/L1/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "extractor/java/context/VariableDeclaratorsContextHelper.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M1/L1/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "extractor/java/context/TypeParameterContextHelper.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M1/L1/M3",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L2/M0/L1/M1/L1/M3/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L2/M0/L1/M1/L1/M3/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "extractor/java/context/OpHelper.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L2/M0/L1/M1/L1/M3/L0/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "extractor/java/context/CreatorContextHelper.java"
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L2/M0/L1/M1/L1/M3/Control",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "extractor/java/context/ExpressionUsage.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M1/L1/M4",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "extractor/java/context/IdentifierContextHelper.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M1/L1/M5",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "extractor/java/context/AnnotationProcessor.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M1/L1/M6",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "extractor/java/context/FormalParameterListContextHelper.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L2/M0/L1/M1/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "extractor/java/JavaListener.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M2",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "generator/FunctionDependencyGenerator.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M3",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "generator/FileDependencyGenerator.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M4",
+          "nested" : [ {
+            "@type" : "group",
+            "name" : "L2/M0/L1/M4/L0",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M4/L0/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "format/AbstractFormatDependencyDumper.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M4/L0/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "format/FileAttributes.java"
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L2/M0/L1/M4/L1",
+            "nested" : [ {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M4/L1/M0",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "format/excel/ExcelXlsxFormatDependencyDumper.java"
+              }, {
+                "@type" : "item",
+                "name" : "format/excel/ExcelXlsFormatDependencyDumper.java"
+              }, {
+                "@type" : "item",
+                "name" : "format/plantuml/BriefPlantUmlFormatDependencyDumper.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M4/L1/M1",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "format/dot/DotFullnameDependencyDumper.java"
+              }, {
+                "@type" : "item",
+                "name" : "format/dot/DotFormatDependencyDumper.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M4/L1/M2",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "format/detail/DetailTextFormatDependencyDumper.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M4/L1/M3",
+              "nested" : [ {
+                "@type" : "item",
+                "name" : "format/plantuml/PlantUmlFormatDependencyDumper.java"
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M4/L1/M4",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L2/M0/L1/M4/L1/M4/M0",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "format/json/DetailItem.java"
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L2/M0/L1/M4/L1/M4/M1",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "format/json/JCellObject.java"
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L2/M0/L1/M4/L1/M4/M2",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "format/json/JDepObject.java"
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L2/M0/L1/M4/L1/M4/M3",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "format/json/JsonFormatDependencyDumper.java"
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L2/M0/L1/M4/L1/M4/M4",
+                "nested" : [ {
+                  "@type" : "item",
+                  "name" : "format/json/JDataBuilder.java"
+                } ]
+              } ]
+            }, {
+              "@type" : "group",
+              "name" : "L2/M0/L1/M4/L1/M5",
+              "nested" : [ {
+                "@type" : "group",
+                "name" : "L2/M0/L1/M4/L1/M5/L0",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L2/M0/L1/M4/L1/M5/L0/M0",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "format/xml/XmlFormatDependencyDumper.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L2/M0/L1/M4/L1/M5/L0/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "format/xml/XFiles.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L2/M0/L1/M4/L1/M5/L0/M2",
+                  "nested" : [ {
+                    "@type" : "group",
+                    "name" : "L2/M0/L1/M4/L1/M5/L0/M2/M0",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "format/xml/XDepend.java"
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L2/M0/L1/M4/L1/M5/L0/M2/M1",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "format/xml/XCell.java"
+                    } ]
+                  }, {
+                    "@type" : "group",
+                    "name" : "L2/M0/L1/M4/L1/M5/L0/M2/M2",
+                    "nested" : [ {
+                      "@type" : "item",
+                      "name" : "format/xml/XCells.java"
+                    } ]
+                  } ]
+                } ]
+              }, {
+                "@type" : "group",
+                "name" : "L2/M0/L1/M4/L1/M5/Control",
+                "nested" : [ {
+                  "@type" : "group",
+                  "name" : "L2/M0/L1/M4/L1/M5/Control/M1",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "format/xml/XDepObject.java"
+                  } ]
+                }, {
+                  "@type" : "group",
+                  "name" : "L2/M0/L1/M4/L1/M5/Control/M2",
+                  "nested" : [ {
+                    "@type" : "item",
+                    "name" : "format/xml/XDataBuilder.java"
+                  } ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "@type" : "group",
+            "name" : "L2/M0/L1/M4/Control",
+            "nested" : [ {
+              "@type" : "item",
+              "name" : "format/DependencyDumper.java"
+            } ]
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M5",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "format/detail/UnsolvedSymbolDumper.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M6",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "ParameterException.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M7",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "addons/DV8MappingFileBuilder.java"
+          } ]
+        }, {
+          "@type" : "group",
+          "name" : "L2/M0/L1/M8",
+          "nested" : [ {
+            "@type" : "item",
+            "name" : "DependsCommand.java"
+          } ]
+        } ]
+      }, {
+        "@type" : "group",
+        "name" : "L2/M0/Control",
+        "nested" : [ {
+          "@type" : "item",
+          "name" : "Main.java"
+        } ]
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L2/M1",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "extractor/python/union/PythonParserBase.java"
+      }, {
+        "@type" : "item",
+        "name" : "extractor/python/union/PythonVersion.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L2/M2",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "entity/AnonymousBlock.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L2/M3",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "extractor/kotlin/context/ExpressionUsage.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L2/M4",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "extractor/cpp/MacroMemoryRepo.java"
+      } ]
+    }, {
+      "@type" : "group",
+      "name" : "L2/M5",
+      "nested" : [ {
+        "@type" : "item",
+        "name" : "extractor/cpp/MacroFileRepo.java"
+      } ]
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "Isolated",
+    "nested" : [ {
+      "@type" : "item",
+      "name" : "extractor/python/union/PythonLexerBase.java"
+    }, {
+      "@type" : "item",
+      "name" : "extractor/cpp/cdt/CommentManager.java"
+    }, {
+      "@type" : "item",
+      "name" : "extractor/cpp/cdt/ANSICParserExtensionConfigurationExtension.java"
+    }, {
+      "@type" : "item",
+      "name" : "extractor/golang/GoParserBase.java"
+    } ]
+  } ]
+}
