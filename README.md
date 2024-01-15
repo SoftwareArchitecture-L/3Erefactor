@@ -1,4 +1,6 @@
+### Introduction
 
+Welcome to the repository of "3Erefactor", as introduced in the paper "**3Erefactor: Effective, Efficient and Executable Refactoring Recommendation for Software Architectural Consistency**". This repository hosts datasets that include architectural inconsistencies, along with the "3Erefactor" tool designed for automated refactoring recommendations aimed at eliminating architectural inconsistencies. 
 
 ### Usage
 
