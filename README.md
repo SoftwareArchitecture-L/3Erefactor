@@ -2,11 +2,11 @@
 
 Welcome to the repository of "**3Erefactor**", which is introduced in the paper "**3Erefactor: Effective, Efficient and Executable Refactoring Recommendation for Software Architectural Consistency**". This repository contains:
 
-- **Datasets** for projects with architectural inconsistencies: including the project's source model (architectureModel/project/project.dep.json), target model (architectureModel/project/project.tar.json), and reflexion model (architectureModel/project/project.rfx.json).
+- **Datasets** for projects with architectural inconsistencies: including the project's source model (architectureModel/project/project.dep.json), target model (architectureModel/project/project.con.json. For archstudio and hadoop, it's tar.txt), and reflexion model (architectureModel/project/project.rfx.json).
 - **"3Erefactor" tool** (3Erefactor-jar-with-dependencies.jar) designed for automated refactoring recommendations aimed at eliminating architectural inconsistencies. 
 - **Ground truth** of a list of refactoring operations that address architectural inconsistencies for each project.
 - **Standardized output** in Json format of the tool.
--  A **formal proof** (Formal Proof.pdf) confirms that pairs of two operations are sufficient to determine the invalid operation to be removed.
+-  A **formal proof** (Formal Proof.pdf) confirms that pairs of two operations are sufficient to determine the invalid operation to be removed, which can be used to support Executability Constraint Strategy of 3Erefactor.
 
 ### Usage
 

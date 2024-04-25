@@ -1,0 +1,3301 @@
+{
+  "@schemaVersion": "1.0",
+  "name": "gt",
+  "steps": [
+    {
+      "rank": 1.0,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 0,
+        "impact": [],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/support/retrofit",
+        "dest": "com/alibaba/fastjson/support/spring/this",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/support/retrofit/Retrofit2ConverterFactory.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.82,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 0,
+        "impact": [],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/support/moneta",
+        "dest": "com/alibaba/fastjson/util",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/support/moneta/MonetaCodec.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.9,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 0,
+        "impact": [],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/spi",
+        "dest": "com/alibaba/fastjson/util",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/spi/Module.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.98,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 18,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.HEX",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.toObjectArray",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.toObjectArray",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getConfig",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parseArray",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LBRACKET",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.bytesValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getContext",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.ParseContext.type",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.serializer.ObjectArrayCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.NULL",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              }
+            ]
+          }
+        ],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/serializer/this",
+        "dest": "com/alibaba/fastjson/this",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/serializer/ObjectArrayCodec.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 1.0,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 11,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.DateCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.AbstractDateDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec.cast",
+                "dest": "com.alibaba.fastjson.parser.JSONScanner.scanISO8601DateIfMatch",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec.cast",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getDateFormat",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec.cast",
+                "dest": "com.alibaba.fastjson.parser.JSONLexerBase.getCalendar",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec.cast",
+                "dest": "com.alibaba.fastjson.parser.JSONLexerBase.close",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec.cast",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec.cast",
+                "dest": "com.alibaba.fastjson.parser.JSONScanner",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec.cast",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getDateFomartPattern",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              }
+            ]
+          }
+        ],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/serializer/this",
+        "dest": "com/alibaba/fastjson/this",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/serializer/DateCodec.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.88,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 10,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.getLocale",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.getTimeZone",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ContextObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.CalendarCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer.deserialze",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              }
+            ]
+          }
+        ],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/serializer/this",
+        "dest": "com/alibaba/fastjson/util",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/serializer/CalendarCodec.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.77,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 4,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.BeanContext",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "dest": "com.alibaba.fastjson.serializer.BeanContext",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.FieldDeserializer",
+                "dest": "com.alibaba.fastjson.serializer.BeanContext",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.BeanContext.getFormat",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              }
+            ]
+          }
+        ],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/serializer/this",
+        "dest": "com/alibaba/fastjson/util",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/serializer/BeanContext.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.94,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 85,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextTokenWithColon",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.acceptType",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.RBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.popContext",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_FLOAT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.stringVal",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextTokenWithColon",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.RBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.stringVal",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextTokenWithColon",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.tokenName",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextTokenWithColon",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.intValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.ParseContext",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.stringVal",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.floatValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.stringVal",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextTokenWithColon",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.setContext",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.intValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.stringVal",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.floatValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.RBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getContext",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.NeedToResolve",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.setContext",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.serializer.AwtCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.addResolveTask",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.ResolveTask",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.NULL",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.accept",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.RBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.RBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_FLOAT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.intValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.intValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getContext",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.setResolveStatus",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.serializer.AwtCodec.support",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              }
+            ]
+          }
+        ],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/serializer/this",
+        "dest": "com/alibaba/fastjson/this",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/serializer/AwtCodec.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 1.0,
+      "operation": {
+        "moduleInconsistencyReduce": -4,
+        "entityInconsistencyReduce": 15,
+        "impact": [
+          {
+            "type": "addedModuleInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com/alibaba/fastjson/util",
+                "dest": "com/alibaba/fastjson/spi"
+              },
+              {
+                "src": "com/alibaba/fastjson/util",
+                "dest": "com/alibaba/fastjson/support/moneta"
+              },
+              {
+                "src": "com/alibaba/fastjson/support/retrofit",
+                "dest": "com/alibaba/fastjson/util"
+              },
+              {
+                "src": "com/alibaba/fastjson/spi",
+                "dest": "com/alibaba/fastjson/util"
+              }
+            ]
+          },
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.ParserConfig.getDefaultClassLoader",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.ReferenceCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.LongCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.DateCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.BooleanCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.serializer.ByteBufferCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.MiscCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.serializer.MiscCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ASMSerializerFactory._writeObject",
+                "dest": "com.alibaba.fastjson.parser.ParserConfig.isPrimitive2",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.BigIntegerCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.BigDecimalCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.serializer.JodaCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.serializer.GuavaCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.FloatCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.serializer.AwtCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.serializer.CollectionCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.CharArrayCodec",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.CalendarCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.AtomicCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.CharacterCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.StringCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.CollectionCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.initDeserializers",
+                "dest": "com.alibaba.fastjson.serializer.IntegerCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.serializer.ObjectArrayCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.serializer.AwtCodec.support",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              }
+            ]
+          },
+          {
+            "type": "addedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.support.retrofit.Retrofit2ConverterFactory",
+                "dest": "com.alibaba.fastjson.parser.ParserConfig",
+                "srcModule": "com/alibaba/fastjson/support/retrofit",
+                "destModule": "com/alibaba/fastjson/util"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.register",
+                "dest": "com.alibaba.fastjson.spi.Module",
+                "srcModule": "com/alibaba/fastjson/util",
+                "destModule": "com/alibaba/fastjson/spi"
+              },
+              {
+                "src": "com.alibaba.fastjson.spi.Module.createDeserializer",
+                "dest": "com.alibaba.fastjson.parser.ParserConfig",
+                "srcModule": "com/alibaba/fastjson/spi",
+                "destModule": "com/alibaba/fastjson/util"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.modules",
+                "dest": "com.alibaba.fastjson.spi.Module",
+                "srcModule": "com/alibaba/fastjson/util",
+                "destModule": "com/alibaba/fastjson/spi"
+              },
+              {
+                "src": "com.alibaba.fastjson.support.retrofit.Retrofit2ConverterFactory.getParserConfig",
+                "dest": "com.alibaba.fastjson.parser.ParserConfig",
+                "srcModule": "com/alibaba/fastjson/support/retrofit",
+                "destModule": "com/alibaba/fastjson/util"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.spi.Module.createDeserializer",
+                "srcModule": "com/alibaba/fastjson/util",
+                "destModule": "com/alibaba/fastjson/spi"
+              },
+              {
+                "src": "com.alibaba.fastjson.support.retrofit.Retrofit2ConverterFactory",
+                "dest": "com.alibaba.fastjson.parser.ParserConfig.getGlobalInstance",
+                "srcModule": "com/alibaba/fastjson/support/retrofit",
+                "destModule": "com/alibaba/fastjson/util"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.spi.Module",
+                "srcModule": "com/alibaba/fastjson/util",
+                "destModule": "com/alibaba/fastjson/spi"
+              },
+              {
+                "src": "com.alibaba.fastjson.support.retrofit.Retrofit2ConverterFactory.setParserConfig",
+                "dest": "com.alibaba.fastjson.parser.ParserConfig",
+                "srcModule": "com/alibaba/fastjson/support/retrofit",
+                "destModule": "com/alibaba/fastjson/util"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.support.moneta.MonetaCodec.instance",
+                "srcModule": "com/alibaba/fastjson/util",
+                "destModule": "com/alibaba/fastjson/support/moneta"
+              }
+            ]
+          }
+        ],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/parser/this",
+        "dest": "com/alibaba/fastjson/util",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/parser/ParserConfig.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 1.0,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 87,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.HEX",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharacterCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.RBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.JodaCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.NULL",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.StringCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_FLOAT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.RBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BooleanCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.TRUE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ReferenceCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BooleanCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CollectionCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LBRACKET",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.FloatCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_FLOAT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigIntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.NULL",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COLON",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BooleanCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.TRUE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigDecimalCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigDecimalCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_FLOAT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_FLOAT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.JodaCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.StringCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.RBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigDecimalCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CollectionCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.JodaCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.FloatCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.StringCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LBRACKET",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.NULL",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigDecimalCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.NULL",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.RBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BooleanCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.RBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.JodaCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.RBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_FLOAT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.FloatCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AtomicCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.NULL",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.NULL",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharArrayCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_STRING",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigIntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ByteBufferCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LBRACKET",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.FloatCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_FLOAT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BooleanCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.FALSE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.StringCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigIntegerCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LITERAL_INT",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AtomicCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.COMMA",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AtomicCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LBRACKET",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CollectionCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.NULL",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              }
+            ]
+          }
+        ],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/parser/this",
+        "dest": "com/alibaba/fastjson/this",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/parser/JSONToken.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 1.0,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 94,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.getLocale",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextTokenWithColon",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AtomicCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.stringVal",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigDecimalCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.decimalValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.FloatCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.floatValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.longValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigIntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.stringVal",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextTokenWithColon",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.JodaCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.stringVal",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.getTimeZone",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.stringVal",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextTokenWithColon",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.tokenName",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextTokenWithColon",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.intValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.intValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BooleanCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigDecimalCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.StringCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.numberString",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.FloatCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.JodaCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.stringVal",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.StringCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.stringVal",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigIntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.floatValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.stringVal",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.integerValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextTokenWithColon",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.decimalValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BooleanCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.intValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.FloatCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigDecimalCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.intValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.stringVal",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.floatValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CollectionCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.FloatCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.intValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BooleanCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.JodaCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.getLocale",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.FloatCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.numberString",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.StringCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.bytesValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.StringCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.decimalValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.JodaCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.getTimeZone",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.stringVal",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigIntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.numberString",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AtomicCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CollectionCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.intValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.intValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.StringCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigIntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.token",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.JodaCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.longValue",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BooleanCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigDecimalCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.JSONLexer.nextToken",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              }
+            ]
+          }
+        ],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/parser/this",
+        "dest": "com/alibaba/fastjson/this",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/parser/JSONLexer.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 1.0,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 91,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.accept",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AtomicCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parseArray",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parseObject",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.StringCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parse",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.acceptType",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.toObjectArray",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.DefaultJSONParser.parseArray",
+                "dest": "com.alibaba.fastjson.serializer.IntegerCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigIntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parse",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.popContext",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BooleanCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parse",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AtomicCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.StringCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parseObject",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parse",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ReferenceCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parseObject",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.toObjectArray",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getConfig",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseColor",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.resolveStatus",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ReferenceCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ByteBufferCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigIntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.TypeNameRedirect",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parse",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigDecimalCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parse",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parseArray",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.JodaCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parse",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ByteBufferCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parseObject",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.StringCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigDecimalCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.setContext",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.StringCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CollectionCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getContext",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.GuavaCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parseObject",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.NeedToResolve",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.setContext",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec.cast",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getDateFormat",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.FloatCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "dest": "com.alibaba.fastjson.serializer.BeanContext",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.addResolveTask",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.ResolveTask",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.DefaultJSONParser.parseObject",
+                "dest": "com.alibaba.fastjson.serializer.IntegerCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.accept",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CollectionCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parseArray",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BooleanCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parseObject",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getContext",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getLexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharacterCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parse",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigDecimalCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AtomicCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BooleanCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parse",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.FloatCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parse",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigIntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRectangle",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec.cast",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseFont",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.FloatCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parsePoint",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getContext",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.DefaultJSONParser.parseArray",
+                "dest": "com.alibaba.fastjson.serializer.StringCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.JodaCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharacterCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CollectionCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.lexer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec.parseRef",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.setResolveStatus",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.GuavaCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.DefaultJSONParser.parseObject",
+                "dest": "com.alibaba.fastjson.serializer.LongCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getConfig",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec.cast",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.getDateFomartPattern",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.NONE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              }
+            ]
+          }
+        ],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/parser/this",
+        "dest": "com/alibaba/fastjson/this",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/parser/DefaultJSONParser.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.55,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 3,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.serializer.SerializeConfig.getObjectWriter",
+                "dest": "com.alibaba.fastjson.parser.deserializer.OptionalCodec.instance",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.OptionalCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.JSONSerializer.out",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.OptionalCodec",
+                "dest": "com.alibaba.fastjson.serializer.ObjectSerializer",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.OptionalCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.SerializeWriter.writeInt",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.OptionalCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.SerializeWriter.writeLong",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.OptionalCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.JSONSerializer",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.OptionalCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.JSONSerializer.writeNull",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.OptionalCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.JSONSerializer.write",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              }
+            ]
+          },
+          {
+            "type": "addedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.parser.ParserConfig.getDeserializer",
+                "dest": "com.alibaba.fastjson.parser.deserializer.OptionalCodec.instance",
+                "srcModule": "com/alibaba/fastjson/parser/this",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.OptionalCodec.getFastMatchToken",
+                "dest": "com.alibaba.fastjson.parser.JSONToken.LBRACE",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.OptionalCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.OptionalCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.OptionalCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.DefaultJSONParser.parseObject",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/this"
+              }
+            ]
+          }
+        ],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/parser/deserializer",
+        "dest": "com/alibaba/fastjson/serializer/this",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/parser/deserializer/OptionalCodec.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.58,
+      "operation": {
+        "moduleInconsistencyReduce": -2,
+        "entityInconsistencyReduce": 19,
+        "impact": [
+          {
+            "type": "addedModuleInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com/alibaba/fastjson/spi",
+                "dest": "com/alibaba/fastjson/annotation"
+              },
+              {
+                "src": "com/alibaba/fastjson/support/moneta",
+                "dest": "com/alibaba/fastjson/annotation"
+              }
+            ]
+          },
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.serializer.AtomicCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharArrayCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigDecimalCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.MiscCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.DateCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.JodaCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CollectionCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.LongCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ObjectArrayCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BigIntegerCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ReferenceCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.BooleanCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CharacterCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.StringCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.ByteBufferCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.CalendarCodec.deserialze",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer.deserialze",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.GuavaCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.FloatCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.AwtCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.IntegerCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              }
+            ]
+          },
+          {
+            "type": "addedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.spi.Module.createDeserializer",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/spi",
+                "destModule": "com/alibaba/fastjson/annotation"
+              },
+              {
+                "src": "com.alibaba.fastjson.support.moneta.MonetaCodec",
+                "dest": "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+                "srcModule": "com/alibaba/fastjson/support/moneta",
+                "destModule": "com/alibaba/fastjson/annotation"
+              }
+            ]
+          }
+        ],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/parser/deserializer",
+        "dest": "com/alibaba/fastjson/annotation",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/parser/deserializer/ObjectDeserializer.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.6,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 18,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.BeanContext",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.SerializeWriter",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.JSONSerializer",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec",
+                "dest": "com.alibaba.fastjson.serializer.ObjectSerializer",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.SerializeWriter.writeNull",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.serializer.SerializeConfig.getObjectWriter",
+                "dest": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.instance",
+                "srcModule": "com/alibaba/fastjson/serializer/this",
+                "destModule": "com/alibaba/fastjson/parser/deserializer"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.SerializeWriter.isEnabled",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.SerializeWriter.writeInt",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.SerializerFeature.UseISO8601DateFormat",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec",
+                "dest": "com.alibaba.fastjson.serializer.ContextObjectSerializer",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.JSONSerializer.isEnabled",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.SerializeWriter.writeString",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.JSONSerializer.out",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.SerializeWriter.writeLong",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.SerializerFeature.getMask",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.JSONSerializer.getDateFormatPattern",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.BeanContext.getFormat",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              },
+              {
+                "src": "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec.write",
+                "dest": "com.alibaba.fastjson.serializer.SerializerFeature.WriteDateUseDateFormat",
+                "srcModule": "com/alibaba/fastjson/parser/deserializer",
+                "destModule": "com/alibaba/fastjson/serializer/this"
+              }
+            ]
+          }
+        ],
+        "type": "moveClass",
+        "src": "com/alibaba/fastjson/parser/deserializer",
+        "dest": "com/alibaba/fastjson/util",
+        "targets": [
+          {
+            "target": "src/main/java/com/alibaba/fastjson/parser/deserializer/Jdk8DateCodec.java"
+          }
+        ]
+      }
+    }
+  ]
+}

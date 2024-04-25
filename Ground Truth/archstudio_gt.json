@@ -1,0 +1,345 @@
+{
+  "@schemaVersion": "1.0",
+  "name": "gt",
+  "steps": [
+    {
+      "rank": 0.06,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 1,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "edu.uci.isr.archstudio4.comp.archlight.issueview.ArchlightIssueView.showDetailDialog",
+                "dest": "edu.uci.isr.archstudio4.comp.resources.IResources.PLATFORM_HEADER_FONT_ID",
+                "srcModule": "ArchlightIssueView",
+                "destModule": "Resources"
+              }
+            ]
+          }
+        ],
+        "type": "moveField",
+        "src": "edu.uci.isr.archstudio4.comp.resources.IResources",
+        "srcFile": "edu.uci.isr.archstudio4/src/edu/uci/isr/archstudio4/comp/resources/IResources.java",
+        "dest": "edu.uci.isr.bna4.AbstractThing",
+        "destFile": "edu.uci.isr.bna4/src/edu/uci/isr/bna4/AbstractThing.java",
+        "targets": [
+          {
+            "target": "edu.uci.isr.archstudio4.comp.resources.IResources.PLATFORM_HEADER_FONT_ID",
+            "location": {
+              "line": 24,
+              "row": 21
+            }
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.12,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 1,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "edu.uci.isr.archstudio4.comp.archlight.issueview.ArchlightIssueView.showDetailDialog",
+                "dest": "edu.uci.isr.archstudio4.comp.resources.IResources.PLATFORM_DEFAULT_FONT_ID",
+                "srcModule": "ArchlightIssueView",
+                "destModule": "Resources"
+              }
+            ]
+          }
+        ],
+        "type": "moveField",
+        "src": "edu.uci.isr.archstudio4.comp.resources.IResources",
+        "srcFile": "edu.uci.isr.archstudio4/src/edu/uci/isr/archstudio4/comp/resources/IResources.java",
+        "dest": "edu.uci.isr.xarch.activitydiagrams.ActorImpl",
+        "destFile": "edu.uci.isr.xarchlibs.apigen/src/edu/uci/isr/xarch/activitydiagrams/ActorImpl.java",
+        "targets": [
+          {
+            "target": "edu.uci.isr.archstudio4.comp.resources.IResources.PLATFORM_DEFAULT_FONT_ID",
+            "location": {
+              "line": 22,
+              "row": 21
+            }
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.08,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 1,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "edu.uci.isr.archstudio4.comp.archlight.issueview.ArchlightIssueView.showDetailDialog",
+                "dest": "edu.uci.isr.archstudio4.comp.resources.IResources.PLATFORM_BANNER_FONT_ID",
+                "srcModule": "ArchlightIssueView",
+                "destModule": "Resources"
+              }
+            ]
+          }
+        ],
+        "type": "moveField",
+        "src": "edu.uci.isr.archstudio4.comp.resources.IResources",
+        "srcFile": "edu.uci.isr.archstudio4/src/edu/uci/isr/archstudio4/comp/resources/IResources.java",
+        "dest": "edu.uci.isr.myx2.eclipse.codegen.codegen.MyxCodegenConstants",
+        "destFile": "edu.uci.isr.myx.fw.eclipse.codegen/src/edu/uci/isr/myx2/eclipse/codegen/codegen/MyxCodegenConstants.java",
+        "targets": [
+          {
+            "target": "edu.uci.isr.archstudio4.comp.resources.IResources.PLATFORM_BANNER_FONT_ID",
+            "location": {
+              "line": 21,
+              "row": 21
+            }
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.34,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 1,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "edu.uci.isr.archstudio4.comp.archipelago.prefs.types.ArchipelagoTypesPreferencePanel.createFieldEditors",
+                "dest": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants.PREF_DEFAULT_FONT",
+                "srcModule": "ArchipelagoTypesPrefs",
+                "destModule": "Archipelago"
+              }
+            ]
+          }
+        ],
+        "type": "moveField",
+        "src": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants",
+        "srcFile": "edu.uci.isr.archstudio4/src/edu/uci/isr/archstudio4/comp/archipelago/types/ArchipelagoTypesConstants.java",
+        "dest": "edu.uci.isr.bna4.assemblies.ActorAssembly",
+        "destFile": "edu.uci.isr.bna4/src/edu/uci/isr/bna4/assemblies/ActorAssembly.java",
+        "targets": [
+          {
+            "target": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants.PREF_DEFAULT_FONT",
+            "location": {
+              "line": 8,
+              "row": 21
+            }
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.43,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 1,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "edu.uci.isr.archstudio4.comp.archipelago.prefs.types.ArchipelagoTypesPreferencePanel.createFieldEditors",
+                "dest": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants.PREF_DEFAULT_CONNECTOR_TYPE_COLOR",
+                "srcModule": "ArchipelagoTypesPrefs",
+                "destModule": "Archipelago"
+              }
+            ]
+          }
+        ],
+        "type": "moveField",
+        "src": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants",
+        "srcFile": "edu.uci.isr.archstudio4/src/edu/uci/isr/archstudio4/comp/archipelago/types/ArchipelagoTypesConstants.java",
+        "dest": "edu.uci.isr.archstudio4.comp.tracelink.views.LinkLabelProvider",
+        "destFile": "edu.uci.isr.archstudio4.comp.tracelink/src/edu/uci/isr/archstudio4/comp/tracelink/views/LinkLabelProvider.java",
+        "targets": [
+          {
+            "target": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants.PREF_DEFAULT_CONNECTOR_TYPE_COLOR",
+            "location": {
+              "line": 12,
+              "row": 21
+            }
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.21,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 1,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "edu.uci.isr.archstudio4.comp.archipelago.prefs.types.ArchipelagoTypesPreferencePanel.createFieldEditors",
+                "dest": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants.PREF_DEFAULT_CONNECTOR_COLOR",
+                "srcModule": "ArchipelagoTypesPrefs",
+                "destModule": "Archipelago"
+              }
+            ]
+          }
+        ],
+        "type": "moveField",
+        "src": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants",
+        "srcFile": "edu.uci.isr.archstudio4/src/edu/uci/isr/archstudio4/comp/archipelago/types/ArchipelagoTypesConstants.java",
+        "dest": "edu.uci.isr.bna4.BNARenderingSettings",
+        "destFile": "edu.uci.isr.bna4/src/edu/uci/isr/bna4/BNARenderingSettings.java",
+        "targets": [
+          {
+            "target": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants.PREF_DEFAULT_CONNECTOR_COLOR",
+            "location": {
+              "line": 10,
+              "row": 21
+            }
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.19,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 1,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "edu.uci.isr.archstudio4.comp.archipelago.prefs.types.ArchipelagoTypesPreferencePanel.createFieldEditors",
+                "dest": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants.PREF_DEFAULT_COMPONENT_TYPE_COLOR",
+                "srcModule": "ArchipelagoTypesPrefs",
+                "destModule": "Archipelago"
+              }
+            ]
+          }
+        ],
+        "type": "moveField",
+        "src": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants",
+        "srcFile": "edu.uci.isr.archstudio4/src/edu/uci/isr/archstudio4/comp/archipelago/types/ArchipelagoTypesConstants.java",
+        "dest": "edu.uci.isr.myx2.eclipse.codegen.codegen.BaseTemplateUtil",
+        "destFile": "edu.uci.isr.myx.fw.eclipse.codegen/src/edu/uci/isr/myx2/eclipse/codegen/codegen/BaseTemplateUtil.java",
+        "targets": [
+          {
+            "target": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants.PREF_DEFAULT_COMPONENT_TYPE_COLOR",
+            "location": {
+              "line": 11,
+              "row": 21
+            }
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.26,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 1,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "edu.uci.isr.archstudio4.comp.archipelago.prefs.types.ArchipelagoTypesPreferencePanel.createFieldEditors",
+                "dest": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants.PREF_DEFAULT_COMPONENT_COLOR",
+                "srcModule": "ArchipelagoTypesPrefs",
+                "destModule": "Archipelago"
+              }
+            ]
+          }
+        ],
+        "type": "moveField",
+        "src": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants",
+        "srcFile": "edu.uci.isr.archstudio4/src/edu/uci/isr/archstudio4/comp/archipelago/types/ArchipelagoTypesConstants.java",
+        "dest": "edu.uci.isr.xarch.changesets.BooleanValueImpl",
+        "destFile": "edu.uci.isr.xarchlibs.apigen/src/edu/uci/isr/xarch/changesets/BooleanValueImpl.java",
+        "targets": [
+          {
+            "target": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants.PREF_DEFAULT_COMPONENT_COLOR",
+            "location": {
+              "line": 9,
+              "row": 21
+            }
+          }
+        ]
+      }
+    },
+    {
+      "rank": 1.0,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 0,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "edu.uci.isr.archstudio4.editors.AbstractArchstudioEditorMyxComponent",
+                "dest": "edu.uci.isr.archstudio4.launcher.ILaunchable",
+                "srcModule": "SharedEditorInfrastructure",
+                "destModule": "Launcher"
+              }
+            ]
+          },
+          {
+            "type": "addedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "edu.uci.isr.archstudio4.launcher.ILaunchable.getLaunchData",
+                "dest": "edu.uci.isr.archstudio4.launcher.ILaunchData",
+                "srcModule": "SharedEditorInfrastructure",
+                "destModule": "Launcher"
+              }
+            ]
+          }
+        ],
+        "type": "moveClass",
+        "src": "Launcher",
+        "dest": "SharedEditorInfrastructure",
+        "targets": [
+          {
+            "target": "edu.uci.isr.archstudio4/src/edu/uci/isr/archstudio4/launcher/ILaunchable.java"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0.98,
+      "operation": {
+        "moduleInconsistencyReduce": 0,
+        "entityInconsistencyReduce": 1,
+        "impact": [
+          {
+            "type": "removedEntityInconsistency",
+            "changedInconsistency": [
+              {
+                "src": "edu.uci.isr.archstudio4.editors.AbstractArchstudioEditorMyxComponent",
+                "dest": "edu.uci.isr.archstudio4.launcher.ILaunchData",
+                "srcModule": "SharedEditorInfrastructure",
+                "destModule": "Launcher"
+              }
+            ]
+          }
+        ],
+        "type": "moveClass",
+        "src": "Launcher",
+        "dest": "Resources",
+        "targets": [
+          {
+            "target": "edu.uci.isr.archstudio4/src/edu/uci/isr/archstudio4/launcher/ILaunchData.java"
+          }
+        ]
+      }
+    }
+  ]
+}
