@@ -1,8 +1,12 @@
-
-
 ### Introduction
 
-Welcome to the repository of "3Erefactor", featured in the paper "**3Erefactor: Effective, Efficient and Executable Refactoring Recommendation for Software Architectural Consistency**". This repository hosts datasets that include architectural inconsistencies, along with the "3Erefactor" tool designed for automated refactoring recommendations aimed at eliminating architectural inconsistencies. 
+Welcome to the repository of "**3Erefactor**", which is introduced in the paper "**3Erefactor: Effective, Efficient and Executable Refactoring Recommendation for Software Architectural Consistency**". This repository contains:
+
+- **Datasets** for projects with architectural inconsistencies: including the project's source model (architectureModel/project/project.dep.json), target model (architectureModel/project/project.tar.json), and reflexion model (architectureModel/project/project.rfx.json).
+- **"3Erefactor" tool** (3Erefactor-jar-with-dependencies.jar) designed for automated refactoring recommendations aimed at eliminating architectural inconsistencies. 
+- **Ground truth** of a list of refactoring operations that address architectural inconsistencies for each project.
+- **Standardized output** in Json format of the tool.
+-  A **formal proof** (Formal Proof.pdf) confirms that pairs of two operations are sufficient to determine the invalid operation to be removed.
 
 ### Usage
 
@@ -59,7 +63,7 @@ java -jar 3Erefactor-jar-with-dependencies.jar search \
     --solutionSize=15 \  # optional; default value = 15
 ```
 
-2. The feedback command allows users to interact with the generated refactoring solutions, choose an optimal solution, and iteratively generate new solutions based on feedback.
+2. The feedback command allows users to interact with the generated refactoring solutions, choose an optimal solution in Pareto front, and iteratively generate new solutions based on feedback.
 
 ```bash
 java -jar target/3Erefactor-jar-with-dependencies.jar feedback \

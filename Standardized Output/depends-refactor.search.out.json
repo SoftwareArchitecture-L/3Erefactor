@@ -1,0 +1,1932 @@
+{
+  "@schemaVersion": "1.0",
+  "name": "refactor",
+  "solutions": [
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 2,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/entity/repo",
+                  "dest": "depends/generator"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.relations.Inferer.resolveAllBindings",
+                  "dest": "depends.extractor.AbstractLangProcessor",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.RelationCounter.buildRelation",
+                  "dest": "depends.extractor.AbstractLangProcessor.getRelationMapping",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.RelationCounter",
+                  "dest": "depends.extractor.AbstractLangProcessor",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.RelationCounter.RelationCounter",
+                  "dest": "depends.extractor.AbstractLangProcessor",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "InterfaceMethod_getImportLookupStrategyYTqt2",
+                  "dest": "depends.relations.ImportLookupStrategy",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "InterfaceMethod_setDependencyGeneratorVk4K2",
+                  "dest": "depends.generator.DependencyGenerator",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/generator"
+                }
+              ]
+            }
+          ],
+          "type": "extractInterface",
+          "src": "depends.extractor.AbstractLangProcessor",
+          "srcFile": "src/main/java/depends/extractor/AbstractLangProcessor.java",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "depends.extractor.AbstractLangProcessor.supportedLanguage",
+              "location": {
+                "line": 58,
+                "row": 17
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.getImportLookupStrategy",
+              "location": {
+                "line": 72,
+                "row": 17
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.getBuiltInType",
+              "location": {
+                "line": 79,
+                "row": 17
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.buildDependencies",
+              "location": {
+                "line": 115,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.resolveBindings",
+              "location": {
+                "line": 155,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.getExternalDependencies",
+              "location": {
+                "line": 257,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.includePaths",
+              "location": {
+                "line": 218,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.getDependencies",
+              "location": {
+                "line": 243,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.getEntityRepo",
+              "location": {
+                "line": 247,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.setDependencyGenerator",
+              "location": {
+                "line": 251,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.getRelationMapping",
+              "location": {
+                "line": 261,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.supportedRelations",
+              "location": {
+                "line": 255,
+                "row": 17
+              }
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 0,
+          "impact": [],
+          "type": "extractInterface",
+          "src": "depends.generator.DependencyGenerator",
+          "srcFile": "src/main/java/depends/generator/DependencyGenerator.java",
+          "dest": "depends/entity/this",
+          "targets": [
+            {
+              "target": "depends.generator.DependencyGenerator.build",
+              "location": {
+                "line": 42,
+                "row": 17
+              }
+            },
+            {
+              "target": "depends.generator.DependencyGenerator.setLeadingStripper",
+              "location": {
+                "line": 48,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.generator.DependencyGenerator.setGenerateDetail",
+              "location": {
+                "line": 66,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.generator.DependencyGenerator.setFilenameRewritter",
+              "location": {
+                "line": 63,
+                "row": 8
+              }
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/extractor/ruby/this",
+                  "dest": "depends/extractor/cpp/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.extractor.ruby.RubyImportLookupStrategy",
+                  "dest": "depends.extractor.cpp.CppImportLookupStrategy",
+                  "srcModule": "depends/extractor/ruby/this",
+                  "destModule": "depends/extractor/cpp/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/extractor/cpp/this",
+          "dest": "depends/extractor/this",
+          "targets": [
+            {
+              "target": "src/main/java/depends/extractor/cpp/CppImportLookupStrategy.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 6,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/extractor/python/union",
+                  "dest": "depends/extractor/ruby/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.extractor.python.union.PythonFileParser.PythonFileParser",
+                  "dest": "depends.extractor.ruby.IncludedFileLocator",
+                  "srcModule": "depends/extractor/python/union",
+                  "destModule": "depends/extractor/ruby/this"
+                },
+                {
+                  "src": "depends.extractor.python.union.PythonCodeListener",
+                  "dest": "depends.extractor.ruby.IncludedFileLocator",
+                  "srcModule": "depends/extractor/python/union",
+                  "destModule": "depends/extractor/ruby/this"
+                },
+                {
+                  "src": "depends.extractor.python.union.PythonCodeListener.PythonCodeListener",
+                  "dest": "depends.extractor.ruby.IncludedFileLocator",
+                  "srcModule": "depends/extractor/python/union",
+                  "destModule": "depends/extractor/ruby/this"
+                },
+                {
+                  "src": "depends.extractor.python.union.PythonFileParser",
+                  "dest": "depends.extractor.ruby.IncludedFileLocator",
+                  "srcModule": "depends/extractor/python/union",
+                  "destModule": "depends/extractor/ruby/this"
+                },
+                {
+                  "src": "depends.extractor.python.union.PythonCodeListener.foundImportedModuleOrPackage",
+                  "dest": "depends.extractor.ruby.IncludedFileLocator.uniqFileName",
+                  "srcModule": "depends/extractor/python/union",
+                  "destModule": "depends/extractor/ruby/this"
+                },
+                {
+                  "src": "depends.extractor.python.union.PythonProcessor.createFileParser",
+                  "dest": "depends.extractor.ruby.IncludedFileLocator",
+                  "srcModule": "depends/extractor/python/union",
+                  "destModule": "depends/extractor/ruby/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/extractor/ruby/this",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "src/main/java/depends/extractor/ruby/IncludedFileLocator.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 6,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/format/detail",
+                  "dest": "depends/extractor/this"
+                }
+              ]
+            },
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/format/detail",
+                  "dest": "depends/entity/repo"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.relations.Inferer.getImportedTypes",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.Inferer.resolveName",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.Inferer.getImportedTypes.unsolved",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.Inferer.unsolvedSymbols",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.Inferer.getImportedTypes",
+                  "dest": "depends.extractor.UnsolvedBindings.setFromEntity",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.Inferer.addUnsolvedBinding",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/extractor/this",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "src/main/java/depends/extractor/UnsolvedBindings.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 7,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/format/detail",
+                  "dest": "depends/extractor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.format.detail.UnsolvedSymbolDumper.outputDetail",
+                  "dest": "depends.extractor.UnsolvedBindings.getRawName",
+                  "srcModule": "depends/format/detail",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.format.detail.UnsolvedSymbolDumper.outputDetail",
+                  "dest": "depends.extractor.UnsolvedBindings.getSourceDisplay",
+                  "srcModule": "depends/format/detail",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.format.detail.UnsolvedSymbolDumper.unsolved",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/format/detail",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.format.detail.UnsolvedSymbolDumper.outputGrouped",
+                  "dest": "depends.extractor.UnsolvedBindings.getSourceDisplay",
+                  "srcModule": "depends/format/detail",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.format.detail.UnsolvedSymbolDumper.outputGrouped",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/format/detail",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.format.detail.UnsolvedSymbolDumper.outputDetail",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/format/detail",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.format.detail.UnsolvedSymbolDumper.outputGrouped",
+                  "dest": "depends.extractor.UnsolvedBindings.getRawName",
+                  "srcModule": "depends/format/detail",
+                  "destModule": "depends/extractor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/format/detail",
+          "dest": "depends/extractor/cpp/this",
+          "targets": [
+            {
+              "target": "src/main/java/depends/format/detail/UnsolvedSymbolDumper.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 0,
+          "impact": [],
+          "type": "moveClass",
+          "src": "depends/relations",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "src/main/java/depends/relations/FunctionMatcher.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.relations.ImportLookupStrategy.lookupImportedType",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/relations",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "src/main/java/depends/relations/ImportLookupStrategy.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 35,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/entity/repo",
+                  "dest": "depends/extractor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.entity.FileEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.getImportedFiles",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.DecoratedEntity.typeParametersToEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Expression.deduceTheParentType",
+                  "dest": "depends.relations.Inferer.buildInType",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.VarEntity.fillCandidateTypes",
+                  "dest": "depends.relations.Inferer.isEagerExpressionResolve",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.DecoratedEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.CandidateTypes.inferEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.AliasEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.CandidateTypes.resolveExpressions",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.TypeEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.VarEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.resolveName",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.DecoratedEntity.resolveEntity",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.DecoratedEntity.resolveEntity",
+                  "dest": "depends.relations.Inferer.genericParameterType",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.FunctionEntityImpl.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.AliasEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.resolveName",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.FunctionEntityImpl.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.lookupTypeInImported",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.getRepo",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.resolveExpressions",
+                  "dest": "depends.relations.Inferer.inferTypeFromName",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.isEagerExpressionResolve",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.FunctionEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.CandidateTypes.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Expression.setType",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.identiferToContainerEntity",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.VarEntity.fillCandidateTypes",
+                  "dest": "depends.relations.Inferer.getRepo",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.FileEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.getImportedTypes",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Entity.inferEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.FileEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.FunctionEntity.typeParametersToEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.VarEntity.fillCandidateTypes",
+                  "dest": "depends.relations.Inferer.calculateCandidateTypes",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.VarEntity.fillCandidateTypes",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Entity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Expression.deduceTheParentType",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.FileEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.getImportedRelationEntities",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Expression.deduceTheParentType",
+                  "dest": "depends.relations.Inferer.getRepo",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.DecoratedEntity.identiferToEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.repo.BuiltInType.isBuiltInType",
+                  "dest": "depends.relations.Inferer.buildInType",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.MultiDeclareEntities.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.resolveExpressions",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.resolveExpressions",
+                  "dest": "depends.relations.Inferer.resolveName",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.VarEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.genericParameterType",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.DecoratedEntity.toEntityList",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.DecoratedEntity.resolveEntity",
+                  "dest": "depends.relations.Inferer.resolveName",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.CandidateTypes.identiferToEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.VarEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Expression.deduceTheParentType",
+                  "dest": "depends.relations.Inferer.inferTypeFromName",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.identiferToContainerEntity",
+                  "dest": "depends.relations.Inferer.resolveName",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.relations.Inferer.getImportedRelationEntities",
+                  "dest": "depends.relations.ImportLookupStrategy.getImportedRelationEntities",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.lookupTypeInImported",
+                  "dest": "depends.relations.ImportLookupStrategy.lookupImportedType",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.resolveNameInternal",
+                  "dest": "depends.relations.ImportLookupStrategy.supportGlobalNameLookup",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.searchTypesInRepo",
+                  "dest": "depends.relations.FunctionMatcher.containsAll",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.resolveAllBindings",
+                  "dest": "depends.relations.RelationCounter.computeRelations",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.getImportedFiles",
+                  "dest": "depends.relations.ImportLookupStrategy.getImportedFiles",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.Inferer",
+                  "dest": "depends.relations.ImportLookupStrategy",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer",
+                  "dest": "depends.relations.ImportLookupStrategy",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.resolveAllBindings",
+                  "dest": "depends.relations.RelationCounter",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.searchTypesInRepo",
+                  "dest": "depends.relations.FunctionMatcher",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.getImportedTypes",
+                  "dest": "depends.relations.ImportLookupStrategy.getImportedTypes",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/relations",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "src/main/java/depends/relations/Inferer.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 7,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.entity.CandidateTypes.addRelation",
+                  "dest": "depends.relations.Relation",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.addRelation",
+                  "dest": "depends.relations.Relation.getEntity",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Entity.relations",
+                  "dest": "depends.relations.Relation",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Entity.addRelation",
+                  "dest": "depends.relations.Relation.getEntity",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.addRelation",
+                  "dest": "depends.relations.Relation.getType",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.addRelation",
+                  "dest": "depends.relations.Relation",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Entity.addRelation",
+                  "dest": "depends.relations.Relation",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/relations",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "src/main/java/depends/relations/Relation.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": -4,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/entity/repo",
+                  "dest": "depends/extractor/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.relations.RelationCounter.buildRelation",
+                  "dest": "depends.relations.Relation",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.RelationCounter.computeContainerRelations",
+                  "dest": "depends.relations.Inferer.isEagerExpressionResolve",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.RelationCounter.RelationCounter",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.RelationCounter",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/relations",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "src/main/java/depends/relations/RelationCounter.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 2,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/entity/repo",
+                  "dest": "depends/generator"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.relations.Inferer.resolveAllBindings",
+                  "dest": "depends.extractor.AbstractLangProcessor",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.RelationCounter.buildRelation",
+                  "dest": "depends.extractor.AbstractLangProcessor.getRelationMapping",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.RelationCounter",
+                  "dest": "depends.extractor.AbstractLangProcessor",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.RelationCounter.RelationCounter",
+                  "dest": "depends.extractor.AbstractLangProcessor",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "InterfaceMethod_setDependencyGeneratorkcrVN",
+                  "dest": "depends.generator.DependencyGenerator",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/generator"
+                },
+                {
+                  "src": "InterfaceMethod_getImportLookupStrategy18s30",
+                  "dest": "depends.relations.ImportLookupStrategy",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                }
+              ]
+            }
+          ],
+          "type": "extractInterface",
+          "src": "depends.extractor.AbstractLangProcessor",
+          "srcFile": "src/main/java/depends/extractor/AbstractLangProcessor.java",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "depends.extractor.AbstractLangProcessor.supportedLanguage",
+              "location": {
+                "line": 58,
+                "row": 17
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.getImportLookupStrategy",
+              "location": {
+                "line": 72,
+                "row": 17
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.getBuiltInType",
+              "location": {
+                "line": 79,
+                "row": 17
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.buildDependencies",
+              "location": {
+                "line": 115,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.resolveBindings",
+              "location": {
+                "line": 155,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.getExternalDependencies",
+              "location": {
+                "line": 257,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.includePaths",
+              "location": {
+                "line": 218,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.getDependencies",
+              "location": {
+                "line": 243,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.getEntityRepo",
+              "location": {
+                "line": 247,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.setDependencyGenerator",
+              "location": {
+                "line": 251,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.getRelationMapping",
+              "location": {
+                "line": 261,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.extractor.AbstractLangProcessor.supportedRelations",
+              "location": {
+                "line": 255,
+                "row": 17
+              }
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 0,
+          "impact": [],
+          "type": "extractInterface",
+          "src": "depends.generator.DependencyGenerator",
+          "srcFile": "src/main/java/depends/generator/DependencyGenerator.java",
+          "dest": "depends/entity/this",
+          "targets": [
+            {
+              "target": "depends.generator.DependencyGenerator.build",
+              "location": {
+                "line": 42,
+                "row": 17
+              }
+            },
+            {
+              "target": "depends.generator.DependencyGenerator.setLeadingStripper",
+              "location": {
+                "line": 48,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.generator.DependencyGenerator.setGenerateDetail",
+              "location": {
+                "line": 66,
+                "row": 8
+              }
+            },
+            {
+              "target": "depends.generator.DependencyGenerator.setFilenameRewritter",
+              "location": {
+                "line": 63,
+                "row": 8
+              }
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/extractor/ruby/this",
+                  "dest": "depends/extractor/cpp/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.extractor.ruby.RubyImportLookupStrategy",
+                  "dest": "depends.extractor.cpp.CppImportLookupStrategy",
+                  "srcModule": "depends/extractor/ruby/this",
+                  "destModule": "depends/extractor/cpp/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/extractor/cpp/this",
+          "dest": "depends/extractor/this",
+          "targets": [
+            {
+              "target": "src/main/java/depends/extractor/cpp/CppImportLookupStrategy.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 6,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/extractor/python/union",
+                  "dest": "depends/extractor/ruby/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.extractor.python.union.PythonFileParser.PythonFileParser",
+                  "dest": "depends.extractor.ruby.IncludedFileLocator",
+                  "srcModule": "depends/extractor/python/union",
+                  "destModule": "depends/extractor/ruby/this"
+                },
+                {
+                  "src": "depends.extractor.python.union.PythonCodeListener",
+                  "dest": "depends.extractor.ruby.IncludedFileLocator",
+                  "srcModule": "depends/extractor/python/union",
+                  "destModule": "depends/extractor/ruby/this"
+                },
+                {
+                  "src": "depends.extractor.python.union.PythonCodeListener.PythonCodeListener",
+                  "dest": "depends.extractor.ruby.IncludedFileLocator",
+                  "srcModule": "depends/extractor/python/union",
+                  "destModule": "depends/extractor/ruby/this"
+                },
+                {
+                  "src": "depends.extractor.python.union.PythonFileParser",
+                  "dest": "depends.extractor.ruby.IncludedFileLocator",
+                  "srcModule": "depends/extractor/python/union",
+                  "destModule": "depends/extractor/ruby/this"
+                },
+                {
+                  "src": "depends.extractor.python.union.PythonCodeListener.foundImportedModuleOrPackage",
+                  "dest": "depends.extractor.ruby.IncludedFileLocator.uniqFileName",
+                  "srcModule": "depends/extractor/python/union",
+                  "destModule": "depends/extractor/ruby/this"
+                },
+                {
+                  "src": "depends.extractor.python.union.PythonProcessor.createFileParser",
+                  "dest": "depends.extractor.ruby.IncludedFileLocator",
+                  "srcModule": "depends/extractor/python/union",
+                  "destModule": "depends/extractor/ruby/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/extractor/ruby/this",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "src/main/java/depends/extractor/ruby/IncludedFileLocator.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 6,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/format/detail",
+                  "dest": "depends/extractor/this"
+                }
+              ]
+            },
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/format/detail",
+                  "dest": "depends/entity/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.relations.Inferer.getImportedTypes",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.Inferer.resolveName",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.Inferer.getImportedTypes.unsolved",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.Inferer.unsolvedSymbols",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.Inferer.getImportedTypes",
+                  "dest": "depends.extractor.UnsolvedBindings.setFromEntity",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.relations.Inferer.addUnsolvedBinding",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/relations",
+                  "destModule": "depends/extractor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/extractor/this",
+          "dest": "depends/entity/this",
+          "targets": [
+            {
+              "target": "src/main/java/depends/extractor/UnsolvedBindings.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 7,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/format/detail",
+                  "dest": "depends/extractor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.format.detail.UnsolvedSymbolDumper.outputDetail",
+                  "dest": "depends.extractor.UnsolvedBindings.getRawName",
+                  "srcModule": "depends/format/detail",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.format.detail.UnsolvedSymbolDumper.outputDetail",
+                  "dest": "depends.extractor.UnsolvedBindings.getSourceDisplay",
+                  "srcModule": "depends/format/detail",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.format.detail.UnsolvedSymbolDumper.unsolved",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/format/detail",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.format.detail.UnsolvedSymbolDumper.outputGrouped",
+                  "dest": "depends.extractor.UnsolvedBindings.getSourceDisplay",
+                  "srcModule": "depends/format/detail",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.format.detail.UnsolvedSymbolDumper.outputGrouped",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/format/detail",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.format.detail.UnsolvedSymbolDumper.outputDetail",
+                  "dest": "depends.extractor.UnsolvedBindings",
+                  "srcModule": "depends/format/detail",
+                  "destModule": "depends/extractor/this"
+                },
+                {
+                  "src": "depends.format.detail.UnsolvedSymbolDumper.outputGrouped",
+                  "dest": "depends.extractor.UnsolvedBindings.getRawName",
+                  "srcModule": "depends/format/detail",
+                  "destModule": "depends/extractor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/format/detail",
+          "dest": "depends/extractor/cpp/this",
+          "targets": [
+            {
+              "target": "src/main/java/depends/format/detail/UnsolvedSymbolDumper.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 0,
+          "impact": [],
+          "type": "moveClass",
+          "src": "depends/relations",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "src/main/java/depends/relations/FunctionMatcher.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.relations.ImportLookupStrategy.lookupImportedType",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/relations",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "src/main/java/depends/relations/ImportLookupStrategy.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 35,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/entity/repo",
+                  "dest": "depends/extractor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.entity.FileEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.getImportedFiles",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.DecoratedEntity.typeParametersToEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Expression.deduceTheParentType",
+                  "dest": "depends.relations.Inferer.buildInType",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.VarEntity.fillCandidateTypes",
+                  "dest": "depends.relations.Inferer.isEagerExpressionResolve",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.DecoratedEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.CandidateTypes.inferEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.AliasEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.CandidateTypes.resolveExpressions",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.TypeEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.VarEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.resolveName",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.DecoratedEntity.resolveEntity",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.DecoratedEntity.resolveEntity",
+                  "dest": "depends.relations.Inferer.genericParameterType",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.FunctionEntityImpl.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.AliasEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.resolveName",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.FunctionEntityImpl.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.lookupTypeInImported",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.getRepo",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.resolveExpressions",
+                  "dest": "depends.relations.Inferer.inferTypeFromName",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.isEagerExpressionResolve",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.FunctionEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.CandidateTypes.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Expression.setType",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.identiferToContainerEntity",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.VarEntity.fillCandidateTypes",
+                  "dest": "depends.relations.Inferer.getRepo",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.FileEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.getImportedTypes",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Entity.inferEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.FileEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.FunctionEntity.typeParametersToEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.VarEntity.fillCandidateTypes",
+                  "dest": "depends.relations.Inferer.calculateCandidateTypes",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.VarEntity.fillCandidateTypes",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Entity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Expression.deduceTheParentType",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.FileEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.getImportedRelationEntities",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Expression.deduceTheParentType",
+                  "dest": "depends.relations.Inferer.getRepo",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.DecoratedEntity.identiferToEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.repo.BuiltInType.isBuiltInType",
+                  "dest": "depends.relations.Inferer.buildInType",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.MultiDeclareEntities.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.resolveExpressions",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.resolveExpressions",
+                  "dest": "depends.relations.Inferer.resolveName",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.VarEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer.genericParameterType",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.DecoratedEntity.toEntityList",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.DecoratedEntity.resolveEntity",
+                  "dest": "depends.relations.Inferer.resolveName",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.CandidateTypes.identiferToEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.VarEntity.inferLocalLevelEntities",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Expression.deduceTheParentType",
+                  "dest": "depends.relations.Inferer.inferTypeFromName",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.identiferToContainerEntity",
+                  "dest": "depends.relations.Inferer.resolveName",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.relations.Inferer.getImportedRelationEntities",
+                  "dest": "depends.relations.ImportLookupStrategy.getImportedRelationEntities",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.lookupTypeInImported",
+                  "dest": "depends.relations.ImportLookupStrategy.lookupImportedType",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.resolveNameInternal",
+                  "dest": "depends.relations.ImportLookupStrategy.supportGlobalNameLookup",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.searchTypesInRepo",
+                  "dest": "depends.relations.FunctionMatcher.containsAll",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.resolveAllBindings",
+                  "dest": "depends.relations.RelationCounter.computeRelations",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.getImportedFiles",
+                  "dest": "depends.relations.ImportLookupStrategy.getImportedFiles",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.Inferer",
+                  "dest": "depends.relations.ImportLookupStrategy",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer",
+                  "dest": "depends.relations.ImportLookupStrategy",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.resolveAllBindings",
+                  "dest": "depends.relations.RelationCounter",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.searchTypesInRepo",
+                  "dest": "depends.relations.FunctionMatcher",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.Inferer.getImportedTypes",
+                  "dest": "depends.relations.ImportLookupStrategy.getImportedTypes",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/relations",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "src/main/java/depends/relations/Inferer.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 7,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.entity.CandidateTypes.addRelation",
+                  "dest": "depends.relations.Relation",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.addRelation",
+                  "dest": "depends.relations.Relation.getEntity",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Entity.relations",
+                  "dest": "depends.relations.Relation",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Entity.addRelation",
+                  "dest": "depends.relations.Relation.getEntity",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.addRelation",
+                  "dest": "depends.relations.Relation.getType",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.ContainerEntity.addRelation",
+                  "dest": "depends.relations.Relation",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.entity.Entity.addRelation",
+                  "dest": "depends.relations.Relation",
+                  "srcModule": "depends/entity/this",
+                  "destModule": "depends/relations"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/relations",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "src/main/java/depends/relations/Relation.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": -4,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends/entity/repo",
+                  "dest": "depends/extractor/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "depends.relations.RelationCounter.buildRelation",
+                  "dest": "depends.relations.Relation",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.RelationCounter.computeContainerRelations",
+                  "dest": "depends.relations.Inferer.isEagerExpressionResolve",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.RelationCounter.RelationCounter",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                },
+                {
+                  "src": "depends.relations.RelationCounter",
+                  "dest": "depends.relations.Inferer",
+                  "srcModule": "depends/entity/repo",
+                  "destModule": "depends/relations"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "depends/relations",
+          "dest": "depends/entity/repo",
+          "targets": [
+            {
+              "target": "src/main/java/depends/relations/RelationCounter.java"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

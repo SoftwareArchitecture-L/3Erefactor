@@ -1,0 +1,3809 @@
+{
+  "@schemaVersion": "1.0",
+  "name": "refactor",
+  "solutions": [
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/exceptions",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/exceptions",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/mapping"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/mapping"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/mapping",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/executor/resultset",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/type",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/executor/resultset",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/mapping"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/mapping"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/mapping",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/executor/resultset",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/exceptions",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/mapping"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/mapping"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/mapping",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/executor/resultset",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/exceptions",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/exceptions",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/mapping"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/mapping"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/mapping",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "inlineClass",
+          "src": "org.apache.ibatis.exceptions.ExceptionFactory",
+          "dest": "org.apache.ibatis.session.defaults.DefaultSqlSession",
+          "targets": []
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/type",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/exceptions",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/mapping"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/mapping"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/mapping",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "inlineClass",
+          "src": "org.apache.ibatis.exceptions.ExceptionFactory",
+          "dest": "org.apache.ibatis.session.defaults.DefaultSqlSession",
+          "targets": []
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/exceptions",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/type",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "inlineClass",
+          "src": "org.apache.ibatis.exceptions.ExceptionFactory",
+          "dest": "org.apache.ibatis.session.defaults.DefaultSqlSession",
+          "targets": []
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/exceptions",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/mapping"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/mapping"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/mapping",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "inlineClass",
+          "src": "org.apache.ibatis.exceptions.ExceptionFactory",
+          "dest": "org.apache.ibatis.session.defaults.DefaultSqlSession",
+          "targets": []
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/type",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/exceptions",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleInconsistency": 0,
+      "entityInconsistency": 0,
+      "steps": [
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/exceptions",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.exceptions.ExceptionFactory.wrapException",
+                  "dest": "org.apache.ibatis.executor.ErrorContext.instance",
+                  "srcModule": "org/apache/ibatis/exceptions",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/exceptions",
+          "dest": "org/apache/ibatis/executor/resultset",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/exceptions/ExceptionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/type",
+                  "dest": "org/apache/ibatis/executor/result"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.type.BaseTypeHandler.getResult",
+                  "dest": "org.apache.ibatis.executor.result.ResultMapException",
+                  "srcModule": "org/apache/ibatis/type",
+                  "destModule": "org/apache/ibatis/executor/result"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/executor/result",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/executor/result/ResultMapException.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": -1,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "addedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/transaction/managed",
+                  "dest": "org/apache/ibatis/executor/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction.ManagedTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/executor/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/executor/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransaction.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 0,
+          "entityInconsistencyReduce": 1,
+          "impact": [
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.session.TransactionIsolationLevel",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/managed",
+          "dest": "org/apache/ibatis/session/defaults",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/managed/ManagedTransactionFactory.java"
+            }
+          ]
+        },
+        {
+          "moduleInconsistencyReduce": 1,
+          "entityInconsistencyReduce": -1,
+          "impact": [
+            {
+              "type": "removedModuleInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org/apache/ibatis/session/this",
+                  "dest": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "removedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.session.Configuration.newExecutor",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/session/this",
+                  "destModule": "org/apache/ibatis/transaction/this"
+                }
+              ]
+            },
+            {
+              "type": "addedEntityInconsistency",
+              "changedInconsistency": [
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransactionFactory.newTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                },
+                {
+                  "src": "org.apache.ibatis.transaction.managed.ManagedTransaction",
+                  "dest": "org.apache.ibatis.transaction.Transaction",
+                  "srcModule": "org/apache/ibatis/transaction/managed",
+                  "destModule": "org/apache/ibatis/session/this"
+                }
+              ]
+            }
+          ],
+          "type": "moveClass",
+          "src": "org/apache/ibatis/transaction/this",
+          "dest": "org/apache/ibatis/session/this",
+          "targets": [
+            {
+              "target": "src/main/java/org/apache/ibatis/transaction/Transaction.java"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
