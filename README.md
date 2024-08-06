@@ -72,3 +72,15 @@ java -jar target/3Erefactor-jar-with-dependencies.jar feedback \
     --search=refactor.search.out.json \
     --output=out.json     # optional; default value = ${PWD}/refactor.feedback.out.json
 ```
+
+
+
+### VS Code plugin
+
+https://github.com/SoftwareArchitecture-L/3Erefactor-tool
+
+
+
+### Target Model Construction by Large Language Model
+
+https://chatgpt.com/share/22668390-1661-446a-a8e8-e3ae8df3bb9e
