@@ -608,7 +608,7 @@
         ],
         "type": "moveClass",
         "src": "depends/format/detail",
-        "dest": "depends/extractor/cpp/this",
+        "dest": "depends/extractor/this",
         "targets": [
           {
             "target": "src/main/java/depends/format/detail/UnsolvedSymbolDumper.java"
