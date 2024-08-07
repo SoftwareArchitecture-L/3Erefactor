@@ -83,4 +83,4 @@ https://github.com/SoftwareArchitecture-L/3Erefactor-tool
 
 ### Target Model Construction by Large Language Model
 
-https://chatgpt.com/share/22668390-1661-446a-a8e8-e3ae8df3bb9e
+Example: https://chatgpt.com/share/22668390-1661-446a-a8e8-e3ae8df3bb9e
